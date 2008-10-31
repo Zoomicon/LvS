@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="LvS.utilities.dialogs.SaveFileDialogWithEncoding">
+    <Position X="3.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>dialog\SaveFileDialogWithEncoding.vb</FileName>
+      <HashCode>AAAAgAAAAABAAAAAAAAAAAECAAAACAAEAAAAAEAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="LvS.utilities.dialogs.FileDialogUtils">
+    <Position X="6.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>dialog\FileDialogUtils.vb</FileName>
+      <HashCode>UAgAAMUAEABCAgAAQGQgAEIAAAEAAAkhAAQAQCYAMBI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="LvS.utilities.dialogs.FileDialogUtils.OFNHookProcDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\FileDialogUtils.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Struct Name="LvS.utilities.dialogs.FileDialogUtils.OPENFILENAME" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\FileDialogUtils.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="LvS.utilities.dialogs.FileDialogUtils.RECT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\FileDialogUtils.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="LvS.utilities.dialogs.FileDialogUtils.POINT" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\FileDialogUtils.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="LvS.utilities.dialogs.FileDialogUtils.NMHDR" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\FileDialogUtils.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+  </Class>
+  <Class Name="LvS.utilities.dialogs.OpenFileDialogWithEncoding">
+    <Position X="0.5" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>dialog\OpenFileDialogWithEncoding.vb</FileName>
+      <HashCode>AAAAACIAAAAAAAAAAAAQAAECAAAACAAAAAAAAAAAQAQ=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="BaseFileDialogWithEncoding">
+    <Position X="2" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>dialog\BaseFileDialogWithEncoding.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAEAAAAAEAQAAgBAAAQBAAIAFyBBBIwA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
