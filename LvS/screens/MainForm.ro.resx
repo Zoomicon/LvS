@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+   -->
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionShowAbout.Hint" xml:space="preserve">
+    <value>Informaţii despre această aplicaţie</value>
+  </data>
+  <data name="actionShowAbout.Text" xml:space="preserve">
+    <value>&amp;Despre ...</value>
+  </data>
+  <data name="actionExit.Hint" xml:space="preserve">
+    <value>Ieşire din aplicaţie </value>
+  </data>
+  <data name="actionExit.Text" xml:space="preserve">
+    <value>&amp;Ieşire</value>
+  </data>
+  <data name="actionOpenActivityBrowse.Hint" xml:space="preserve">
+    <value>Deschide director de lucru</value>
+  </data>
+  <data name="actionOpenActivityBrowse.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="actionImportVideoBrowse.Hint" xml:space="preserve">
+    <value>Importă fişier video</value>
+  </data>
+  <data name="actionImportVideoBrowse.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="actionImportAudioBrowse.Hint" xml:space="preserve">
+    <value>Importă fişier audio</value>
+  </data>
+  <data name="actionImportAudioBrowse.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="actionImportSubtitlesBrowse.Hint" xml:space="preserve">
+    <value>Importă fişier subtitrare</value>
+  </data>
+  <data name="actionImportSubtitlesBrowse.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="actionImportDocumentBrowse.Hint" xml:space="preserve">
+    <value>Importă fişier document</value>
+  </data>
+  <data name="actionImportDocumentBrowse.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="actionImportPackedActivity.Hint" xml:space="preserve">
+    <value>Importă fişier de lucru compactat</value>
+  </data>
+  <data name="actionImportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="actionExportPackedActivity.Hint" xml:space="preserve">
+    <value>Exportă către fişier de lucru compactat</value>
+  </data>
+  <data name="actionExportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Activitate compactată...</value>
+  </data>
+  <data name="actionPageSetup.Hint" xml:space="preserve">
+    <value>Configurare pagină imprimantă</value>
+  </data>
+  <data name="actionPageSetup.Text" xml:space="preserve">
+    <value>Configurare pagină…</value>
+  </data>
+  <data name="actionPrintPreview.Hint" xml:space="preserve">
+    <value>Previzualizare imprimare</value>
+  </data>
+  <data name="actionPrintPreview.Text" xml:space="preserve">
+    <value>Pre&amp;vizualizare imprimare...</value>
+  </data>
+  <data name="actionSaveActivity.Hint" xml:space="preserve">
+    <value>Salvează orice modificare în directorul de lucru</value>
+  </data>
+  <data name="actionSaveActivity.Text" xml:space="preserve">
+    <value>&amp;Salvează tot</value>
+  </data>
+  <data name="actionPrint.Hint" xml:space="preserve">
+    <value>Imprimare</value>
+  </data>
+  <data name="actionPrint.Text" xml:space="preserve">
+    <value>&amp;Imprimare...</value>
+  </data>
+  <data name="actionExportSubtitles.Hint" xml:space="preserve">
+    <value>Exportă subtitrare</value>
+  </data>
+  <data name="actionExportSubtitles.Text" xml:space="preserve">
+    <value>&amp;Subtitrare…</value>
+  </data>
+  <data name="actionExportDocument.Hint" xml:space="preserve">
+    <value>Exportă document</value>
+  </data>
+  <data name="actionExportDocument.Text" xml:space="preserve">
+    <value>&amp;Document…</value>
+  </data>
+  <data name="actionNewActivity.Hint" xml:space="preserve">
+    <value>Creează un nou director de lucru</value>
+  </data>
+  <data name="actionNewActivity.Text" xml:space="preserve">
+    <value>&amp;O nouă activitate…</value>
+  </data>
+  <data name="actionCloseActivity.Hint" xml:space="preserve">
+    <value>Încheie activitatea</value>
+  </data>
+  <data name="actionCloseActivity.Text" xml:space="preserve">
+    <value>&amp;Încheiere</value>
+  </data>
+  <data name="actionAuthoringMode.Hint" xml:space="preserve">
+    <value>Selectează pentru a activa facilităţile de lucru</value>
+  </data>
+  <data name="actionAuthoringMode.Text" xml:space="preserve">
+    <value>&amp;Mod de lucru</value>
+  </data>
+  <data name="actionSendFeedback.Hint" xml:space="preserve">
+    <value>Trimite feedback</value>
+  </data>
+  <data name="actionSendFeedback.Text" xml:space="preserve">
+    <value>Trimite &amp;feedback</value>
+  </data>
+  <data name="actionClearMRU.Hint" xml:space="preserve">
+    <value>Şterge listele utilizate recent</value>
+  </data>
+  <data name="actionClearMRU.Text" xml:space="preserve">
+    <value>&amp;Şterge listele utilizate recent</value>
+  </data>
+  <data name="actionHelp.Hint" xml:space="preserve">
+    <value>Arată documentaţia</value>
+  </data>
+  <data name="actionHelp.Text" xml:space="preserve">
+    <value>LvS &amp;Ajutor</value>
+  </data>
+  <data name="actionPortal.Hint" xml:space="preserve">
+    <value>Vizitează portalul LeViS pe web</value>
+  </data>
+  <data name="actionPortal.Text" xml:space="preserve">
+    <value>Vizitează portalul LeViS</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuAbout.Text" xml:space="preserve">
+    <value>&amp;Despre...</value>
+  </data>
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>&amp;Ieşire</value>
+  </data>
+  <data name="BrowseToolStripMenuItem4.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="BrowseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="BrowseToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="BrowseToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="BrowseToolStripMenuItem3.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="ToolStripMenuItem4.Text" xml:space="preserve">
+    <value>&amp;Navighează...</value>
+  </data>
+  <data name="ToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Activitate compactată...</value>
+  </data>
+  <data name="mnuPageSetup.Text" xml:space="preserve">
+    <value>&amp;Configurare pagină…</value>
+  </data>
+  <data name="mnuPrintPreview.Text" xml:space="preserve">
+    <value>Pre&amp;vizualizare imprimare...</value>
+  </data>
+  <data name="mnuPrint.Text" xml:space="preserve">
+    <value>&amp;Imprimare...</value>
+  </data>
+  <data name="mnuSaveActivity.Text" xml:space="preserve">
+    <value>&amp;Salvează tot</value>
+  </data>
+  <data name="SubtitlesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Subtitrare…</value>
+  </data>
+  <data name="DocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Document…</value>
+  </data>
+  <data name="mnuNewActivity.Text" xml:space="preserve">
+    <value>&amp;O nouă activitate…</value>
+  </data>
+  <data name="mnuCloseActivity.Text" xml:space="preserve">
+    <value>&amp;Încheiere</value>
+  </data>
+  <data name="mnuAuthoringMode.Text" xml:space="preserve">
+    <value>&amp;Mod de lucru</value>
+  </data>
+  <data name="mnuSendFeedback.Text" xml:space="preserve">
+    <value>&amp;Trimite feedback</value>
+  </data>
+  <data name="mnuClearMRU.Text" xml:space="preserve">
+    <value>&amp;Şterge listele utilizate recent</value>
+  </data>
+  <data name="mnuShowHelp.Text" xml:space="preserve">
+    <value>LvS &amp;Ajutor</value>
+  </data>
+  <data name="mnuPortal.Text" xml:space="preserve">
+    <value>Vizitează portalul LeViS</value>
+  </data>
+  <data name="mnuOpenActivity.Text" xml:space="preserve">
+    <value>&amp;Deschide activitate</value>
+  </data>
+  <data name="mnuImportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Activitate compactată…</value>
+  </data>
+  <data name="mnuImportVideo.Text" xml:space="preserve">
+    <value>&amp;Video</value>
+  </data>
+  <data name="mnuImportAudio.Text" xml:space="preserve">
+    <value>&amp;Audio</value>
+  </data>
+  <data name="mnuImportSubtitles.Text" xml:space="preserve">
+    <value>&amp;Subtitrare</value>
+  </data>
+  <data name="mnuImportDocument.Text" xml:space="preserve">
+    <value>&amp;Document</value>
+  </data>
+  <data name="mnuImport.Text" xml:space="preserve">
+    <value>&amp;Importă</value>
+  </data>
+  <data name="mnuExport.Text" xml:space="preserve">
+    <value>&amp;Exportă</value>
+  </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>&amp;Fişier</value>
+  </data>
+  <data name="mnuOptions.Text" xml:space="preserve">
+    <value>&amp;Opţiuni</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>&amp;Ajutor</value>
+  </data>
+  <data name="dlgImportVideo.Filter" xml:space="preserve">
+    <value>Fişiere video (MPEG, MPG, MP4, VOB, WMV, AVI, MOV, QT)|*.mpeg;*.mpg;*.mp4;*.vob;*.wmv;*.avi;*.mov;*.qt|Fişiere MPEG (MPEG, MPG, MP4, VOB)|*.mpeg;*.mpg;*.mp4;*.vob|Fişiere Film Windows (WMV)|*.wmv|Fişiere AVI|*.avi|Filme QuickTime (MOV, QT)|*.mov;*.qt</value>
+  </data>
+  <data name="dlgImportVideo.Title" xml:space="preserve">
+    <value>Importă video</value>
+  </data>
+  <data name="dlgImportAudio.Filter" xml:space="preserve">
+    <value>Fişiere audio (WAV, AU, MP3)|*.wav;*.au;*.mp3|Fişiere WAVE (WAV)|*.wav|Fişiere AU|*.au|Fişiere MP3|*.mp3</value>
+  </data>
+  <data name="dlgImportAudio.Title" xml:space="preserve">
+    <value>Importă audio</value>
+  </data>
+  <data name="dlgImportDocument.EncodingLabel" xml:space="preserve">
+    <value>&amp;Codare:</value>
+  </data>
+  <data name="dlgImportDocument.Filter" xml:space="preserve">
+    <value>Fişiere document (MHT, HTML, TXT, RTF, DOC, XLS, CSV, PPT, SWF, PDF)|*.mht;*.html;*.htm;*.txt;*.rtf;*.doc;*.xls;*.csv;*.ppt;*.swf;*.pdf|Arhivă Web (MHT)|*.mht|Pagină Web(HTML)|*.html;*.htm|Fişiere Text (TXT, RTF)|*.txt;*.rtf|Documente Word (DOC)|*.doc|Manipulator de tabele Excel (XLS, CSV)|*.xls;*.csv|Prezentări PowerPoint (PPT)|*.ppt|Documente Shockwave (SWF)|*.swf|Documente PDF|*.pdf</value>
+  </data>
+  <data name="dlgImportDocument.Title" xml:space="preserve">
+    <value>Importă document</value>
+  </data>
+  <data name="dlgImportPackedActivity.Filter" xml:space="preserve">
+    <value>Activitate compactată (LVS)|*.lvs</value>
+  </data>
+  <data name="dlgImportPackedActivity.Title" xml:space="preserve">
+    <value>Importă activitate compactată</value>
+  </data>
+  <data name="dlgExportPackedActivity.Filter" xml:space="preserve">
+    <value>Fără multimedia (LVS)|*.lvs|Cu multimedia (LVS)|*.lvs</value>
+  </data>
+  <data name="dlgExportPackedActivity.Title" xml:space="preserve">
+    <value>Exportă activitate compactată</value>
+  </data>
+  <data name="dlgExportDocument.Filter" xml:space="preserve">
+    <value>Fişiere document (MHT, HTML, TXT, RTF, DOC, XLS, CSV, PPT, SWF, PDF)|*.mht;*.html;*.htm;*.txt;*.rtf;*.doc;*.xls;*.csv;*.ppt;*.swf;*.pdf|Arhivă Web (MHT)|*.mht|Pagină Web(HTML)|*.html;*.htm|Fişiere Text (TXT, RTF)|*.txt;*.rtf|Documente Word (DOC)|*.doc|Manipulator de tabele Excel (XLS, CSV)|*.xls;*.csv|Prezentări PowerPoint (PPT)|*.ppt|Documente Shockwave (SWF)|*.swf|Documente PDF|*.pdf</value>
+  </data>
+  <data name="dlgExportDocument.Title" xml:space="preserve">
+    <value>Exportă document</value>
+  </data>
+  <data name="dlgImportSubtitles.EncodingLabel" xml:space="preserve">
+    <value>&amp;Codare:</value>
+  </data>
+  <data name="dlgImportSubtitles.Filter" xml:space="preserve">
+    <value>Fişiere de subtitrare (TTS, SRT)|*.tts;*.srt|Fişiere TTS|*.tts|Fişiere SRT|*.srt</value>
+  </data>
+  <data name="dlgImportSubtitles.Title" xml:space="preserve">
+    <value>Importă subtitrare</value>
+  </data>
+  <data name="dlgExportSubtitles.EncodingLabel" xml:space="preserve">
+    <value>&amp;Codare:</value>
+  </data>
+  <data name="dlgExportSubtitles.Filter" xml:space="preserve">
+    <value>Fişiere subtitrare (TTS, SRT, FAB, ENC)|*.tts;*.srt;*.fab;*.enc|Fişiere TTS|*.tts|Fişiere SRT|*.srt|Fişiere FAB|*.fab|Fişiere Adobe Encore|*.enc</value>
+  </data>
+  <data name="dlgExportSubtitles.Title" xml:space="preserve">
+    <value>Exportă subtitrare</value>
+  </data>
+</root>
