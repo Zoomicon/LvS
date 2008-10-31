@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Interface Name="LvS.models.IPrintable">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\IPrintable.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.IActivity">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>general\IActivity.vb</FileName>
+      <HashCode>hCoIAIAIBBADEgIgSAAAAAQAABAAAAACAAEAAQCAKAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.IModifiable">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\IModifiable.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.IOpenActivityDialog">
+    <Position X="5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>general\IOpenActivityDialog.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAIgAAAABAAAAAAAAAAAAgAACAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="LvS.models.IOpenActivityDialog.FolderSelectionModes">
+        <TypeIdentifier>
+          <NewMemberFileName>general\IOpenActivityDialog.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Interface>
+</ClassDiagram>
