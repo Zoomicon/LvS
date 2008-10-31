@@ -1,0 +1,372 @@
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.exe.config
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\Interop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\AxInterop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.vbproj.ResolveComReference.cache
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.exe
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.pdb
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.exe.manifest
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.application
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.exe
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.pdb
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\el\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\BC.Controls.TimeSlider.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\CDiese.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\DevAge.Core.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\ExtendedFolderBrowser.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS_models.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS_utilities.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\MostRecentlyUsedHandler.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\SourceGrid.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\ToolStripFontComboBox.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\CabLib.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\DevAge.Core.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS_utilities.pdb
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS_utilities.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS_models.pdb
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS_models.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\SourceGrid.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\en\CDiese.resources.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\fr\CDiese.resources.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\Interop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\AxInterop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\ResolveAssemblyReference.cache
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.documents.DocumentsView.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.documents.RTFDocumentView.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.documents.WebBrowserDocumentView.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.grid.Comment.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.grid.IconDropDown.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlePair.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.grid.UpDownTimeCentered.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.notes.Notes.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.players.BasePlayer.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.controllers.TimeSelectionController.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.players.WMP.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFEditor.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFToolStrip.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlesGrid.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\AboutDialog.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LoginDialog.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LanguageSelectionView.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\MainForm.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\Resources.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\SplashScreen.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\ActivityView.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.el.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.el.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\SplashScreen.el.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\MainForm.el.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.vbproj.GenerateResource.Cache
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\el\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.TrustInfo.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.exe.manifest
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\LvS.application
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.exe.CodeAnalysisLog.xml
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\LvS.exe.lastcodeanalysissucceeded
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\Resources.el.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\el\LvS_utilities.resources.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\bin\Release\el-GR\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\MainForm.el-GR.resources
+D:\Users\George\Desktop\LvS_net_20070625a\LvS_net\LvS\obj\Release\el-GR\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.exe.config
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Interop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\AxInterop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.vbproj.ResolveComReference.cache
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.exe
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.xml
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.pdb
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ResolveAssemblyReference.cache
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.documents.DocumentsView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.documents.RTFDocumentView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.documents.WebBrowserDocumentView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.grid.Comment.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.grid.IconDropDown.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.grid.UpDownTimeCentered.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.notes.Notes.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.players.BasePlayer.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.TimeSelectionController.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.players.WMP.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFEditor.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFToolStrip.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlesGrid.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\AboutDialog.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LoginDialog.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LanguageSelectionView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\MainForm.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Resources.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\SplashScreen.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ActivityView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\SplashScreen.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\SplashScreen.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\SplashScreen.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\SplashScreen.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Resources.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\MainForm.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.vbproj.GenerateResource.Cache
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\MainForm.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\MainForm.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.exe.manifest
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.application
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.exe
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\el\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\es\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\hu\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\ro\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.exe.CodeAnalysisLog.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS.exe.lastcodeanalysissucceeded
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\BC.Controls.TimeSlider.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\CDiese.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\DevAge.Core.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\ExtendedFolderBrowser.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS_models.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS_utilities.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\MostRecentlyUsedHandler.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\SourceGrid.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\ToolStripFontComboBox.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\CabLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\DevAge.Core.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS_utilities.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS_utilities.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS_models.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\LvS_models.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\SourceGrid.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\el\LvS_utilities.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\en\CDiese.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\fr\CDiese.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\Interop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\AxInterop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\MainForm.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\el\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\es\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\hu\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ro\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.TrustInfo.xml
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.exe.manifest
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.application
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\SplashScreen.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\bin\Release\pt\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\MainForm.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.exe.config
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\Interop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\AxInterop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.vbproj.ResolveComReference.cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.exe
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.exe.manifest
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.application
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.exe
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\el\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\es\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\hu\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\ro\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.exe.CodeAnalysisLog.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS.exe.lastcodeanalysissucceeded
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\BC.Controls.TimeSlider.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\CDiese.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\DevAge.Core.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\ExtendedFolderBrowser.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS_models.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS_utilities.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\MostRecentlyUsedHandler.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\SourceGrid.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\ToolStripFontComboBox.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\CabLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\DevAge.Core.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS_utilities.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS_utilities.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS_models.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\LvS_models.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\SourceGrid.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\el\LvS_utilities.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\en\CDiese.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\fr\CDiese.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\Interop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\bin\Release\AxInterop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.documents.DocumentsView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.documents.RTFDocumentView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.documents.WebBrowserDocumentView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.grid.Comment.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.grid.IconDropDown.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlePair.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.grid.UpDownTimeCentered.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.notes.Notes.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.players.BasePlayer.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.TimeSelectionController.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.players.WMP.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFEditor.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFToolStrip.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlesGrid.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\AboutDialog.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LoginDialog.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LanguageSelectionView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\MainForm.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\Resources.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\SplashScreen.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\ActivityView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\SplashScreen.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\SplashScreen.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\SplashScreen.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\SplashScreen.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\SplashScreen.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\Resources.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\MainForm.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\MainForm.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\MainForm.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\MainForm.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\MainForm.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\el\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\es\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\hu\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\ro\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.TrustInfo.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.exe.manifest
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS\obj\Release\LvS.application
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.exe.config
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\Interop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\AxInterop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.vbproj.ResolveComReference.cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.exe
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.exe.manifest
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.application
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.exe
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\el\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\es\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\hu\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\ro\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.exe.CodeAnalysisLog.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS.exe.lastcodeanalysissucceeded
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\BC.Controls.TimeSlider.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\CDiese.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\DevAge.Core.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\ExtendedFolderBrowser.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS_models.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS_utilities.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\MostRecentlyUsedHandler.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\SourceGrid.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\ToolStripFontComboBox.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\CabLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\DevAge.Core.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS_utilities.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS_utilities.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS_models.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\LvS_models.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\SourceGrid.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\DevAge.Windows.Forms.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\el\LvS_utilities.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\en\CDiese.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\fr\CDiese.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\Interop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Release\AxInterop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.documents.DocumentsView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.documents.RTFDocumentView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.documents.WebBrowserDocumentView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.grid.Comment.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.grid.IconDropDown.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlePair.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.grid.UpDownTimeCentered.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.notes.Notes.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.players.BasePlayer.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.TimeSelectionController.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.players.WMP.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFEditor.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.rtf.RTFToolStrip.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.subtitles.SubtitlesGrid.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\AboutDialog.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LoginDialog.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LanguageSelectionView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\MainForm.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\Resources.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\SplashScreen.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\ActivityView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.AudioVolumeController.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.objects.controllers.Controller.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\SplashScreen.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\SplashScreen.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\SplashScreen.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\SplashScreen.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\SplashScreen.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\Resources.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\MainForm.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\MainForm.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\MainForm.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\MainForm.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\MainForm.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\el\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\es\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\hu\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\ro\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.TrustInfo.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.exe.manifest
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Release\LvS.application
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\LvS.objects.grid.TextLinePair.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Resources.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Resources.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Resources.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\Resources.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ActivityView.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ActivityView.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ActivityView.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ActivityView.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Release\ActivityView.ro.resources
