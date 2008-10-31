@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+   -->
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="STR_ERROR" xml:space="preserve">
+    <value>Eroare</value>
+  </data>
+  <data name="STR_EXCEPTION_EXIT" xml:space="preserve">
+    <value>Vrei sa parasesti aplicatia? Daca nu, aplicatia s-ar putea sa nu se comporte corespunzator</value>
+  </data>
+  <data name="STR_EXCEPTION_FEEDBACK" xml:space="preserve">
+    <value>Foloseste optiunea meniului Ajutor/Comunica raspuns pentru a raporta detaliile erorii</value>
+  </data>
+  <data name="STR_ACTIVITY_FOLDER_EXISTS" xml:space="preserve">
+    <value>Directorul de activitate exista deja</value>
+  </data>
+  <data name="STR_ACTIVITY_MODIFIED" xml:space="preserve">
+    <value>Activitatea a fost modificata. Salvezi inainte de inchidere?</value>
+  </data>
+  <data name="STR_AUTHORING" xml:space="preserve">
+    <value>Lucru</value>
+  </data>
+  <data name="STR_COMMENT" xml:space="preserve">
+    <value>Comentariu</value>
+  </data>
+  <data name="STR_DURATION" xml:space="preserve">
+    <value>Durata</value>
+  </data>
+  <data name="STR_DURATION_POSITIVE" xml:space="preserve">
+    <value>Intotdeauna trebuie indeplinita conditia 'Durata'&gt;=0</value>
+  </data>
+  <data name="STR_ENDTIME_GREATEREQUAL_STARTTIME" xml:space="preserve">
+    <value>Intotdeauna trebuie indeplinita conditia 'Timp de sfarsit'&gt;='Timp de inceput'</value>
+  </data>
+  <data name="STR_END_TIME" xml:space="preserve">
+    <value>Timp de sfarsit</value>
+  </data>
+  <data name="STR_ENTER_FEEDBACK" xml:space="preserve">
+    <value>Introdu raspunsul aici …</value>
+  </data>
+  <data name="STR_ENTER_FOLDER_NAME" xml:space="preserve">
+    <value>Introdu numele directorului</value>
+  </data>
+  <data name="STR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>Nu s-a gasit fisierul</value>
+  </data>
+  <data name="STR_FOLDER_NOT_FOUND" xml:space="preserve">
+    <value>Nu s-a gasit directorul</value>
+  </data>
+  <data name="STR_HELP_NOT_FOUND" xml:space="preserve">
+    <value>Nu s-a gasit fisierul de Ajutor</value>
+  </data>
+  <data name="STR_INVALID_CHANGEFONTSTYLE_PARAM" xml:space="preserve">
+    <value>Parametru de stil nevalid pentru metoda 'ChangeFontStyle' ('SchimbaStilulFontului')</value>
+  </data>
+  <data name="STR_INVALID_FOLDER_NAME_CHARS" xml:space="preserve">
+    <value>Numele directorului nu poate contine urmatoarele caractere</value>
+  </data>
+  <data name="STR_INVALID_VALUE" xml:space="preserve">
+    <value>Valoare nevalida</value>
+  </data>
+  <data name="STR_LOAD_FILE_FAILED" xml:space="preserve">
+    <value>Fisierul nu a putut fi incarcat</value>
+  </data>
+  <data name="STR_NEW_ACTIVITY_FOLDER_NAME" xml:space="preserve">
+    <value>Nume nou al directorului de activitate?</value>
+  </data>
+  <data name="STR_NOT_ACTIVITY_FOLDER" xml:space="preserve">
+    <value>Acesta nu este un director de activitate</value>
+  </data>
+  <data name="STR_OPEN_URL_FAILED" xml:space="preserve">
+    <value>Adresa retelei (URL) nu poate fi accesata</value>
+  </data>
+  <data name="STR_PACK_ACTIVITY_FOLDER_FAILED" xml:space="preserve">
+    <value>Nu se pot arhiva datele din directorul de activitate in care sunt salvate</value>
+  </data>
+  <data name="STR_PARENT_FOLDER_IS_ACTIVITY" xml:space="preserve">
+    <value>Nu se poate selecta nici un director de activitate ca si director parinte</value>
+  </data>
+  <data name="STR_QUESTION" xml:space="preserve">
+    <value>Intrebare</value>
+  </data>
+  <data name="STR_REMOVE_SUBTITLE_STUDENT_COMMENT" xml:space="preserve">
+    <value>Vrei sa inlaturi din subtitlu comentariul studentului?</value>
+  </data>
+  <data name="STR_REMOVE_SUBTITLE_TEACHER_COMMENT" xml:space="preserve">
+    <value>Vrei sa inlaturi din subtitlu comentariul profesorului?</value>
+  </data>
+  <data name="STR_SAVE_FILE_FAILED" xml:space="preserve">
+    <value>Fisierul nu a putut fi salvat</value>
+  </data>
+  <data name="STR_SELECT_ACTIVITY_FOLDER" xml:space="preserve">
+    <value>Selecteaza directorul de activitate</value>
+  </data>
+  <data name="STR_SELECT_PARENT_FOLDER_NEW_ACTIVITY" xml:space="preserve">
+    <value>Selecteaza directorul parinte pentru un nou sub-director de activitate</value>
+  </data>
+  <data name="STR_SELECT_PARENT_FOLDER_UNPACK_ACTIVITY" xml:space="preserve">
+    <value>Selecteaza directorul parinte pentru a arhiva sub-directorul de activitate</value>
+  </data>
+  <data name="STR_START_TIME" xml:space="preserve">
+    <value>Timp de inceput</value>
+  </data>
+  <data name="STR_STUDENT_COMMENT" xml:space="preserve">
+    <value>Student (elev)</value>
+  </data>
+  <data name="STR_SUBTITLE" xml:space="preserve">
+    <value>Subtitlu</value>
+  </data>
+  <data name="STR_TEACHER_COMMENT" xml:space="preserve">
+    <value>Profesor</value>
+  </data>
+  <data name="STR_UNPACK_FAILED" xml:space="preserve">
+    <value>Nu se poate dezarhiva directorul de activitate</value>
+  </data>
+  <data name="STR_VERSION" xml:space="preserve">
+    <value>Versiune</value>
+  </data>
+  <data name="STR_VOLUME" xml:space="preserve">
+    <value>Volum</value>
+  </data>
+  <data name="STR_WARNING" xml:space="preserve">
+    <value>Avertisment</value>
+  </data>
+  <data name="STR_ABOUT" xml:space="preserve">
+    <value>Informatie</value>
+  </data>
+</root>
