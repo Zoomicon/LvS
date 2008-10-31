@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="My.MyApplication">
+    <Position X="1.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>ApplicationEvents.vb</FileName>
+      <HashCode>QAAAAAAAAAAAgAAAABAAAIAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="My.MySettings">
+    <Position X="5.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>Settings.vb</FileName>
+      <HashCode>gAAAAAIQAAAAAEYACDAAJACAFAADAAAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+</ClassDiagram>
