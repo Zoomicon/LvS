@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="LvS.utilities.TextUtils">
+    <Position X="0.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\TextUtils.vb</FileName>
+      <HashCode>EBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.FormUtils">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\FormUtils.vb</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.ColorUtils">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\ColorUtils.vb</FileName>
+      <HashCode>AAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.CompressionUtils">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\CompressionUtils.vb</FileName>
+      <HashCode>EIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.DateTimeUtils">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>general\DateTimeUtils.vb</FileName>
+      <HashCode>QAQCAAAAAAAAAQAAAAAACAgAAAAAAAAAAAAIAAAAACA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.DebugUtils">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>general\DebugUtils.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.FileUtils">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>general\FileUtils.vb</FileName>
+      <HashCode>AAAAAAAAAAAAIAAACAAIAQEAAAAAAAAAEAAAAgAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>
