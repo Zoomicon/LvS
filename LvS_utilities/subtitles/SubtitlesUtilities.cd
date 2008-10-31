@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="LvS.utilities.subtitles.TTSReader" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <FileName>subtitles\TTSReader.vb</FileName>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LvS.utilities.subtitles.SRTReader" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>subtitles\SRTReader.vb</FileName>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LvS.utilities.subtitles.BaseSubtitleWriter">
+    <Position X="5.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>subtitles\BaseSubtitleWriter.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAACAgAABAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LvS.utilities.subtitles.TTSUnicodeWriter">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>subtitles\TTSWriter.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.FABWriter">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>subtitles\FABWriter.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.SRTWriter">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>subtitles\SRTWriter.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAECAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.EncoreWriter">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>subtitles\EncoreWriter.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.TTSUtils">
+    <Position X="2.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>subtitles\TTSUtils.vb</FileName>
+      <HashCode>AAAAACAAEAAAAAAAAQAAAAAAAAAAQAABAQAAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.SubtitleUtils">
+    <Position X="0.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>subtitles\SubtitleUtils.vb</FileName>
+      <HashCode>AAAAAAAgABABAAAAGAABACBAAAAIAQgAAAAAAABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.SRTUtils">
+    <Position X="4.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>subtitles\SRTUtils.vb</FileName>
+      <HashCode>ACAAAAAEAAAAAAAAAAEAAAAAAAAAIAABAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.FABUtils">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>subtitles\FABUtils.vb</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAIAAAAAAAAAAAQBAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LvS.utilities.subtitles.EncoreUtils">
+    <Position X="8.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>subtitles\EncoreUtils.vb</FileName>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAQAAABAQAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LvS.models.subtitles.ISubtitlesReader">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="LvS.models.subtitles.ISubtitlesWriter">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+</ClassDiagram>
