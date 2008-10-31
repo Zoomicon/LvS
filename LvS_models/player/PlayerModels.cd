@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Interface Name="LvS.models.player.ITimeSelectionController">
+    <Position X="6.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>player\ITimeSelectionController.vb</FileName>
+      <HashCode>AAAAAAAAAAACAACIAAAAAAAAIAAgAAEAAAAAAAAAgQA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.player.IAudioVolume">
+    <Position X="4" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>player\IAudioVolume.vb</FileName>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.player.IController">
+    <Position X="7" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>player\IController.vb</FileName>
+      <HashCode>CBAgAAAAEAAiEAAIAAAAAAAAAAAAAAAAkAAAgQAAgQA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.player.IPlayer">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>player\IPlayer.vb</FileName>
+      <HashCode>SAAgAgAAEgAgEAAAaADAAAAAAAKgAAAAkAAAgAwAAAg=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="LvS.models.player.IPlayer.Rates">
+        <TypeIdentifier>
+          <NewMemberFileName>player\IPlayer.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Interface>
+  <Interface Name="LvS.models.player.ITimePosition">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>player\ITimePosition.vb</FileName>
+      <HashCode>AAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LvS.models.player.ITimeSelection">
+    <Position X="3.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>player\ITimeSelection.vb</FileName>
+      <HashCode>AAAAAAAAAAAAABAIAAAAAAAAAIAAAAAAAAAAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>
