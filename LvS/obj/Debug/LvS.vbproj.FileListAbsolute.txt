@@ -1,0 +1,311 @@
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.config
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.vbproj.ResolveComReference.cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.exe
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.manifest
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.application
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\el\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\es\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\hu\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\ro\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.CodeAnalysisLog.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.lastcodeanalysissucceeded
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\BC.Controls.TimeSlider.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\CDiese.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Core.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Windows.Forms.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\ExtendedFolderBrowser.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_models.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_utilities.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\MostRecentlyUsedHandler.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\SourceGrid.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\ToolStripFontComboBox.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\CabLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Core.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_utilities.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_utilities.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_models.pdb
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_models.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\SourceGrid.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Windows.Forms.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\el\LvS_utilities.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\en\CDiese.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\fr\CDiese.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.documents.DocumentsView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.documents.RTFDocumentView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.documents.WebBrowserDocumentView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.Comment.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.IconDropDown.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.UpDownTimeCentered.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.notes.Notes.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.players.BasePlayer.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.TimeSelectionController.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.players.WMP.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.rtf.RTFEditor.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.rtf.RTFToolStrip.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.subtitles.SubtitlesGrid.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\AboutDialog.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LoginDialog.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LanguageSelectionView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.ro.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\el\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\es\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\hu\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\pt\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ro\LvS.resources.dll
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.TrustInfo.xml
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.exe.manifest
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.application
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.exe.config
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Interop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\AxInterop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.vbproj.ResolveComReference.cache
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.exe
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.xml
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.exe.manifest
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.application
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.exe
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\el\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\es\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\hu\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\pt\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\ro\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.exe.CodeAnalysisLog.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS.exe.lastcodeanalysissucceeded
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\BC.Controls.TimeSlider.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\CDiese.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\DevAge.Core.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\DevAge.Windows.Forms.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\ExtendedFolderBrowser.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS_models.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS_utilities.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\MostRecentlyUsedHandler.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\SourceGrid.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\ToolStripFontComboBox.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\CabLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\DevAge.Core.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS_utilities.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS_utilities.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS_models.pdb
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\LvS_models.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\SourceGrid.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\DevAge.Windows.Forms.xml
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\el\LvS_utilities.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\en\CDiese.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\fr\CDiese.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\Interop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\bin\Debug\AxInterop.WMPLib.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.documents.DocumentsView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.documents.RTFDocumentView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.documents.WebBrowserDocumentView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.grid.Comment.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.grid.IconDropDown.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.grid.UpDownTimeCentered.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.notes.Notes.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.players.BasePlayer.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.TimeSelectionController.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.players.WMP.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.rtf.RTFEditor.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.rtf.RTFToolStrip.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.subtitles.SubtitlesGrid.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\AboutDialog.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LoginDialog.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LanguageSelectionView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\MainForm.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Resources.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\SplashScreen.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ActivityView.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\SplashScreen.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\SplashScreen.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\SplashScreen.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\SplashScreen.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\SplashScreen.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Resources.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\MainForm.el.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\MainForm.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\MainForm.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\MainForm.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\MainForm.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.vbproj.GenerateResource.Cache
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\el\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\es\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\hu\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\pt\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ro\LvS.resources.dll
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.TrustInfo.xml
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.exe.manifest
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.application
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\LvS.objects.grid.TextLinePair.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.TextLinePair.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.es.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.hu.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.pt.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Resources.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Resources.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Resources.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\Resources.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ActivityView.el.resources
+C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.config
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.vbproj.ResolveComReference.cache
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.exe
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.pdb
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.manifest
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.application
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.pdb
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\el\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\es\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\hu\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\pt\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\ro\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.CodeAnalysisLog.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS.exe.lastcodeanalysissucceeded
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\BC.Controls.TimeSlider.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\CDiese.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Core.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Windows.Forms.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\ExtendedFolderBrowser.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_models.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_utilities.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\MostRecentlyUsedHandler.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\SourceGrid.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\ToolStripFontComboBox.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\CabLib.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Core.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_utilities.pdb
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_utilities.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_models.pdb
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\LvS_models.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\SourceGrid.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\DevAge.Windows.Forms.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\el\LvS_utilities.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\en\CDiese.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\fr\CDiese.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\Interop.WMPLib.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\bin\Debug\AxInterop.WMPLib.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.documents.DocumentsView.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.documents.RTFDocumentView.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.documents.WebBrowserDocumentView.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.Comment.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.TextLinePair.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.IconDropDown.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.grid.UpDownTimeCentered.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.notes.Notes.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.players.BasePlayer.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.TimeSelectionController.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.players.WMP.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.rtf.RTFEditor.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.rtf.RTFToolStrip.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.subtitles.SubtitlesGrid.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\AboutDialog.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LoginDialog.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LanguageSelectionView.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.es.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.hu.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.pt.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.AudioVolumeController.ro.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.es.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.hu.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.pt.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.objects.controllers.Controller.ro.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.es.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.hu.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.pt.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\SplashScreen.ro.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.es.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.hu.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.pt.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\Resources.ro.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.el.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.es.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.hu.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.pt.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\MainForm.ro.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\el\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\es\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\hu\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\pt\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ro\LvS.resources.dll
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.TrustInfo.xml
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.exe.manifest
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\LvS.application
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.es.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.hu.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.pt.resources
+C:\Documents and Settings\Διαχειριστής\Επιφάνεια εργασίας\LvS_net\LvS\obj\Debug\ActivityView.ro.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ActivityView.es.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ActivityView.hu.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ActivityView.pt.resources
+D:\Users\George\Desktop\LvS_net\LvS\obj\Debug\ActivityView.ro.resources
