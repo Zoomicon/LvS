@@ -1,0 +1,134 @@
+LvS - Learning via Subtitling
+-----------------------------
+
+* 2007
+[G.Birbilis]
+- versions 2.0 and 2.1 released...
+
+* 20080328
+[G.Birbilis]
+- add subtitle and remove subtitle buttons moved to left handside of subtitles toolbar
+- subtitle grid's column headers now show tooltip with their text !!![do at all grids] 
+- using border at subtitle rows' edit boxes when editing a subtitle row to make it obvious there are two rows
+- stretched subtitles toolbar contents
+- using line border at subtitles toolbar (at toolstrip container panel)
+- added support for pdf files at documents pane (have to allow PDFs to show inside browser window at Acrobat Reader's Preferences dialog) !!![have the installer edit this option at the registry or at any .ini file acrobat may be using]
+- added support for swf files at documents pane
+
+* 20080411
+[G.Birbilis]
+- (re)play selection button at player controller placed after play and pause
+- when no subtitles exist, disabling set subtitle start, set subtitle end and remove subitle buttons
+
+* 20080413
+[G.Birbilis]
+- at Subtitle class, not allowing start time to get a value greater than end time
+- at SubtitlesGrid class:
+		- if Start time provided by the user is rejected, restoring previous cell value
+  - showing cell editor exception messages to the user
+- renamed "SubtitlePairEditor" class to "TextLinePairEditor"
+- renamed "SubtitlePair" class to "TextLinePair" and moved to package LvS.objects.grid from LvS.objects.subtitles
+
+* 20080414
+[G.Birbilis]
+- added full translation for Portuguese, Hungarian and Romanian !!![still missing Spanish prompts]
+- version 2.2-alpha released
+- at Comments class, using border at rows' edit boxes when editing a comment to make it obvious there are two rows (and for consistency with Subtitle rows editor)
+
+* 20080415
+[G.Birbilis]
+- at MainForm class, added missing localization strings for mnuImportVideo, mnuImportAudio, mnuImportSubtitles and mnuImportDocument
+- added various missing strings to MainForm localized resources (see Translation/excel folder)
+- version 2.3-alpha released
+
+* 20080418
+[G.Birbilis]
+- included localized resources for MyProject (had to set the Solution Explorer to show all files and include the Resources.es.resx etc. files in the project)
+- at Subtitle class:
+  - made all properties public
+  - added constructor to initialize the subtitle in one step (to set startTime and endTime in a single step instead of setting them sequentially to avoid timing constraint exceptions that can be thrown in that case)
+- at Subtitles class, added NewSubtitle method with parameters to initialize the new subtitle
+- at SubtitlesGrid class:
+  - changed RemoveSelected method to remove all selected rows, not just the focused one
+  - changed InsertSubtitle to call NewSubtitle with StartTime and EndTime parameters instead of setting them sequentially to avoid timing constraint exceptions that could be thrown in that case
+- at MainForm and OpenActivityDialog2 classes, removed ACTIVITY_MARKER constant and using ActivityMarker application setting (My.Settings.ActivityMarker)
+- at FileUtils class, added "CreateTextFile" and "RemoveTrailingDirectorySeparator" methods
+- at MainForm class:
+  - at NewActivity method, the activity folder marker file is now non zero-byte sized, so that archivers like WinZip do include the marker file if user pack the activity folder themselves
+  - removed constants and created respective application settings PackedActivityExtension, PortalURL and FeedbackURL
+  - at LoadActivity method, removing any trailing directory separator char that would cause wrong parsing of the activity folder path
+- at MainForm and ActivityView classes, at respective LoadActivity methods, now also accepting activity folder marker files to open the respective activity folder
+- at installer:
+  - registering ".activity" (folder marker file) file extension with LvS application
+  - added various information
+  - changed version to 2.4.1
+  - set to remove previous versions
+- version 2.4.1 released
+
+* 20080420
+[G.Birbilis]
+- at UAC settings ("app.manifest" file), changed "Unrestricted" to "false"
+- added missing spanish localization strings
+- removed STR_ACTIVITY_NOPARENT_FOLDER localization string and using STR_PARENT_FOLDER_IS_ACTIVITY instead (had similar text)
+- set both application and installer version to 2.4.2
+- set the application to be multiple instanc e, since with single instance we couldn't change the application language and restart the application (it was trying to reconnect to itself) [!!! we maybe need a launcher app]
+- at MainForm, changed Hungarian word used for welcome
+- version 2.4.2 released
+- at MainForm, localized some missing strings to Greek and copied localized resources to Translation\resources subfolder (since the Greek resources act as the source that is used to create other languages' resource files)
+- various updates to translation .XLS files at Translation\excel subfolder
+
+* 20080421
+[G.Birbilis]
+- at SubtitlesGrid class, at LoadSubtitles method, now catching exceptions and showing exception message (returning false)
+- at ISubtitle interface and Subtitle class, added "SetTimes" method to set StartTime and EndTime at a single step (cause setting the times separately can raise time constraint exceptions)
+- at SRTReader class, changed ReadSubtitle method to call ISubtitle.SetTimes method instead of trying to 1st set StartTime and then EndTime (was failing since it has to be StartTime<=EndTime)
+- at SRTUtils class, added SRTStringToSubtitle
+- at SRTReader class, moved code from ReadSubtitle method to SRTUtils.SRTStringToSubtitle and delegating to that method
+- at ActivityView, localized some missing strings to Greek and copied localized resources to Translation\resources subfolder (since the Greek resources act as the source that is used to create other languages' resource files)
+- various updates to translation .XLS files at Translation\excel subfolder
+- set LvS_models and LvS_utilities assembly and file versions both to 2.0.0.0
+- set both application and installer version to 2.4.3
+- version 2.4.3 released
+- at TTSUtils class, changed TTSStringToSubtitle method to call ISubtitle.SetTimes method instead of trying to 1st set StartTime and then EndTime (was failing since it has to be StartTime<=EndTime)
+- at ActivityView class, added method SaveActivityMarker and shared utility method SaveActivityMarker
+- at MainForm class, at NewActivity method, now calling SaveActivityMarker and then creating a dummy subtitles file
+
+* 20080422
+[G.Birbilis]
+- at ActivityView class:
+  - at viewPlayer_TimeChanged event handler doing nothing if updatingFocusRow is true (when a subtitles row gets focused, the player time is changed. At that point we must stop the event propagation, else if there's time overlap between subtitles the 1st one will get selected, changing the focused row)
+  - added IsActivityPath shared (=static) method
+  - added IsPackedActivityFile shared (=static) method
+  - at LoadActivity method, using ActivityView.IsActivityPath method
+  - at SaveActivityMarker method, writing the My.Settings.PortalURL string into the activity marker file
+  - at constructor, removed call to SaveActivityMarker and SaveActivity, since an ActivityView is constructed to show an existing activity (MainForm.NewActivity is the method used to create new activities)
+- at MainForm:
+  - at LoadActivity method, using ActivityView.IsActivityPath method
+  - at ParseCommandLine method, using ActivityView.IsActivityFile method
+  - removed "..." from Save All action's text, since it doesn't show a dialog
+- at FileUtils class, at CheckExtension methods, using StringComparison.InvariantCultureIgnoreCase parameter for case-insensitive comparison (and removed call to "ToUpper" method)
+- at ISubtitle interface and Subtitle class, added method IsTimeIncluded
+- at SubtitlesGrid class, at Time property setter, calling IsTimeIncluded so that we don't change the currently focused row if it does include the given time (need to do this else if there's time overlap the topmost row would be selected from the overlapping ones)
+- at project Settings, set AuthoringMode to be true by default, since new users didn't spot the View/AuthoringMode option to show the subtitle Add/Remove/etc. buttons
+- at LvS, LvS_models and LvS_Utilities projects, changed Assembly & File versions to 2.5.0.0
+- set installer version to 2.5
+- added missing localized resources for subtitles grid toolbar and notes tabs
+- version 2.5 released
+
+* 20080424
+[G.Birbilis]
+- included localized resources for ActivityView (had to set the Solution Explorer to show all files and include the ActivityView.es.resx etc. files in the project)
+- changed version for "LvS" and "LvS Installer" projects to 2.5.1
+- at installer GUI:
+  - changed WelcomeText to show 2.5.1 instead of 2.1
+  - changed CopyrightWarning to show "This is free software, licensed under BSD license."
+- version 2.5.1 released
+
+* 20080426
+[G.Birbilis]
+- at Translation\bin folder, fixed "generateTranslatorXSLfromXLS.vbs" to process the last line of the given translation .xls file and regenerated localized resources (was missing PARENT_FOLDER_IS_ACTIVITY string from Resources.es.resx etc. files)
+- changed version for "LvS" and "LvS Installer" projects to 2.5.2
+- at installer GUI changed WelcomeText to show 2.5.2
+- at Configuration Manager dialog, set Active Solution configuration to "Release" and set that configuration to also build the "LvS installer" project
+- at Project Dependencies dialog, set "LvS installer" project to also depend upon "LvS_models" and "LvS_utilities" projects apart from the "LvS" one
+- version 2.5.2 released

@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DDF6C43-A8F6-4507-BBAF-98CB692F39FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>My.MyApplication</StartupObject>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>LvS</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionCompare>Text</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>true</GenerateManifests>
+    <ApplicationIcon>Resources\Filmroll.ICO</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/LvS/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.codeplex.com/LvS</SupportUrl>
+    <ProductName>LvS</ProductName>
+    <PublisherName>Hellenic Open University</PublisherName>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>LvS.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <WarningsAsErrors>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42026,42030,42032,42036,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>LvS.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <WarningsAsErrors>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42026,42030,42032,42036,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BC.Controls.TimeSlider, Version=1.0.2636.1597, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\BC.Controls.TimeSlider.dll</HintPath>
+    </Reference>
+    <Reference Include="CDiese, Version=1.0.2607.34580, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\CDiese.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAge.Core, Version=4.0.0.8, Culture=neutral, PublicKeyToken=faad465d84242dbf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\DevAge.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevAge.Windows.Forms, Version=4.0.0.8, Culture=neutral, PublicKeyToken=faad465d84242dbf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\DevAge.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtendedFolderBrowser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\ExtendedFolderBrowser.dll</HintPath>
+    </Reference>
+    <Reference Include="MostRecentlyUsedHandler, Version=1.0.2610.26610, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\MostRecentlyUsedHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceGrid, Version=4.0.0.4, Culture=neutral, PublicKeyToken=f70ec30aa5408108, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\SourceGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="ToolStripFontComboBox, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\ToolStripFontComboBox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controls\grid\Comment.designer.vb">
+      <DependentUpon>Comment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\grid\Comment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\grid\CommentEditor.vb" />
+    <Compile Include="controls\grid\TextLinePair.designer.vb">
+      <DependentUpon>TextLinePair.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\grid\TextLinePair.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dialogs\OpenActivityDialog2.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="controls\documents\BaseDocumentView.Designer.vb">
+      <DependentUpon>BaseDocumentView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\documents\BaseDocumentView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\documents\DocumentsView.Designer.vb">
+      <DependentUpon>DocumentsView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\documents\DocumentsView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\documents\DocumentUtils.vb" />
+    <Compile Include="controls\documents\RTFDocumentView.Designer.vb">
+      <DependentUpon>RTFDocumentView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\documents\RTFDocumentView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\documents\WebBrowserDocumentView.Designer.vb">
+      <DependentUpon>WebBrowserDocumentView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\documents\WebBrowserDocumentView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\player\MediaUtils.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controls\grid\BaseCellEditor.vb" />
+    <Compile Include="controls\grid\ColumnHeaderNoSort.vb">
+    </Compile>
+    <Compile Include="controls\grid\IconDropDown.designer.vb">
+      <DependentUpon>IconDropDown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\grid\IconDropDown.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\grid\IconEditor.vb" />
+    <Compile Include="controls\grid\TextLinePairEditor.vb" />
+    <Compile Include="controls\grid\TimeEditor.vb" />
+    <Compile Include="controls\grid\UpDownTime.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controls\grid\UpDownTimeCentered.designer.vb">
+      <DependentUpon>UpDownTimeCentered.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\grid\UpDownTimeCentered.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\notes\Notes.Designer.vb">
+      <DependentUpon>Notes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\notes\Notes.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\player\AudioVolumeController.Designer.vb">
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\player\AudioVolumeController.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\player\BasePlayer.Designer.vb">
+      <DependentUpon>BasePlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\player\BasePlayer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\player\Controller.Designer.vb">
+      <DependentUpon>Controller.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\player\Controller.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\player\TimeSelectionController.Designer.vb">
+      <DependentUpon>TimeSelectionController.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\player\TimeSelectionController.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\player\WMP.Designer.vb">
+      <DependentUpon>WMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\player\WMP.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\rtf\RichTextBoxEx.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controls\rtf\RTFEditor.Designer.vb">
+      <DependentUpon>RTFEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\rtf\RTFEditor.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="controls\rtf\RTFToolStrip.Designer.vb">
+      <DependentUpon>RTFToolStrip.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\rtf\RTFToolStrip.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="controls\subtitles\Subtitle.vb" />
+    <Compile Include="controls\subtitles\Subtitles.vb" />
+    <Compile Include="controls\subtitles\SubtitlesGrid.Designer.vb">
+      <DependentUpon>SubtitlesGrid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="controls\subtitles\SubtitlesGrid.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="dialogs\AboutDialog.Designer.vb">
+      <DependentUpon>AboutDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dialogs\AboutDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dialogs\LoginDialog.Designer.vb">
+      <DependentUpon>LoginDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dialogs\LoginDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="screens\MainForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="screens\MainForm.Designer.vb">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="dialogs\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="dialogs\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="screens\LanguageSelectionView.Designer.vb">
+      <DependentUpon>LanguageSelectionView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="screens\LanguageSelectionView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="screens\ActivityView.Designer.vb">
+      <DependentUpon>ActivityView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="screens\ActivityView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="controls\documents\DocumentsView.resx">
+      <DependentUpon>DocumentsView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\documents\RTFDocumentView.resx">
+      <DependentUpon>RTFDocumentView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\documents\WebBrowserDocumentView.resx">
+      <DependentUpon>WebBrowserDocumentView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\grid\Comment.resx">
+      <DependentUpon>Comment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\grid\TextLinePair.resx">
+      <DependentUpon>TextLinePair.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\AudioVolumeController.el.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\AudioVolumeController.es.resx">
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\AudioVolumeController.hu.resx">
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\AudioVolumeController.pt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\AudioVolumeController.ro.resx">
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\Controller.el.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Controller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\grid\IconDropDown.resx">
+      <DependentUpon>IconDropDown.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\Controller.es.resx">
+      <DependentUpon>Controller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\Controller.hu.resx">
+      <DependentUpon>Controller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\Controller.pt.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Controller.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\Controller.ro.resx">
+      <DependentUpon>Controller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\grid\UpDownTimeCentered.resx">
+      <DependentUpon>UpDownTimeCentered.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\notes\Notes.resx">
+      <DependentUpon>Notes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\AudioVolumeController.resx">
+      <DependentUpon>AudioVolumeController.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\BasePlayer.resx">
+      <DependentUpon>BasePlayer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\Controller.resx">
+      <DependentUpon>Controller.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\TimeSelectionController.resx">
+      <DependentUpon>TimeSelectionController.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\player\WMP.resx">
+      <DependentUpon>WMP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\rtf\RTFEditor.resx">
+      <DependentUpon>RTFEditor.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\rtf\RTFToolStrip.resx">
+      <DependentUpon>RTFToolStrip.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controls\subtitles\SubtitlesGrid.resx">
+      <DependentUpon>SubtitlesGrid.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\AboutDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AboutDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\LoginDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LoginDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\SplashScreen.el.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\SplashScreen.es.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\SplashScreen.hu.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\SplashScreen.pt.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\SplashScreen.ro.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.el.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.hu.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.pt.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.ro.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\ActivityView.el.resx">
+      <DependentUpon>ActivityView.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\ActivityView.es.resx">
+      <DependentUpon>ActivityView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\ActivityView.hu.resx">
+      <DependentUpon>ActivityView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\ActivityView.pt.resx">
+      <DependentUpon>ActivityView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\ActivityView.ro.resx">
+      <DependentUpon>ActivityView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\MainForm.el.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\LanguageSelectionView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>LanguageSelectionView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\MainForm.es.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\MainForm.hu.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\MainForm.pt.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dialogs\SplashScreen.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\ActivityView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ActivityView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="screens\MainForm.ro.resx">
+      <DependentUpon>MainForm.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="screens\ApplicationScreens.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LvS_models\LvS_models.vbproj">
+      <Project>{B2F57508-9D02-4AD3-848F-0021320B7D39}</Project>
+      <Name>LvS_models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LvS_utilities\LvS_utilities.vbproj">
+      <Project>{12C7E7F5-4D3D-4A20-9B63-E9B60FEC2B72}</Project>
+      <Name>LvS_utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Application.cd" />
+    <None Include="controls\documents\DocumentsControls.cd" />
+    <None Include="controls\grid\GridControls.cd" />
+    <None Include="controls\notes\NotesControls.cd" />
+    <None Include="controls\player\PlayerControls.cd" />
+    <None Include="controls\rtf\RTFControls.cd" />
+    <None Include="controls\subtitles\SubtitlesControls.cd" />
+    <None Include="dialogs\ApplicationDialogs.cd" />
+    <None Include="Resources\comment_delete.gif" />
+    <None Include="Resources\comment_new.gif" />
+    <None Include="Resources\Filmroll.ICO" />
+    <None Include="Resources\action_go.gif" />
+    <None Include="Resources\action_paste.gif" />
+    <None Include="Resources\action_print.gif" />
+    <None Include="Resources\action_save.gif" />
+    <None Include="Resources\arrow_down.gif" />
+    <None Include="Resources\arrow_left.gif" />
+    <None Include="Resources\arrow_right.gif" />
+    <None Include="Resources\arrow_up.gif" />
+    <None Include="Resources\boldAction1.Image.png" />
+    <None Include="Resources\comment_blue.gif" />
+    <None Include="Resources\comment_yellow.gif" />
+    <None Include="Resources\control_fastforward.png" />
+    <None Include="Resources\control_fastforward_blue.png" />
+    <None Include="Resources\control_pause.png" />
+    <None Include="Resources\control_pause_blue.png" />
+    <None Include="Resources\control_play.png" />
+    <None Include="Resources\control_play_blue.png" />
+    <None Include="Resources\control_repeat.png" />
+    <None Include="Resources\control_repeat_blue.png" />
+    <None Include="Resources\control_rewind.png" />
+    <None Include="Resources\control_rewind_blue.png" />
+    <None Include="Resources\copy.gif" />
+    <None Include="Resources\copyAction1.Image.png" />
+    <None Include="Resources\cut.gif" />
+    <None Include="Resources\cutAction1.Image.png" />
+    <None Include="Resources\flag_blue.gif" />
+    <None Include="Resources\flag_green.gif" />
+    <None Include="Resources\flag_orange.gif" />
+    <None Include="Resources\flag_red.gif" />
+    <None Include="Resources\flag_white.gif" />
+    <None Include="Resources\icon_accept.gif" />
+    <None Include="Resources\icon_alert.gif" />
+    <None Include="Resources\icon_favourites.gif" />
+    <None Include="Resources\italicAction1.Image.png" />
+    <None Include="Resources\comments.png" />
+    <None Include="Resources\Control_PrintPreviewControl.bmp" />
+    <None Include="Resources\Control_PageSetupDialog.bmp" />
+    <None Include="Resources\action_save1.gif" />
+    <None Include="Resources\DOC.BMP" />
+    <None Include="Resources\email.png" />
+    <None Include="Resources\information.png" />
+    <None Include="Resources\color_swatch.png" />
+    <None Include="Resources\color_wheel.png" />
+    <None Include="Resources\Color_font.png" />
+    <None Include="Resources\LineColorHS.bmp" />
+    <None Include="Resources\Color_linecolor.bmp" />
+    <None Include="Resources\Forecolor.bmp" />
+    <None Include="Resources\comment_edit.png" />
+    <None Include="Resources\bullet_arrow_down.png" />
+    <None Include="Resources\bullet_arrow_up.png" />
+    <None Include="Resources\AudioHS.png" />
+    <None Include="Resources\help.png" />
+    <Content Include="History.txt" />
+    <Content Include="Resources\logonew01_800x600.png" />
+    <None Include="Resources\world_go.png" />
+    <None Include="Resources\logonew01_800x600_outline.png" />
+    <None Include="Resources\OPENFOLD.BMP" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\page_white_text.png" />
+    <None Include="Resources\page_white_compressed.png" />
+    <None Include="Resources\undoAction1.Image.png" />
+    <None Include="Resources\underlineAction1.Image.png" />
+    <None Include="Resources\text_strikethrough.png" />
+    <None Include="Resources\text_list_bullets.png" />
+    <None Include="Resources\text_align_right.png" />
+    <None Include="Resources\text_align_left.png" />
+    <None Include="Resources\text_align_center.png" />
+    <None Include="Resources\redoAction1.Image.png" />
+    <None Include="Resources\pasteAction1.Image.png" />
+    <None Include="Resources\page_video.gif" />
+    <None Include="Resources\note.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
