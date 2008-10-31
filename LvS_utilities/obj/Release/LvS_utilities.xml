@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LvS_utilities
+</name>
+</assembly>
+<members>
+<member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_ENCODING">
+	<summary>
+  Looks up a localized string similar to &amp;Encoding:.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_FILE_OPEN_DIALOG_FAILED">
+	<summary>
+  Looks up a localized string similar to Couldn't show file open dialog.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_FILE_SAVE_DIALOG_FAILED">
+	<summary>
+  Looks up a localized string similar to Couldn't show file save dialog.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_FOLDER_NOT_FOUND">
+	<summary>
+  Looks up a localized string similar to Folder not found.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_INVALID_SRT">
+	<summary>
+  Looks up a localized string similar to Invalid SRT format.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_INVALID_TTS">
+	<summary>
+  Looks up a localized string similar to Invalid TTS format.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_NOT_IMPLEMENTED">
+	<summary>
+  Looks up a localized string similar to Not implemented!.
+</summary>
+</member><member name="P:My.Resources.Resources.STR_SAVEAS">
+	<summary>
+  Looks up a localized string similar to Save file as.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
