@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Interface Name="LvS.models.notes.INotes">
+    <Position X="4.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>notes\INotes.vb</FileName>
+      <HashCode>AAAAAIAIBgAQACAgCAAAAAAAAAAAQAAAAAAACMAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="LvS.models.notes.INotes.Columns">
+        <TypeIdentifier>
+          <NewMemberFileName>notes\INotes.vb</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Interface>
+</ClassDiagram>
