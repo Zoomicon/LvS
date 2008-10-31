@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+   -->
+  <xsd:schema id="root" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="actionShowAbout.Hint" xml:space="preserve">
+    <value>Információ erről az alkalmazásról</value>
+  </data>
+  <data name="actionShowAbout.Text" xml:space="preserve">
+    <value>&amp;Mi ez?</value>
+  </data>
+  <data name="actionExit.Hint" xml:space="preserve">
+    <value>Kilép az alkalmazásból</value>
+  </data>
+  <data name="actionExit.Text" xml:space="preserve">
+    <value>&amp;Kilép</value>
+  </data>
+  <data name="actionOpenActivityBrowse.Hint" xml:space="preserve">
+    <value>Gyakorlatos mappa megnyitása</value>
+  </data>
+  <data name="actionOpenActivityBrowse.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="actionImportVideoBrowse.Hint" xml:space="preserve">
+    <value>Videofálj importálása</value>
+  </data>
+  <data name="actionImportVideoBrowse.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="actionImportAudioBrowse.Hint" xml:space="preserve">
+    <value>Audiofálj importálása</value>
+  </data>
+  <data name="actionImportAudioBrowse.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="actionImportSubtitlesBrowse.Hint" xml:space="preserve">
+    <value>Feliratfálj importálása</value>
+  </data>
+  <data name="actionImportSubtitlesBrowse.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="actionImportDocumentBrowse.Hint" xml:space="preserve">
+    <value>Dokumentumfálj importálása</value>
+  </data>
+  <data name="actionImportDocumentBrowse.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="actionImportPackedActivity.Hint" xml:space="preserve">
+    <value>Tömörített feliratfálj importálása</value>
+  </data>
+  <data name="actionImportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="actionExportPackedActivity.Hint" xml:space="preserve">
+    <value>Tömörített feliratfáljba exportál</value>
+  </data>
+  <data name="actionExportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Tömörített gyakorlat…</value>
+  </data>
+  <data name="actionPageSetup.Hint" xml:space="preserve">
+    <value>Nyomtatási oldal beállítása</value>
+  </data>
+  <data name="actionPageSetup.Text" xml:space="preserve">
+    <value>Oldalbeállítás…</value>
+  </data>
+  <data name="actionPrintPreview.Hint" xml:space="preserve">
+    <value>Nyomtatási kép</value>
+  </data>
+  <data name="actionPrintPreview.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="actionSaveActivity.Hint" xml:space="preserve">
+    <value>Változtatások mentése gyakorlatos mappába</value>
+  </data>
+  <data name="actionSaveActivity.Text" xml:space="preserve">
+    <value>&amp;Ment mindent</value>
+  </data>
+  <data name="actionPrint.Hint" xml:space="preserve">
+    <value>Nyomtat</value>
+  </data>
+  <data name="actionPrint.Text" xml:space="preserve">
+    <value>&amp;Nyomtat...</value>
+  </data>
+  <data name="actionExportSubtitles.Hint" xml:space="preserve">
+    <value>Felirat exportálása</value>
+  </data>
+  <data name="actionExportSubtitles.Text" xml:space="preserve">
+    <value>&amp;Feliratok…</value>
+  </data>
+  <data name="actionExportDocument.Hint" xml:space="preserve">
+    <value>Dokumentum exportálása</value>
+  </data>
+  <data name="actionExportDocument.Text" xml:space="preserve">
+    <value>&amp;Dokumentum...</value>
+  </data>
+  <data name="actionNewActivity.Hint" xml:space="preserve">
+    <value>Új gyakorlatos mappa létrehozása</value>
+  </data>
+  <data name="actionNewActivity.Text" xml:space="preserve">
+    <value>&amp;Új activity</value>
+  </data>
+  <data name="actionCloseActivity.Hint" xml:space="preserve">
+    <value>Gyakorlat bezárása</value>
+  </data>
+  <data name="actionCloseActivity.Text" xml:space="preserve">
+    <value>&amp;Bezár</value>
+  </data>
+  <data name="actionAuthoringMode.Hint" xml:space="preserve">
+    <value>Szerzői adatok engedélyezése</value>
+  </data>
+  <data name="actionAuthoringMode.Text" xml:space="preserve">
+    <value>&amp;Tutori módozat</value>
+  </data>
+  <data name="actionSendFeedback.Hint" xml:space="preserve">
+    <value>Visszacsatolás küldése</value>
+  </data>
+  <data name="actionSendFeedback.Text" xml:space="preserve">
+    <value>&amp;Visszacsatolás küldése</value>
+  </data>
+  <data name="actionClearMRU.Hint" xml:space="preserve">
+    <value>Legutóbb használt listák törlése</value>
+  </data>
+  <data name="actionClearMRU.Text" xml:space="preserve">
+    <value>&amp;Legutóbb használt listák törlése</value>
+  </data>
+  <data name="actionHelp.Hint" xml:space="preserve">
+    <value>Dokumentáció bemutatása</value>
+  </data>
+  <data name="actionHelp.Text" xml:space="preserve">
+    <value>LvS &amp;súgó</value>
+  </data>
+  <data name="actionPortal.Hint" xml:space="preserve">
+    <value>LeViS portál látogatása a web-en</value>
+  </data>
+  <data name="actionPortal.Text" xml:space="preserve">
+    <value>LeViS portál látogatása</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuAbout.Text" xml:space="preserve">
+    <value>&amp;Mi ez?</value>
+  </data>
+  <data name="mnuExit.Text" xml:space="preserve">
+    <value>&amp;Kilép</value>
+  </data>
+  <data name="BrowseToolStripMenuItem4.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="BrowseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="BrowseToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="BrowseToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="BrowseToolStripMenuItem3.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="ToolStripMenuItem4.Text" xml:space="preserve">
+    <value>&amp;Tallóz…</value>
+  </data>
+  <data name="ToolStripMenuItem2.Text" xml:space="preserve">
+    <value>&amp;Tömörített gyakorlat…</value>
+  </data>
+  <data name="mnuPageSetup.Text" xml:space="preserve">
+    <value>&amp;Oldalbeállítás…</value>
+  </data>
+  <data name="mnuPrintPreview.Text" xml:space="preserve">
+    <value>
+    </value>
+  </data>
+  <data name="mnuPrint.Text" xml:space="preserve">
+    <value>&amp;Nyomtat...</value>
+  </data>
+  <data name="mnuSaveActivity.Text" xml:space="preserve">
+    <value>&amp;Ment mindent</value>
+  </data>
+  <data name="SubtitlesToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Feliratok…</value>
+  </data>
+  <data name="DocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Dokumentum...</value>
+  </data>
+  <data name="mnuNewActivity.Text" xml:space="preserve">
+    <value>&amp;Új activity</value>
+  </data>
+  <data name="mnuCloseActivity.Text" xml:space="preserve">
+    <value>&amp;Bezár</value>
+  </data>
+  <data name="mnuAuthoringMode.Text" xml:space="preserve">
+    <value>&amp;Tutori módozat</value>
+  </data>
+  <data name="mnuSendFeedback.Text" xml:space="preserve">
+    <value>&amp;Visszacsatolás küldése</value>
+  </data>
+  <data name="mnuClearMRU.Text" xml:space="preserve">
+    <value>&amp;Legutóbb használt listák törlése</value>
+  </data>
+  <data name="mnuShowHelp.Text" xml:space="preserve">
+    <value>LvS &amp;súgó</value>
+  </data>
+  <data name="mnuPortal.Text" xml:space="preserve">
+    <value>LeViS portál látogatása</value>
+  </data>
+  <data name="mnuOpenActivity.Text" xml:space="preserve">
+    <value>&amp;Gyakorlat megnyitása</value>
+  </data>
+  <data name="mnuImportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Tömörített gyakorlat…</value>
+  </data>
+  <data name="mnuImportVideo.Text" xml:space="preserve">
+    <value>&amp;Video</value>
+  </data>
+  <data name="mnuImportAudio.Text" xml:space="preserve">
+    <value>&amp;Audio</value>
+  </data>
+  <data name="mnuImportSubtitles.Text" xml:space="preserve">
+    <value>&amp;Feliratok</value>
+  </data>
+  <data name="mnuImportDocument.Text" xml:space="preserve">
+    <value>&amp;Dokumentum</value>
+  </data>
+  <data name="mnuImport.Text" xml:space="preserve">
+    <value>&amp;Import</value>
+  </data>
+  <data name="mnuExport.Text" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>&amp;Fájl</value>
+  </data>
+  <data name="mnuOptions.Text" xml:space="preserve">
+    <value>&amp;Lehetőségek</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>&amp;Súgó</value>
+  </data>
+  <data name="dlgImportVideo.Filter" xml:space="preserve">
+    <value>Video fájlok (MPEG, MPG, MP4, VOB, WMV, AVI, MOV, QT)|*.mpeg;*.mpg;*.mp4;*.vob;*.wmv;*.avi;*.mov;*.qt|MPEG fájlok (MPEG, MPG, MP4, VOB)|*.mpeg;*.mpg;*.mp4;*.vob|Windows Movie fájlok (WMV)|*.wmv|AVI fájlok|*.avi|QuickTime movie fájlok (MOV, QT)|*.mov;*.qt</value>
+  </data>
+  <data name="dlgImportVideo.Title" xml:space="preserve">
+    <value>Video importálása</value>
+  </data>
+  <data name="dlgImportAudio.Filter" xml:space="preserve">
+    <value>Audio fájlok (WAV, AU, MP3)|*.wav;*.au;*.mp3|Wave fájlok (WAV)|*.wav|AU fájlok|*.au|MP3 fájlok|*.mp3</value>
+  </data>
+  <data name="dlgImportAudio.Title" xml:space="preserve">
+    <value>Audio importálása</value>
+  </data>
+  <data name="dlgImportDocument.EncodingLabel" xml:space="preserve">
+    <value>&amp;Kódolás</value>
+  </data>
+  <data name="dlgImportDocument.Filter" xml:space="preserve">
+    <value>Dokumentumfájlok (MHT, HTML, TXT,RTF, DOC, XLS, CSV, PPT, SWF, PDF)|*.mht;*.html;*.htm;*.txt;*.rtf;*.doc;*.xls;*.csv;*.ppt;*.swf;*.pdf|Web archív (MHT)|*.mht|Weboldal (HTML)|*.html;*.htm|Szövegfájl (TXT, RTF)|*.txt;*.rtf|Word dokumentumok (DOC)|*.doc|Excel munkalapok (XLS, CSV)|*.xls;*.csv|PowerPoint prezentációk (PPT)|*.ppt|Shockwave dokumentumok (SWF)|*.swf|PDF dokumentumok (PDF)|*.pdf</value>
+  </data>
+  <data name="dlgImportDocument.Title" xml:space="preserve">
+    <value>Dokumentum importálása</value>
+  </data>
+  <data name="dlgImportPackedActivity.Filter" xml:space="preserve">
+    <value>Tömörített gyakorlat (LVS)|*.lvs</value>
+  </data>
+  <data name="dlgImportPackedActivity.Title" xml:space="preserve">
+    <value>Tömörített gyakorlóanyag importálása</value>
+  </data>
+  <data name="dlgExportPackedActivity.Filter" xml:space="preserve">
+    <value>Multimédia nélkül (LVS)|*.lvs|Multimédiával (LVS)|*.lvs</value>
+  </data>
+  <data name="dlgExportPackedActivity.Title" xml:space="preserve">
+    <value>Tömörített gyakorlóanyag exportálása</value>
+  </data>
+  <data name="dlgExportDocument.Filter" xml:space="preserve">
+    <value>Dokumentumfájlok (MHT, HTML, TXT,RTF, DOC, XLS, CSV, PPT, SWF, PDF)|*.mht;*.html;*.htm;*.txt;*.rtf;*.doc;*.xls;*.csv;*.ppt;*.swf;*.pdf|Web archív (MHT)|*.mht|Weboldal (HTML)|*.html;*.htm|Szövegfájl (TXT, RTF)|*.txt;*.rtf|Word dokumentumok (DOC)|*.doc|Excel munkalapok (XLS, CSV)|*.xls;*.csv|PowerPoint prezentációk (PPT)|*.ppt|Shockwave dokumentumok (SWF)|*.swf|PDF dokumentumok (PDF)|*.pdf</value>
+  </data>
+  <data name="dlgExportDocument.Title" xml:space="preserve">
+    <value>Dokumentum exportálása</value>
+  </data>
+  <data name="dlgImportSubtitles.EncodingLabel" xml:space="preserve">
+    <value>&amp;Kódolás:</value>
+  </data>
+  <data name="dlgImportSubtitles.Filter" xml:space="preserve">
+    <value>Feliratfájlok (TTS, SRT)|*.tts;*.srt|TTS fájlok|*.tts|SRT fájlok|*.srt</value>
+  </data>
+  <data name="dlgImportSubtitles.Title" xml:space="preserve">
+    <value>Feliratok importálása</value>
+  </data>
+  <data name="dlgExportSubtitles.EncodingLabel" xml:space="preserve">
+    <value>&amp;Kódolás:</value>
+  </data>
+  <data name="dlgExportSubtitles.Filter" xml:space="preserve">
+    <value>Feliratfájlok (TTS, SRT, FAB, ENC)|*.tts;*.srt;*.fab;*.enc|TTS fájlok|*.tts|SRT fájlok|*.srt|FAB fájlok|*.fab|Adobe Encore fájlok|*.enc</value>
+  </data>
+  <data name="dlgExportSubtitles.Title" xml:space="preserve">
+    <value>Feliratok exportálása</value>
+  </data>
+</root>
