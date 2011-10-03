@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5ccaa3f1-0e6b-4e8b-853d-556024cd3386" name="George@GEORGE-PC 2009-03-09 19:43:39" runUser="George-PC\George" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="382e3fcb-e481-479e-bf4b-2123dd02a287">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_43_39">
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities\bin\Release\LvS_utilities.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\Libraries\CabLib.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS\bin\Release\LvS.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="12" executed="12" passed="8" error="0" failed="4" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-03-09T19:43:39.5060852+02:00" queuing="2009-03-09T19:43:41.2364432+02:00" start="2009-03-09T19:43:41.3575292+02:00" finish="2009-03-09T19:43:42.4365617+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Write_FAB_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="a06dd9e6-eac5-797b-9bb8-bfeb68eea052">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3648973b-2b43-4f58-a32c-8f70e481e155" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_FAB_Test" />
+    </UnitTest>
+    <UnitTest name="Write_FAB_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="20240f9d-4918-374d-794b-0fbd27f29111">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e04462a5-7715-4df5-a0f1-552a59d5b936" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_FAB_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_SRT_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="648c511a-dbb6-8678-0334-39ba587d7f8a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f414527-a38a-431e-ac9d-73fda2077b0e" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_SRT_Test" />
+    </UnitTest>
+    <UnitTest name="Write_Encore_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="72ca4c7b-30b6-f9ab-2bb3-3e8b46d05401">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fdeb3939-601c-4b4e-8b79-ab0b31287449" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_Encore_Test" />
+    </UnitTest>
+    <UnitTest name="Read_SRT_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="456fc5e6-84fc-2620-084b-1ecb588fdbda">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="17f13a0c-9941-4a20-bbb3-9d68fdaf0ab6" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_SRT_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Read_SRT_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="511bc28e-c41c-e371-c9ca-188dad96a09a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="db82224b-2862-451e-b0f2-d0df4caef9c1" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_SRT_Test" />
+    </UnitTest>
+    <UnitTest name="Read_TTS_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="e57fccda-e21f-401d-c4a4-fb33617a0bf9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f135acd3-7e95-49e1-9114-6c52d655af6f" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_TTS_Test" />
+    </UnitTest>
+    <UnitTest name="Read_TTS_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="f334b2f5-b82d-38f7-a318-2af7754c6d43">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a0789846-e425-49c7-ae50-973520389982" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_TTS_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_SRT_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="c68d7bd7-363c-975e-9f0d-80901baa3de9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d459ab2d-3b33-4f35-9659-4cf7ab839563" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_SRT_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_TTS_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="56a2d1b9-2091-4eaf-b2b9-e11d75b487d1" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_TTS_Test" />
+    </UnitTest>
+    <UnitTest name="Write_Encore_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="5c4eb462-5274-f649-85d5-41c7c4183f58">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ccde8c83-d270-4c78-800b-2724f66104d2" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_Encore_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_TTS_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="8f60b61c-cd80-ff1e-75ed-258bf92a4b42">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a98201ac-11cb-453d-a15d-4cb38ebb1834" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_TTS_UTF8_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20240f9d-4918-374d-794b-0fbd27f29111" executionId="e04462a5-7715-4df5-a0f1-552a59d5b936" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="456fc5e6-84fc-2620-084b-1ecb588fdbda" executionId="17f13a0c-9941-4a20-bbb3-9d68fdaf0ab6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="511bc28e-c41c-e371-c9ca-188dad96a09a" executionId="db82224b-2862-451e-b0f2-d0df4caef9c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c4eb462-5274-f649-85d5-41c7c4183f58" executionId="ccde8c83-d270-4c78-800b-2724f66104d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="648c511a-dbb6-8678-0334-39ba587d7f8a" executionId="5f414527-a38a-431e-ac9d-73fda2077b0e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ca4c7b-30b6-f9ab-2bb3-3e8b46d05401" executionId="fdeb3939-601c-4b4e-8b79-ab0b31287449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f60b61c-cd80-ff1e-75ed-258bf92a4b42" executionId="a98201ac-11cb-453d-a15d-4cb38ebb1834" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a06dd9e6-eac5-797b-9bb8-bfeb68eea052" executionId="3648973b-2b43-4f58-a32c-8f70e481e155" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c68d7bd7-363c-975e-9f0d-80901baa3de9" executionId="d459ab2d-3b33-4f35-9659-4cf7ab839563" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f" executionId="56a2d1b9-2091-4eaf-b2b9-e11d75b487d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e57fccda-e21f-401d-c4a4-fb33617a0bf9" executionId="f135acd3-7e95-49e1-9114-6c52d655af6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f334b2f5-b82d-38f7-a318-2af7754c6d43" executionId="a0789846-e425-49c7-ae50-973520389982" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e04462a5-7715-4df5-a0f1-552a59d5b936" testId="20240f9d-4918-374d-794b-0fbd27f29111" testName="Write_FAB_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.1578250" startTime="2009-03-09T19:43:41.3819417+02:00" endTime="2009-03-09T19:43:42.1826717+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.IsTrue failed. </Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 164
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_FAB_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="17f13a0c-9941-4a20-bbb3-9d68fdaf0ab6" testId="456fc5e6-84fc-2620-084b-1ecb588fdbda" testName="Read_SRT_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0541004" startTime="2009-03-09T19:43:42.1973192+02:00" endTime="2009-03-09T19:43:42.2568857+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="db82224b-2862-451e-b0f2-d0df4caef9c1" testId="511bc28e-c41c-e371-c9ca-188dad96a09a" testName="Read_SRT_Test" computerName="GEORGE-PC" duration="00:00:00.0060261" startTime="2009-03-09T19:43:42.2578622+02:00" endTime="2009-03-09T19:43:42.2686037+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ccde8c83-d270-4c78-800b-2724f66104d2" testId="5c4eb462-5274-f649-85d5-41c7c4183f58" testName="Write_Encore_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0058021" startTime="2009-03-09T19:43:42.2695802+02:00" endTime="2009-03-09T19:43:42.2803217+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.IsTrue failed. </Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 164
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_Encore_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 142
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5f414527-a38a-431e-ac9d-73fda2077b0e" testId="648c511a-dbb6-8678-0334-39ba587d7f8a" testName="Write_SRT_Test" computerName="GEORGE-PC" duration="00:00:00.0174748" startTime="2009-03-09T19:43:42.2812982+02:00" endTime="2009-03-09T19:43:42.3057107+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fdeb3939-601c-4b4e-8b79-ab0b31287449" testId="72ca4c7b-30b6-f9ab-2bb3-3e8b46d05401" testName="Write_Encore_Test" computerName="GEORGE-PC" duration="00:00:00.0041390" startTime="2009-03-09T19:43:42.3076637+02:00" endTime="2009-03-09T19:43:42.3154757+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.IsTrue failed. </Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 164
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_Encore_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a98201ac-11cb-453d-a15d-4cb38ebb1834" testId="8f60b61c-cd80-ff1e-75ed-258bf92a4b42" testName="Write_TTS_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0309508" startTime="2009-03-09T19:43:42.3164522+02:00" endTime="2009-03-09T19:43:42.3516062+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3648973b-2b43-4f58-a32c-8f70e481e155" testId="a06dd9e6-eac5-797b-9bb8-bfeb68eea052" testName="Write_FAB_Test" computerName="GEORGE-PC" duration="00:00:00.0063795" startTime="2009-03-09T19:43:42.3516062+02:00" endTime="2009-03-09T19:43:42.3623477+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Assert.IsTrue failed. </Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 164
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_FAB_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d459ab2d-3b33-4f35-9659-4cf7ab839563" testId="c68d7bd7-363c-975e-9f0d-80901baa3de9" testName="Write_SRT_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0143680" startTime="2009-03-09T19:43:42.3633242+02:00" endTime="2009-03-09T19:43:42.3818777+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56a2d1b9-2091-4eaf-b2b9-e11d75b487d1" testId="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f" testName="Write_TTS_Test" computerName="GEORGE-PC" duration="00:00:00.0056241" startTime="2009-03-09T19:43:42.3828542+02:00" endTime="2009-03-09T19:43:42.3926192+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f135acd3-7e95-49e1-9114-6c52d655af6f" testId="e57fccda-e21f-401d-c4a4-fb33617a0bf9" testName="Read_TTS_Test" computerName="GEORGE-PC" duration="00:00:00.0061194" startTime="2009-03-09T19:43:42.3935957+02:00" endTime="2009-03-09T19:43:42.4033607+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0789846-e425-49c7-ae50-973520389982" testId="f334b2f5-b82d-38f7-a318-2af7754c6d43" testName="Read_TTS_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0060552" startTime="2009-03-09T19:43:42.4043372+02:00" endTime="2009-03-09T19:43:42.4141022+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
