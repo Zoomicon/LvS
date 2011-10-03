@@ -25,3 +25,22 @@ C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080
 C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS_models\obj\Release\LvS_models.dll
 C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS_models\obj\Release\LvS_models.xml
 C:\Documents and Settings\user\Επιφάνεια εργασίας\LvS_net_20080324\LvS_net\LvS_models\obj\Release\LvS_models.pdb
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.dll
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.pdb
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.xml
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\obj\Release\ResolveAssemblyReference.cache
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\obj\Release\Resources.resources
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.vbproj.GenerateResource.Cache
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.dll
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.xml
+I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.pdb
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.dll
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.pdb
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.xml
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\ResolveAssemblyReference.cache
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\Resources.resources
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\GenerateResource-ResGen.read.1.tlog
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\GenerateResource-ResGen.write.1.tlog
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.dll
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.xml
+G:\Users\birbilis\Projects\HOU\LeViS\LvS_net\LvS_models\obj\Release\LvS_models.pdb

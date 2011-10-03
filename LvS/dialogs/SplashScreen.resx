@@ -123,7 +123,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MainLayoutPanel.ColumnCount" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="ApplicationTitle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -133,10 +133,10 @@
     <value>Microsoft Sans Serif, 18pt</value>
   </data>
   <data name="ApplicationTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 0</value>
+    <value>3, 0</value>
   </data>
   <data name="ApplicationTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>546, 259</value>
+    <value>490, 259</value>
   </data>
   <data name="ApplicationTitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -175,10 +175,10 @@
     <value>NoControl</value>
   </data>
   <data name="Copyright.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 30</value>
+    <value>3, 28</value>
   </data>
   <data name="Copyright.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 62</value>
+    <value>441, 20</value>
   </data>
   <data name="Copyright.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -205,16 +205,16 @@
     <value>Microsoft Sans Serif, 9pt</value>
   </data>
   <data name="Version.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 9</value>
+    <value>3, 7</value>
   </data>
   <data name="Version.Size" type="System.Drawing.Size, System.Drawing">
-    <value>466, 21</value>
+    <value>441, 21</value>
   </data>
   <data name="Version.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
-    <value>Version {0}.{1}</value>
+    <value>Version {0}.{1}.{2}</value>
   </data>
   <data name="&gt;&gt;Version.Name" xml:space="preserve">
     <value>Version</value>
@@ -229,10 +229,10 @@
     <value>1</value>
   </data>
   <data name="DetailsLayoutPanel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 277</value>
+    <value>24, 291</value>
   </data>
   <data name="DetailsLayoutPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>472, 92</value>
+    <value>447, 48</value>
   </data>
   <data name="DetailsLayoutPanel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -250,7 +250,7 @@
     <value>1</value>
   </data>
   <data name="DetailsLayoutPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Copyright" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Version" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,472,Absolute,142" /&gt;&lt;Rows Styles="Percent,14,8451,0,85,91549" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="Copyright" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="Version" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="MainLayoutPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -287,9 +287,6 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>496, 372</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

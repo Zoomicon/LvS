@@ -1,6 +1,6 @@
 'Description: IDocument interface
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20070329
+'Version: 20090310
 
 Imports System.Text
 
@@ -21,7 +21,7 @@ Namespace LvS.models.documents
 #Region "Methods"
 
   Sub Save()
-  Sub Export(ByVal path As String)
+		Sub Export(ByVal thePath As String)
   Sub Close()
 
 #End Region

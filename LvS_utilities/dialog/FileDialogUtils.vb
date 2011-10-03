@@ -1,6 +1,6 @@
 ﻿'Description: FileDialogUtils class
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20080117
+'Version: 20090309
 
 Imports System.Runtime.InteropServices
 
@@ -26,7 +26,7 @@ Namespace LvS.utilities.dialogs
 
   Public Const WfINITDIALOG As Integer = 272
   Public Const WfDESTROY As Integer = 2
-  Public Const WfSETFONT As Integer = 48
+		Public Const WfSETFONT As Integer = 48
   Public Const WfGETFONT As Integer = 49
   Public Const WfNOTIFY As Integer = 78
 
@@ -47,121 +47,121 @@ Namespace LvS.utilities.dialogs
 
 #Region "Delegates"
 
-  Public Delegate Function OFNHookProcDelegate(ByVal hdlg As Integer, ByVal msg As Integer, ByVal wParam As Integer, ByVal lParam As Integer) As Integer
+		Public Delegate Function OFNHookProcDelegate(ByVal hDlg As IntPtr, ByVal msg As Integer, ByVal wParam As IntPtr, ByVal lParam As IntPtr) As IntPtr
 
 #End Region
 
 #Region "Imports"
 
-  <DllImport("Comdlg32.dll", CharSet:=CharSet.Auto, SetLastError:=True)> _
-  Public Shared Function GetOpenFileName(ByRef lpofn As OPENFILENAME) As Boolean
-  End Function
+		<DllImport("Comdlg32.dll", CharSet:=CharSet.Auto, SetLastError:=True)> _
+		Public Shared Function GetOpenFileName(ByRef lpofn As OPENFILENAME) As Boolean
+		End Function
 
-  <DllImport("Comdlg32.dll", CharSet:=CharSet.Auto, SetLastError:=True)> _
-  Public Shared Function GetSaveFileName(ByRef lpofn As OPENFILENAME) As Boolean
-  End Function
+		<DllImport("Comdlg32.dll", CharSet:=CharSet.Auto, SetLastError:=True)> _
+		Public Shared Function GetSaveFileName(ByRef lpofn As OPENFILENAME) As Boolean
+		End Function
 
-  <DllImport("Comdlg32.dll")> _
-  Public Shared Function CommDlgExtendedError() As Integer
-  End Function
+		<DllImport("Comdlg32.dll")> _
+		Public Shared Function CommDlgExtendedError() As Integer
+		End Function
 
-  <DllImport("user32.dll")> _
-  Public Shared Function SetWindowPos(ByVal hWnd As Integer, ByVal hWndInsertAfter As Integer, ByVal X As Integer, ByVal Y As Integer, ByVal cx As Integer, ByVal cy As Integer, ByVal uFlags As UInteger) As Boolean
-  End Function
+		<DllImport("user32.dll")> _
+		Public Shared Function SetWindowPos(ByVal hWnd As IntPtr, ByVal hWndInsertAfter As Integer, ByVal X As Integer, ByVal Y As Integer, ByVal cx As Integer, ByVal cy As Integer, ByVal uFlags As UInteger) As Boolean
+		End Function
 
-  <DllImport("user32.dll")> _
-  Public Shared Function GetWindowRect(ByVal hWnd As Integer, ByRef lpRect As RECT) As Boolean
-  End Function
+		<DllImport("user32.dll")> _
+		Public Shared Function GetWindowRect(ByVal hWnd As IntPtr, ByRef lpRect As RECT) As Boolean
+		End Function
 
-  <DllImport("user32.dll")> _
-  Public Shared Function GetParent(ByVal hWnd As Integer) As Integer
-  End Function
+		<DllImport("user32.dll")> _
+		Public Shared Function GetParent(ByVal hWnd As IntPtr) As IntPtr
+		End Function
 
-  <DllImport("user32.dll", CharSet:=CharSet.Auto)> _
-  Public Shared Function SetWindowText(ByVal hWnd As Integer, ByVal lpString As String) As Boolean
-  End Function
+		<DllImport("user32.dll", CharSet:=CharSet.Auto)> _
+		Public Shared Function SetWindowText(ByVal hWnd As IntPtr, ByVal lpString As String) As Boolean
+		End Function
 
-  <DllImport("user32.dll")> _
-  Public Overloads Shared Function SendMessage(ByVal hWnd As Integer, ByVal Msg As Integer, ByVal wParam As Integer, ByVal lParam As Integer) As Integer
-  End Function
+		<DllImport("user32.dll")> _
+		Public Overloads Shared Function SendMessage(ByVal hWnd As IntPtr, ByVal Msg As Integer, ByVal wParam As IntPtr, ByVal lParam As IntPtr) As IntPtr
+		End Function
 
-  <DllImport("user32.dll", CharSet:=CharSet.Auto)> _
-  Public Overloads Shared Function SendMessage(ByVal hWnd As Integer, ByVal Msg As Integer, ByVal wParam As Integer, ByVal lParam As String) As Integer
-  End Function
+		<DllImport("user32.dll", CharSet:=CharSet.Auto)> _
+		Public Overloads Shared Function SendMessage(ByVal hWnd As IntPtr, ByVal Msg As Integer, ByVal wParam As IntPtr, ByVal lParam As String) As IntPtr
+		End Function
 
-  <DllImport("user32.dll")> _
-  Public Shared Function DestroyWindow(ByVal hwnd As Integer) As Boolean
-  End Function
+		<DllImport("user32.dll")> _
+		Public Shared Function DestroyWindow(ByVal hWnd As IntPtr) As Boolean
+		End Function
 
-  <DllImport("user32.dll", CharSet:=CharSet.Auto)> _
-  Public Shared Function GetDlgItem(ByVal hDlg As Integer, ByVal nIDDlgItem As Integer) As Integer
-  End Function
+		<DllImport("user32.dll", CharSet:=CharSet.Auto)> _
+		Public Shared Function GetDlgItem(ByVal hDlg As IntPtr, ByVal nIDDlgItem As Integer) As IntPtr
+		End Function
 
-  <DllImport("user32.dll", CharSet:=CharSet.Auto)> _
-  Public Shared Function CreateWindowEx(ByVal dwExStyle As Integer, ByVal lpClassName As String, ByVal lpWindowName As String, ByVal dwStyle As UInteger, ByVal x As Integer, ByVal y As Integer, ByVal nWidth As Integer, ByVal nHeight As Integer, ByVal hWndParent As Integer, ByVal hMenu As Integer, ByVal hInstance As Integer, ByVal lpParam As Integer) As Integer
-  End Function
+		<DllImport("user32.dll", CharSet:=CharSet.Auto)> _
+		Public Shared Function CreateWindowEx(ByVal dwExStyle As Integer, ByVal lpClassName As String, ByVal lpWindowName As String, ByVal dwStyle As UInteger, ByVal x As Integer, ByVal y As Integer, ByVal nWidth As Integer, ByVal nHeight As Integer, ByVal hWndParent As IntPtr, ByVal hMenu As IntPtr, ByVal hInstance As IntPtr, ByVal lpParam As IntPtr) As IntPtr
+		End Function
 
-  <DllImport("user32.dll")> _
-  Public Shared Function ScreenToClient(ByVal hWnd As Integer, ByRef lpPoint As POINT) As Boolean
-  End Function
+		<DllImport("user32.dll")> _
+		Public Shared Function ScreenToClient(ByVal hWnd As IntPtr, ByRef lpPoint As POINT) As Boolean
+		End Function
 
 #End Region
 
 #Region "Structures"
 
-  <StructLayout(LayoutKind.Sequential, CharSet:=CharSet.Auto)> _
-  Public Structure OPENFILENAME
-   Public lStructSize As Integer
-   Public hwndOwner As IntPtr
-   Public hInstance As Integer
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrFilter As String
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrCustomFilter As String
-   Public nMaxCustFilter As Integer
-   Public nFilterIndex As Integer
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrFile As String
-   Public nMaxFile As Integer
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrFileTitle As String
-   Public nMaxFileTitle As Integer
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrInitialDir As String
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrTitle As String
-   Public Flags As Integer
-   Public nFileOffset As Short
-   Public nFileExtension As Short
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpstrDefExt As String
-   Public lCustData As Integer
-   Public lpfnHook As OFNHookProcDelegate
-   <MarshalAs(UnmanagedType.LPTStr)> _
-  Public lpTemplateName As String
-   'only if on nt 5.0 or higher
-   Public pvReserved As Integer
-   Public dwReserved As Integer
-   Public FlagsEx As Integer
-  End Structure
+		<StructLayout(LayoutKind.Sequential, CharSet:=CharSet.Auto)> _
+		Public Structure OPENFILENAME
+			Public lStructSize As Integer
+			Public hwndOwner As IntPtr
+			Public hInstance As IntPtr
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrFilter As String
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrCustomFilter As String
+			Public nMaxCustFilter As Integer
+			Public nFilterIndex As Integer
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrFile As String
+			Public nMaxFile As Integer
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrFileTitle As String
+			Public nMaxFileTitle As Integer
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrInitialDir As String
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrTitle As String
+			Public Flags As Integer
+			Public nFileOffset As Short
+			Public nFileExtension As Short
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpstrDefExt As String
+			Public lCustData As Integer
+			Public lpfnHook As OFNHookProcDelegate
+			<MarshalAs(UnmanagedType.LPTStr)> _
+		Public lpTemplateName As String
+			'only if on nt 5.0 or higher
+			Public pvReserved As Integer
+			Public dwReserved As Integer
+			Public FlagsEx As Integer
+		End Structure
 
-  Public Structure RECT
-   Public Left As Integer
-   Public Top As Integer
-   Public Right As Integer
-   Public Bottom As Integer
-  End Structure
+		Public Structure RECT
+			Public Left As Integer
+			Public Top As Integer
+			Public Right As Integer
+			Public Bottom As Integer
+		End Structure
 
-  Public Structure POINT
-   Public X As Integer
-   Public Y As Integer
-  End Structure
+		Public Structure POINT
+			Public X As Integer
+			Public Y As Integer
+		End Structure
 
-  Public Structure NMHDR
-   Public HwndFrom As Integer
-   Public IdFrom As Integer
-   Public Code As Integer
-  End Structure
+		Public Structure NMHDR
+			Public HwndFrom As Integer
+			Public IdFrom As Integer
+			Public Code As Integer
+		End Structure
 
 #End Region
 

@@ -1,6 +1,6 @@
 'Description: ISubtitlesGrid interface
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20070410
+'Version: 20090310
 
 Imports System.Text
 Imports LvS.models
@@ -55,7 +55,7 @@ Namespace LvS.models.subtitles
 #Region "Methods"
 
   Sub Save()
-  Sub Export(ByVal path As String, ByVal encoding As Encoding)
+		Sub Export(ByVal path As String, ByVal theEncoding As Encoding)
   Sub InsertSubtitle(ByVal theStartTime As Double, ByVal theEndTime As Double, ByVal theSubtitle1 As String, ByVal theSubtitle2 As String)
   Sub RemoveSelected()
 

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{4DDF6C43-A8F6-4507-BBAF-98CB692F39FA}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -20,10 +20,12 @@
     <ApplicationIcon>Resources\Filmroll.ICO</ApplicationIcon>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <PublishUrl>http://localhost/LvS/</PublishUrl>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://LvS.codeplex.com/releases/clickonce/</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -36,10 +38,12 @@
     <SupportUrl>http://www.codeplex.com/LvS</SupportUrl>
     <ProductName>LvS</ProductName>
     <PublisherName>Hellenic Open University</PublisherName>
-    <AutorunEnabled>true</AutorunEnabled>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -49,10 +53,10 @@
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>LvS.xml</DocumentationFile>
-    <NoWarn>
-    </NoWarn>
+    <NoWarn>42353,42354,42355</NoWarn>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <WarningsAsErrors>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42026,42030,42032,42036,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -61,10 +65,19 @@
     <Optimize>false</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>LvS.xml</DocumentationFile>
-    <NoWarn>
-    </NoWarn>
+    <NoWarn>42353,42354,42355</NoWarn>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <WarningsAsErrors>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42026,42030,42032,42036,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>6D87D2EC6BA63DE70243F3886E4521DFF2B204AA</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>LvS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BC.Controls.TimeSlider, Version=1.0.2636.1597, Culture=neutral, processorArchitecture=MSIL">
@@ -113,129 +126,129 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controls\grid\Comment.designer.vb">
+    <Compile Include="objects\grid\Comment.designer.vb">
       <DependentUpon>Comment.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\grid\Comment.vb">
+    <Compile Include="objects\grid\Comment.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\grid\CommentEditor.vb" />
-    <Compile Include="controls\grid\TextLinePair.designer.vb">
+    <Compile Include="objects\grid\CommentEditor.vb" />
+    <Compile Include="objects\grid\TextLinePair.designer.vb">
       <DependentUpon>TextLinePair.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\grid\TextLinePair.vb">
+    <Compile Include="objects\grid\TextLinePair.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="dialogs\OpenActivityDialog2.vb">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="controls\documents\BaseDocumentView.Designer.vb">
+    <Compile Include="objects\documents\BaseDocumentView.Designer.vb">
       <DependentUpon>BaseDocumentView.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\documents\BaseDocumentView.vb">
+    <Compile Include="objects\documents\BaseDocumentView.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\documents\DocumentsView.Designer.vb">
+    <Compile Include="objects\documents\DocumentsView.Designer.vb">
       <DependentUpon>DocumentsView.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\documents\DocumentsView.vb">
+    <Compile Include="objects\documents\DocumentsView.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\documents\DocumentUtils.vb" />
-    <Compile Include="controls\documents\RTFDocumentView.Designer.vb">
+    <Compile Include="objects\documents\DocumentUtils.vb" />
+    <Compile Include="objects\documents\RTFDocumentView.Designer.vb">
       <DependentUpon>RTFDocumentView.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\documents\RTFDocumentView.vb">
+    <Compile Include="objects\documents\RTFDocumentView.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\documents\WebBrowserDocumentView.Designer.vb">
+    <Compile Include="objects\documents\WebBrowserDocumentView.Designer.vb">
       <DependentUpon>WebBrowserDocumentView.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\documents\WebBrowserDocumentView.vb">
+    <Compile Include="objects\documents\WebBrowserDocumentView.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\player\MediaUtils.vb">
+    <Compile Include="objects\player\MediaUtils.vb">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="controls\grid\BaseCellEditor.vb" />
-    <Compile Include="controls\grid\ColumnHeaderNoSort.vb">
+    <Compile Include="objects\grid\BaseCellEditor.vb" />
+    <Compile Include="objects\grid\ColumnHeaderNoSort.vb">
     </Compile>
-    <Compile Include="controls\grid\IconDropDown.designer.vb">
+    <Compile Include="objects\grid\IconDropDown.designer.vb">
       <DependentUpon>IconDropDown.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\grid\IconDropDown.vb">
+    <Compile Include="objects\grid\IconDropDown.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\grid\IconEditor.vb" />
-    <Compile Include="controls\grid\TextLinePairEditor.vb" />
-    <Compile Include="controls\grid\TimeEditor.vb" />
-    <Compile Include="controls\grid\UpDownTime.vb">
+    <Compile Include="objects\grid\IconEditor.vb" />
+    <Compile Include="objects\grid\TextLinePairEditor.vb" />
+    <Compile Include="objects\grid\TimeEditor.vb" />
+    <Compile Include="objects\grid\UpDownTime.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="controls\grid\UpDownTimeCentered.designer.vb">
+    <Compile Include="objects\grid\UpDownTimeCentered.designer.vb">
       <DependentUpon>UpDownTimeCentered.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\grid\UpDownTimeCentered.vb">
+    <Compile Include="objects\grid\UpDownTimeCentered.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\notes\Notes.Designer.vb">
+    <Compile Include="objects\notes\Notes.Designer.vb">
       <DependentUpon>Notes.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\notes\Notes.vb">
+    <Compile Include="objects\notes\Notes.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\player\AudioVolumeController.Designer.vb">
+    <Compile Include="objects\player\AudioVolumeController.Designer.vb">
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\player\AudioVolumeController.vb">
+    <Compile Include="objects\player\AudioVolumeController.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\player\BasePlayer.Designer.vb">
+    <Compile Include="objects\player\BasePlayer.Designer.vb">
       <DependentUpon>BasePlayer.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\player\BasePlayer.vb">
+    <Compile Include="objects\player\BasePlayer.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\player\Controller.Designer.vb">
+    <Compile Include="objects\player\Controller.Designer.vb">
       <DependentUpon>Controller.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\player\Controller.vb">
+    <Compile Include="objects\player\Controller.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\player\TimeSelectionController.Designer.vb">
+    <Compile Include="objects\player\TimeSelectionController.Designer.vb">
       <DependentUpon>TimeSelectionController.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\player\TimeSelectionController.vb">
+    <Compile Include="objects\player\TimeSelectionController.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\player\WMP.Designer.vb">
+    <Compile Include="objects\player\WMP.Designer.vb">
       <DependentUpon>WMP.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\player\WMP.vb">
+    <Compile Include="objects\player\WMP.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\rtf\RichTextBoxEx.vb">
+    <Compile Include="objects\rtf\RichTextBoxEx.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="controls\rtf\RTFEditor.Designer.vb">
+    <Compile Include="objects\rtf\RTFEditor.Designer.vb">
       <DependentUpon>RTFEditor.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\rtf\RTFEditor.vb">
+    <Compile Include="objects\rtf\RTFEditor.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="controls\rtf\RTFToolStrip.Designer.vb">
+    <Compile Include="objects\rtf\RTFToolStrip.Designer.vb">
       <DependentUpon>RTFToolStrip.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\rtf\RTFToolStrip.vb">
+    <Compile Include="objects\rtf\RTFToolStrip.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="controls\subtitles\Subtitle.vb" />
-    <Compile Include="controls\subtitles\Subtitles.vb" />
-    <Compile Include="controls\subtitles\SubtitlesGrid.Designer.vb">
+    <Compile Include="objects\subtitles\Subtitle.vb" />
+    <Compile Include="objects\subtitles\Subtitles.vb" />
+    <Compile Include="objects\subtitles\SubtitlesGrid.Designer.vb">
       <DependentUpon>SubtitlesGrid.vb</DependentUpon>
     </Compile>
-    <Compile Include="controls\subtitles\SubtitlesGrid.vb">
+    <Compile Include="objects\subtitles\SubtitlesGrid.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="dialogs\AboutDialog.Designer.vb">
@@ -293,107 +306,107 @@
     <Compile Include="Settings.vb" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="controls\documents\DocumentsView.resx">
+    <EmbeddedResource Include="objects\documents\DocumentsView.resx">
       <DependentUpon>DocumentsView.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\documents\RTFDocumentView.resx">
+    <EmbeddedResource Include="objects\documents\RTFDocumentView.resx">
       <DependentUpon>RTFDocumentView.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\documents\WebBrowserDocumentView.resx">
+    <EmbeddedResource Include="objects\documents\WebBrowserDocumentView.resx">
       <DependentUpon>WebBrowserDocumentView.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\grid\Comment.resx">
+    <EmbeddedResource Include="objects\grid\Comment.resx">
       <DependentUpon>Comment.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\grid\TextLinePair.resx">
+    <EmbeddedResource Include="objects\grid\TextLinePair.resx">
       <DependentUpon>TextLinePair.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\AudioVolumeController.el.resx">
+    <EmbeddedResource Include="objects\player\AudioVolumeController.el.resx">
       <SubType>Designer</SubType>
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\AudioVolumeController.es.resx">
+    <EmbeddedResource Include="objects\player\AudioVolumeController.es.resx">
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\AudioVolumeController.hu.resx">
+    <EmbeddedResource Include="objects\player\AudioVolumeController.hu.resx">
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\AudioVolumeController.pt.resx">
+    <EmbeddedResource Include="objects\player\AudioVolumeController.pt.resx">
       <SubType>Designer</SubType>
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\AudioVolumeController.ro.resx">
+    <EmbeddedResource Include="objects\player\AudioVolumeController.ro.resx">
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\Controller.el.resx">
+    <EmbeddedResource Include="objects\player\Controller.el.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Controller.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\grid\IconDropDown.resx">
+    <EmbeddedResource Include="objects\grid\IconDropDown.resx">
       <DependentUpon>IconDropDown.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\Controller.es.resx">
+    <EmbeddedResource Include="objects\player\Controller.es.resx">
       <DependentUpon>Controller.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\Controller.hu.resx">
+    <EmbeddedResource Include="objects\player\Controller.hu.resx">
       <DependentUpon>Controller.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\Controller.pt.resx">
+    <EmbeddedResource Include="objects\player\Controller.pt.resx">
       <SubType>Designer</SubType>
       <DependentUpon>Controller.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\Controller.ro.resx">
+    <EmbeddedResource Include="objects\player\Controller.ro.resx">
       <DependentUpon>Controller.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\grid\UpDownTimeCentered.resx">
+    <EmbeddedResource Include="objects\grid\UpDownTimeCentered.resx">
       <DependentUpon>UpDownTimeCentered.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\notes\Notes.resx">
+    <EmbeddedResource Include="objects\notes\Notes.resx">
       <DependentUpon>Notes.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\AudioVolumeController.resx">
+    <EmbeddedResource Include="objects\player\AudioVolumeController.resx">
       <DependentUpon>AudioVolumeController.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\BasePlayer.resx">
+    <EmbeddedResource Include="objects\player\BasePlayer.resx">
       <DependentUpon>BasePlayer.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\Controller.resx">
+    <EmbeddedResource Include="objects\player\Controller.resx">
       <DependentUpon>Controller.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\TimeSelectionController.resx">
+    <EmbeddedResource Include="objects\player\TimeSelectionController.resx">
       <DependentUpon>TimeSelectionController.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\player\WMP.resx">
+    <EmbeddedResource Include="objects\player\WMP.resx">
       <DependentUpon>WMP.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\rtf\RTFEditor.resx">
+    <EmbeddedResource Include="objects\rtf\RTFEditor.resx">
       <DependentUpon>RTFEditor.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\rtf\RTFToolStrip.resx">
+    <EmbeddedResource Include="objects\rtf\RTFToolStrip.resx">
       <DependentUpon>RTFToolStrip.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="controls\subtitles\SubtitlesGrid.resx">
+    <EmbeddedResource Include="objects\subtitles\SubtitlesGrid.resx">
       <DependentUpon>SubtitlesGrid.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -501,6 +514,7 @@
   </ItemGroup>
   <ItemGroup>
     <BaseApplicationManifest Include="My Project\app.manifest" />
+    <None Include="LvS_TemporaryKey.pfx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -523,6 +537,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
       <Visible>False</Visible>
       <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
@@ -538,16 +557,21 @@
       <ProductName>.NET Framework 3.5</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="Application.cd" />
-    <None Include="controls\documents\DocumentsControls.cd" />
-    <None Include="controls\grid\GridControls.cd" />
-    <None Include="controls\notes\NotesControls.cd" />
-    <None Include="controls\player\PlayerControls.cd" />
-    <None Include="controls\rtf\RTFControls.cd" />
-    <None Include="controls\subtitles\SubtitlesControls.cd" />
+    <None Include="objects\documents\DocumentsControls.cd" />
+    <None Include="objects\grid\GridControls.cd" />
+    <None Include="objects\notes\NotesControls.cd" />
+    <None Include="objects\player\PlayerControls.cd" />
+    <None Include="objects\rtf\RTFControls.cd" />
+    <None Include="objects\subtitles\SubtitlesControls.cd" />
     <None Include="dialogs\ApplicationDialogs.cd" />
     <None Include="Resources\comment_delete.gif" />
     <None Include="Resources\comment_new.gif" />
@@ -604,7 +628,6 @@
     <None Include="Resources\bullet_arrow_up.png" />
     <None Include="Resources\AudioHS.png" />
     <None Include="Resources\help.png" />
-    <Content Include="History.txt" />
     <Content Include="Resources\logonew01_800x600.png" />
     <None Include="Resources\world_go.png" />
     <None Include="Resources\logonew01_800x600_outline.png" />
