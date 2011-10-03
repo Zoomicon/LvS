@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="09804e99-b4f5-496f-b978-d1f1cca39c04" name="George@GEORGE-PC 2009-03-09 19:45:32" runUser="George-PC\George" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="382e3fcb-e481-479e-bf4b-2123dd02a287">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_45_32">
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities\bin\Release\LvS_utilities.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\Libraries\CabLib.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS\bin\Release\LvS.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-03-09T19:45:32.3162477+02:00" queuing="2009-03-09T19:45:33.0515522+02:00" start="2009-03-09T19:45:33.1267427+02:00" finish="2009-03-09T19:45:34.0895717+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Write_SRT_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="648c511a-dbb6-8678-0334-39ba587d7f8a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3a472816-36f5-4d69-955b-822fa4f43b5e" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_SRT_Test" />
+    </UnitTest>
+    <UnitTest name="Read_SRT_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="456fc5e6-84fc-2620-084b-1ecb588fdbda">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="563da751-efc3-4134-8bfc-17a7d817727b" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_SRT_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_SRT_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="c68d7bd7-363c-975e-9f0d-80901baa3de9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4de1af8e-0f16-43c7-b077-2aba9666c44a" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_SRT_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Read_TTS_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="f334b2f5-b82d-38f7-a318-2af7754c6d43">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6223822d-ac88-43a7-bd5a-0c9338ae5acf" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_TTS_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Read_SRT_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="511bc28e-c41c-e371-c9ca-188dad96a09a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="209a027d-4dba-42de-951d-c5730bdda837" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_SRT_Test" />
+    </UnitTest>
+    <UnitTest name="Write_TTS_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="68ea6e2c-42ac-4336-9a3f-e24c4e3cbfe9" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_TTS_Test" />
+    </UnitTest>
+    <UnitTest name="Read_TTS_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="e57fccda-e21f-401d-c4a4-fb33617a0bf9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bc22d155-e765-47d3-880d-22b05590c65a" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_TTS_Test" />
+    </UnitTest>
+    <UnitTest name="Write_TTS_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="8f60b61c-cd80-ff1e-75ed-258bf92a4b42">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5283b35d-0678-4ee5-9692-b36c817b240b" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_TTS_UTF8_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="456fc5e6-84fc-2620-084b-1ecb588fdbda" executionId="563da751-efc3-4134-8bfc-17a7d817727b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="511bc28e-c41c-e371-c9ca-188dad96a09a" executionId="209a027d-4dba-42de-951d-c5730bdda837" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="648c511a-dbb6-8678-0334-39ba587d7f8a" executionId="3a472816-36f5-4d69-955b-822fa4f43b5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f60b61c-cd80-ff1e-75ed-258bf92a4b42" executionId="5283b35d-0678-4ee5-9692-b36c817b240b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c68d7bd7-363c-975e-9f0d-80901baa3de9" executionId="4de1af8e-0f16-43c7-b077-2aba9666c44a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f" executionId="68ea6e2c-42ac-4336-9a3f-e24c4e3cbfe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e57fccda-e21f-401d-c4a4-fb33617a0bf9" executionId="bc22d155-e765-47d3-880d-22b05590c65a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f334b2f5-b82d-38f7-a318-2af7754c6d43" executionId="6223822d-ac88-43a7-bd5a-0c9338ae5acf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="563da751-efc3-4134-8bfc-17a7d817727b" testId="456fc5e6-84fc-2620-084b-1ecb588fdbda" testName="Read_SRT_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0467506" startTime="2009-03-09T19:45:33.1794737+02:00" endTime="2009-03-09T19:45:33.9323552+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="209a027d-4dba-42de-951d-c5730bdda837" testId="511bc28e-c41c-e371-c9ca-188dad96a09a" testName="Read_SRT_Test" computerName="GEORGE-PC" duration="00:00:00.0040966" startTime="2009-03-09T19:45:33.9352847+02:00" endTime="2009-03-09T19:45:33.9450497+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3a472816-36f5-4d69-955b-822fa4f43b5e" testId="648c511a-dbb6-8678-0334-39ba587d7f8a" testName="Write_SRT_Test" computerName="GEORGE-PC" duration="00:00:00.0037988" startTime="2009-03-09T19:45:33.9460262+02:00" endTime="2009-03-09T19:45:33.9548147+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5283b35d-0678-4ee5-9692-b36c817b240b" testId="8f60b61c-cd80-ff1e-75ed-258bf92a4b42" testName="Write_TTS_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0071503" startTime="2009-03-09T19:45:33.9596972+02:00" endTime="2009-03-09T19:45:33.9714152+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4de1af8e-0f16-43c7-b077-2aba9666c44a" testId="c68d7bd7-363c-975e-9f0d-80901baa3de9" testName="Write_SRT_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0035624" startTime="2009-03-09T19:45:33.9723917+02:00" endTime="2009-03-09T19:45:33.9821567+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="68ea6e2c-42ac-4336-9a3f-e24c4e3cbfe9" testId="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f" testName="Write_TTS_Test" computerName="GEORGE-PC" duration="00:00:00.0039435" startTime="2009-03-09T19:45:33.9821567+02:00" endTime="2009-03-09T19:45:33.9919217+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bc22d155-e765-47d3-880d-22b05590c65a" testId="e57fccda-e21f-401d-c4a4-fb33617a0bf9" testName="Read_TTS_Test" computerName="GEORGE-PC" duration="00:00:00.0033188" startTime="2009-03-09T19:45:33.9928982+02:00" endTime="2009-03-09T19:45:34.0016867+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6223822d-ac88-43a7-bd5a-0c9338ae5acf" testId="f334b2f5-b82d-38f7-a318-2af7754c6d43" testName="Read_TTS_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0037574" startTime="2009-03-09T19:45:34.0026632+02:00" endTime="2009-03-09T19:45:34.0114517+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
