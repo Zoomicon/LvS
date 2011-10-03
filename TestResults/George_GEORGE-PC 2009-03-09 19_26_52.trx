@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="26f3eef9-8427-4265-af95-72156530f630" name="George@GEORGE-PC 2009-03-09 19:26:52" runUser="George-PC\George" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="382e3fcb-e481-479e-bf4b-2123dd02a287">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52">
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities\bin\Release\LvS_utilities.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\Libraries\CabLib.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_models\bin\Release\LvS_models.dll" />
+      <DeploymentItem filename="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS\bin\Release\LvS.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="12" executed="12" error="0" failed="12" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-03-09T19:26:52.9767572+02:00" queuing="2009-03-09T19:26:56.5868777+02:00" start="2009-03-09T19:26:57.0536447+02:00" finish="2009-03-09T19:26:58.3602017+02:00" />
+  <TestDefinitions>
+    <UnitTest name="Write_FAB_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="a06dd9e6-eac5-797b-9bb8-bfeb68eea052">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4b6161b9-e8b0-4a58-b712-208806302c3d" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_FAB_Test" />
+    </UnitTest>
+    <UnitTest name="Write_FAB_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="20240f9d-4918-374d-794b-0fbd27f29111">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="365c0513-c795-4971-8693-4203473d6387" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_FAB_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_SRT_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="648c511a-dbb6-8678-0334-39ba587d7f8a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3d79d2ff-2912-444e-9126-2afdb76a262d" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_SRT_Test" />
+    </UnitTest>
+    <UnitTest name="Write_Encore_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="72ca4c7b-30b6-f9ab-2bb3-3e8b46d05401">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e03b2fe7-52cb-481f-bdfb-88865335feca" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_Encore_Test" />
+    </UnitTest>
+    <UnitTest name="Read_SRT_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="456fc5e6-84fc-2620-084b-1ecb588fdbda">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4a7756f6-65c5-4c53-905b-5c26a202f2ae" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_SRT_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Read_SRT_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="511bc28e-c41c-e371-c9ca-188dad96a09a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3d25b1b2-b958-4f1f-b48c-38eab266edad" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_SRT_Test" />
+    </UnitTest>
+    <UnitTest name="Read_TTS_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="e57fccda-e21f-401d-c4a4-fb33617a0bf9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="af277875-93a4-48e0-b8a3-67a578536ecb" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_TTS_Test" />
+    </UnitTest>
+    <UnitTest name="Read_TTS_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="f334b2f5-b82d-38f7-a318-2af7754c6d43">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e9d68fe8-7115-42ff-9ac1-2d9ce510a1b8" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Read_TTS_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_SRT_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="c68d7bd7-363c-975e-9f0d-80901baa3de9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="875c3a74-8e84-4a79-92b7-3001f4b6816d" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_SRT_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_TTS_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="18b31c4f-5e39-4c91-9514-6c1c7ea90828" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_TTS_Test" />
+    </UnitTest>
+    <UnitTest name="Write_Encore_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="5c4eb462-5274-f649-85d5-41c7c4183f58">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e00a91a7-9093-49b5-bae8-f815c0394ba9" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_Encore_UTF8_Test" />
+    </UnitTest>
+    <UnitTest name="Write_TTS_UTF8_Test" storage="i:\users\birbilis\projects\levis\lvs_net\lvs_utilities_test\bin\release\lvs_utilities_test.dll" id="8f60b61c-cd80-ff1e-75ed-258bf92a4b42">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2074512b-7845-42cb-a10b-8e4d556a2b81" />
+      <TestMethod codeBase="I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\bin\Release\LvS_utilities_Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LvS_utilities_Test.SubtitleUtilsTest, LvS_utilities_Test" name="Write_TTS_UTF8_Test" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="20240f9d-4918-374d-794b-0fbd27f29111" executionId="365c0513-c795-4971-8693-4203473d6387" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="456fc5e6-84fc-2620-084b-1ecb588fdbda" executionId="4a7756f6-65c5-4c53-905b-5c26a202f2ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="511bc28e-c41c-e371-c9ca-188dad96a09a" executionId="3d25b1b2-b958-4f1f-b48c-38eab266edad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c4eb462-5274-f649-85d5-41c7c4183f58" executionId="e00a91a7-9093-49b5-bae8-f815c0394ba9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="648c511a-dbb6-8678-0334-39ba587d7f8a" executionId="3d79d2ff-2912-444e-9126-2afdb76a262d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72ca4c7b-30b6-f9ab-2bb3-3e8b46d05401" executionId="e03b2fe7-52cb-481f-bdfb-88865335feca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f60b61c-cd80-ff1e-75ed-258bf92a4b42" executionId="2074512b-7845-42cb-a10b-8e4d556a2b81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a06dd9e6-eac5-797b-9bb8-bfeb68eea052" executionId="4b6161b9-e8b0-4a58-b712-208806302c3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c68d7bd7-363c-975e-9f0d-80901baa3de9" executionId="875c3a74-8e84-4a79-92b7-3001f4b6816d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f" executionId="18b31c4f-5e39-4c91-9514-6c1c7ea90828" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e57fccda-e21f-401d-c4a4-fb33617a0bf9" executionId="af277875-93a4-48e0-b8a3-67a578536ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f334b2f5-b82d-38f7-a318-2af7754c6d43" executionId="e9d68fe8-7115-42ff-9ac1-2d9ce510a1b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="365c0513-c795-4971-8693-4203473d6387" testId="20240f9d-4918-374d-794b-0fbd27f29111" testName="Write_FAB_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0830639" startTime="2009-03-09T19:26:57.1610597+02:00" endTime="2009-03-09T19:26:58.0477217+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.FAB'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_FAB_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a7756f6-65c5-4c53-905b-5c26a202f2ae" testId="456fc5e6-84fc-2620-084b-1ecb588fdbda" testName="Read_SRT_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0048025" startTime="2009-03-09T19:26:58.0516277+02:00" endTime="2009-03-09T19:26:58.0906877+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\read.SRT'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.ReadSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 155
+   at LvS_utilities_Test.SubtitleUtilsTest.Read_SRT_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d25b1b2-b958-4f1f-b48c-38eab266edad" testId="511bc28e-c41c-e371-c9ca-188dad96a09a" testName="Read_SRT_Test" computerName="GEORGE-PC" duration="00:00:00.0143699" startTime="2009-03-09T19:26:58.0926407+02:00" endTime="2009-03-09T19:26:58.1180297+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\read.SRT'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.ReadSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 155
+   at LvS_utilities_Test.SubtitleUtilsTest.Read_SRT_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 78
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e00a91a7-9093-49b5-bae8-f815c0394ba9" testId="5c4eb462-5274-f649-85d5-41c7c4183f58" testName="Write_Encore_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0050179" startTime="2009-03-09T19:26:58.1199827+02:00" endTime="2009-03-09T19:26:58.1326772+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.ENC'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_Encore_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 142
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3d79d2ff-2912-444e-9126-2afdb76a262d" testId="648c511a-dbb6-8678-0334-39ba587d7f8a" testName="Write_SRT_Test" computerName="GEORGE-PC" duration="00:00:00.0038912" startTime="2009-03-09T19:26:58.1346302+02:00" endTime="2009-03-09T19:26:58.1473247+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.SRT'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_SRT_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e03b2fe7-52cb-481f-bdfb-88865335feca" testId="72ca4c7b-30b6-f9ab-2bb3-3e8b46d05401" testName="Write_Encore_Test" computerName="GEORGE-PC" duration="00:00:00.0013691" startTime="2009-03-09T19:26:58.1492777+02:00" endTime="2009-03-09T19:26:58.1619722+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.ENC'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_Encore_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2074512b-7845-42cb-a10b-8e4d556a2b81" testId="8f60b61c-cd80-ff1e-75ed-258bf92a4b42" testName="Write_TTS_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0044430" startTime="2009-03-09T19:26:58.1629487+02:00" endTime="2009-03-09T19:26:58.1736902+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.tts'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_TTS_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 66
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b6161b9-e8b0-4a58-b712-208806302c3d" testId="a06dd9e6-eac5-797b-9bb8-bfeb68eea052" testName="Write_FAB_Test" computerName="GEORGE-PC" duration="00:00:00.0059284" startTime="2009-03-09T19:26:58.1756432+02:00" endTime="2009-03-09T19:26:58.1873612+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.FAB'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_FAB_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 114
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="875c3a74-8e84-4a79-92b7-3001f4b6816d" testId="c68d7bd7-363c-975e-9f0d-80901baa3de9" testName="Write_SRT_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0057063" startTime="2009-03-09T19:26:58.1883377+02:00" endTime="2009-03-09T19:26:58.2010322+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.SRT'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_SRT_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18b31c4f-5e39-4c91-9514-6c1c7ea90828" testId="d38a5bf5-ebe6-0c07-b2eb-bcad41c26a3f" testName="Write_TTS_Test" computerName="GEORGE-PC" duration="00:00:00.0057781" startTime="2009-03-09T19:26:58.2020087+02:00" endTime="2009-03-09T19:26:58.2147032+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\write.tts'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.WriteSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 170
+   at LvS_utilities_Test.SubtitleUtilsTest.Write_TTS_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 50
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af277875-93a4-48e0-b8a3-67a578536ecb" testId="e57fccda-e21f-401d-c4a4-fb33617a0bf9" testName="Read_TTS_Test" computerName="GEORGE-PC" duration="00:00:00.0102784" startTime="2009-03-09T19:26:58.2156797+02:00" endTime="2009-03-09T19:26:58.2313037+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\read.tts'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.ReadSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 155
+   at LvS_utilities_Test.SubtitleUtilsTest.Read_TTS_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9d68fe8-7115-42ff-9ac1-2d9ce510a1b8" testId="f334b2f5-b82d-38f7-a318-2af7754c6d43" testName="Read_TTS_UTF8_Test" computerName="GEORGE-PC" duration="00:00:00.0014409" startTime="2009-03-09T19:26:58.2342332+02:00" endTime="2009-03-09T19:26:58.2459512+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Could not find a part of the path 'I:\Users\birbilis\Projects\LeViS\LvS_net\TestResults\George_GEORGE-PC 2009-03-09 19_26_52\Out\subtitles\read.tts'.</Message>
+          <StackTrace>   at LvS_utilities_Test.SubtitleUtilsTest.ReadSubtitlesTest(String path, Encoding encoding) in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 155
+   at LvS_utilities_Test.SubtitleUtilsTest.Read_TTS_UTF8_Test() in I:\Users\birbilis\Projects\LeViS\LvS_net\LvS_utilities_Test\SubtitleUtilsTest.vb:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
