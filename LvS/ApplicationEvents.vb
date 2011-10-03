@@ -1,6 +1,6 @@
 'Description: Application events
 'Author: George Birbilis (birbilis@kagi.com)
-'Version: 20070416
+'Version: 20090309
 
 Imports DevAge.Windows.Forms
 
@@ -26,7 +26,7 @@ Namespace My
   ' UnhandledException: Raised if the application encounters an unhandled exception.
   Private Sub MyApplication_UnhandledException(ByVal sender As Object, ByVal e As Microsoft.VisualBasic.ApplicationServices.UnhandledExceptionEventArgs) Handles Me.UnhandledException
 			DevAge.Windows.Forms.ErrorDialog.Show(My.Application.MainForm, e.Exception, My.Resources.STR_ERROR)	'show error dialog with exception details
-			e.ExitApplication = (MessageBox.Show(My.Resources.STR_EXCEPTION_EXIT & vbCrLf & My.Resources.STR_EXCEPTION_FEEDBACK, My.Resources.STR_QUESTION, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = DialogResult.Yes)	'ask the user if they want to exit or ignore the error and continue (the 2nd option is the default)
+			e.ExitApplication = (MessageBox.Show(My.Application.MainForm, My.Resources.STR_EXCEPTION_EXIT & vbCrLf & My.Resources.STR_EXCEPTION_FEEDBACK, My.Resources.STR_QUESTION, MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) = DialogResult.Yes)	'ask the user if they want to exit or ignore the error and continue (the 2nd option is the default)
   End Sub
 
  End Class

@@ -1,6 +1,6 @@
 'Description: ISubtitlesWriter interface
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20070326
+'Version: 20090310
 
 Imports System.Text
 
@@ -10,7 +10,7 @@ Namespace LvS.models.subtitles
 
 #Region "Methods"
 
-  Sub WriteSubtitles(ByVal subtitles As ISubtitles, ByVal path As String, ByVal encoding As Encoding)
+		Sub WriteSubtitles(ByVal subtitles As ISubtitles, ByVal path As String, ByVal theEncoding As Encoding)
 
 #End Region
 

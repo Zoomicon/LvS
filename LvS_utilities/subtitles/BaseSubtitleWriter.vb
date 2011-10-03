@@ -1,6 +1,6 @@
 ﻿'Description: BaseSubtitleWriter class
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20070326
+'Version: 20090310
 
 Imports System.IO
 Imports System.Text
@@ -13,11 +13,11 @@ Namespace LvS.utilities.subtitles
 
 #Region "Methods"
 
-  Public Overloads Sub WriteSubtitles(ByVal subtitles As models.subtitles.ISubtitles, ByVal path As String, ByVal encoding As Encoding) Implements models.subtitles.ISubtitlesWriter.WriteSubtitles
-   Using writer As New StreamWriter(path, False, encoding)
-    WriteSubtitles(subtitles, writer)
-   End Using
-  End Sub
+		Public Overloads Sub WriteSubtitles(ByVal subtitles As models.subtitles.ISubtitles, ByVal path As String, ByVal theEncoding As Encoding) Implements models.subtitles.ISubtitlesWriter.WriteSubtitles
+			Using writer As New StreamWriter(path, False, theEncoding)
+				WriteSubtitles(subtitles, writer)
+			End Using
+		End Sub
 
   Public Overloads Sub WriteSubtitles(ByVal subtitles As models.subtitles.ISubtitles, ByVal writer As TextWriter)
    For Each s As ISubtitle In subtitles

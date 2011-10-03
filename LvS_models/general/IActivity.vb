@@ -1,6 +1,6 @@
 'Description: IActivity interface
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20070421
+'Version: 20090310
 
 Imports System.Text
 Imports LvS.models.player
@@ -42,8 +42,8 @@ Namespace LvS.models
 
   Sub ImportVideo(ByVal thePath As String)
   Sub ImportAudio(ByVal thePath As String)
-  Sub ImportSubtitles(ByVal thePath As String, ByVal encoding As Encoding)
-  Sub ImportDocument(ByVal thePath As String, ByVal encoding As Encoding)
+		Sub ImportSubtitles(ByVal thePath As String, ByVal theEncoding As Encoding)
+		Sub ImportDocument(ByVal thePath As String, ByVal theEncoding As Encoding)
 
 #End Region
 
@@ -52,7 +52,7 @@ Namespace LvS.models
   Function ExportPackedActivity(ByVal thePath As String, ByVal packMultimedia As Boolean) As Boolean
   'Function ExportVideo(ByVal thePath As String) As Boolean
   'Function ExportAudio(ByVal thePath As String) As Boolean
-  Function ExportSubtitles(ByVal thePath As String, ByVal encoding As Encoding) As Boolean
+		Function ExportSubtitles(ByVal thePath As String, ByVal theEncoding As Encoding) As Boolean
   Function ExportDocument(ByVal thePath As String) As Boolean 'add encoding param???
 
 #End Region
@@ -62,8 +62,8 @@ Namespace LvS.models
   Sub LoadActivity(ByVal thePath As String)
   Sub LoadVideo(ByVal thePath As String)
   Sub LoadAudio(ByVal thePath As String)
-  Sub LoadSubtitles(ByVal thePath As String, ByVal encoding As Encoding)
-  Sub LoadDocument(ByVal thePath As String, ByVal theTitle As String, ByVal encoding As Encoding)
+		Sub LoadSubtitles(ByVal thePath As String, ByVal theEncoding As Encoding)
+		Function LoadDocument(ByVal thePath As String, ByVal theTitle As String, ByVal theEncoding As Encoding) As IDocument
 
 #End Region
 

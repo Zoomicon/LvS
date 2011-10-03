@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{12C7E7F5-4D3D-4A20-9B63-E9B60FEC2B72}</ProjectGuid>
     <OutputType>Library</OutputType>
@@ -15,9 +15,25 @@
     <OptionStrict>On</OptionStrict>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
-    <OldToolsVersion>2.0</OldToolsVersion>
+    <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -26,7 +42,8 @@
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
     <DocumentationFile>LvS_utilities.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +52,8 @@
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>LvS_utilities.xml</DocumentationFile>
-    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="CabLib, Version=6.9.26.0, Culture=neutral, processorArchitecture=x86">
@@ -73,17 +91,17 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="subtitles\BaseSubtitleWriter.vb" />
-    <Compile Include="subtitles\SRTReader.vb" />
-    <Compile Include="subtitles\EncoreWriter.vb" />
-    <Compile Include="subtitles\EncoreUtils.vb" />
-    <Compile Include="subtitles\FABWriter.vb" />
-    <Compile Include="subtitles\FABUtils.vb" />
-    <Compile Include="subtitles\SRTWriter.vb" />
-    <Compile Include="subtitles\SRTUtils.vb" />
+    <Compile Include="subtitles\srt\SRTReader.vb" />
+    <Compile Include="subtitles\encore\EncoreWriter.vb" />
+    <Compile Include="subtitles\encore\EncoreUtils.vb" />
+    <Compile Include="subtitles\fab\FABWriter.vb" />
+    <Compile Include="subtitles\fab\FABUtils.vb" />
+    <Compile Include="subtitles\srt\SRTWriter.vb" />
+    <Compile Include="subtitles\srt\SRTUtils.vb" />
     <Compile Include="subtitles\SubtitleUtils.vb" />
-    <Compile Include="subtitles\TTSUtils.vb" />
-    <Compile Include="subtitles\TTSWriter.vb" />
-    <Compile Include="subtitles\TTSReader.vb" />
+    <Compile Include="subtitles\tts\TTSUtils.vb" />
+    <Compile Include="subtitles\tts\TTSWriter.vb" />
+    <Compile Include="subtitles\tts\TTSReader.vb" />
     <Compile Include="general\DebugUtils.vb" />
     <Compile Include="general\FileUtils.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -144,6 +162,23 @@
       <Project>{B2F57508-9D02-4AD3-848F-0021320B7D39}</Project>
       <Name>LvS_models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
