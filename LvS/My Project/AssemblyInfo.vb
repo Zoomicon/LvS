@@ -9,10 +9,10 @@ Imports System.Runtime.InteropServices
 ' Review the values of the assembly attributes
 
 <Assembly: AssemblyTitle("LvS")> 
-<Assembly: AssemblyDescription("LeViS subtitling software (http://levis.cti.gr)")> 
-<Assembly: AssemblyCompany("Hellenic Open University")> 
+<Assembly: AssemblyDescription("LeViS subtitling software (http://levis.cti.gr, http://lvs.codeplex.com)")> 
+<Assembly: AssemblyCompany("Hellenic Open University, Zoomicon")> 
 <Assembly: AssemblyProduct("LvS")> 
-<Assembly: AssemblyCopyright("Copyright ©2007-2008 Hellenic Open University (www.eap.gr)")> 
+<Assembly: AssemblyCopyright("Copyright ©2007-2012 Hellenic Open University (www.eap.gr), Zoomicon (www.zoomicon.com)")> 
 <Assembly: AssemblyTrademark("LvS")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2.5.3.0")> 
-<Assembly: AssemblyFileVersion("2.5.3.0")> 
+<Assembly: AssemblyVersion("2.5.4.0")> 
+<Assembly: AssemblyFileVersion("2.5.4.0")> 

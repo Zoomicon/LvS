@@ -276,3 +276,47 @@ levis.cti.gr
   - at "RTFDocumentView" class, "Save" method delegates some of its logic to "Export"
 + Text document encoding fix
   - at "ActivityView" class, changed "ImportDocument" to save the imported document using default internal encoding (UTF8) !!!should have encoding detection routine since user may drop text files directly in the activity folder (even when the app isn't running)
+
+* 20111205
+[birbilis]
++ Cleanup
+  - removed unused "copy.gif" and "cut.gif" from resources
++ Installer
+  - at "LvS installer" project, "Detected Dependencies", excluded "wmp.dll" since it's under Windows System File Protection (can't install it on user system, they need to have Windows Media Player [WMP] already installed)
+  - downloaded newer bootstrap packages for .NET (2.0 SP2) from http://msdn.microsoft.com/en-us/vstudio/bb898654.aspx
+
+* 20111206
+[birbilis]
++ Installer
+  - at "LvS installer" project, removed ".NET 2.0" prerequisite and using ".NET 2.0 SP2" (and its "Windows Installer 3.1" dependency)
++ GUI
+  - at "IController" added "FullScreen" property and "FullScreenChanged", "SubtitlesOnChanged" events
+  - at "Controller" 
+    - added toggle button for FullScreen
+    - fixed tab order
+    - added "FullScreenChanged" and "SubtitlesOnChanged" event implementations
+    - at "SubtitlesOn" and "FullScreen" properties not calling player directly but instead throwing an event
+  - at "IPlayer" added "FullScreen" property and "FullScreenChanged" event declarations
+  - at "BasePlayer" added "FullScreen" property and "FullScreenChanged" event implementations and responding to controller's "FullScreenChanged" and "SubtitlesOnChanged" events
+  - at "ActivityView", listening for "FullScreenChanged" event and resizing all splitpanes (1 horizontal and 2 verticals) accordingly, also reseting the respective splitter double-click cycles to default (false vales)
++ Naming conventions
+  - at "DocumentUtils" changed "get" to "Get" at methods' prefix and updated "DocumentsView" and "ActivityView" accordingly
++ Test
+  - changed target for "LvS_utilities_Test" project to ".NET 3.5" (can't use "2.0" there, "3.5 is the min - had "4.0" before there)
+
+* 20111221
+[birbilis]
++ Compiler
+  - changed Compilation Target to ".NET 4 Client Profile" for all projects apart from LvS_utilities_Test" (using .NET 4)
+  - changed LvS installer prerequisites to use ".NET 4 Client Profile" instead of ".NET 2.0"
+
+* 20120116
+[birbilis]
++ Target
+  - removed old CDiese.dll reference and added new one built for .NET Framework 4 (respective solution is in "Libraries\CDiese" subfolder)
+  - changed "LvS" app target to ".NET Framework 4" (instead of ".NET Framework 4 Client Profile"), since "CDiese" uses "System.Design" (for property editors) and requires it
++ Installer
+  - Published "LvS" app via ClickOnce wizard to "Publish" subfolder (see http://codeplex.codeplex.com/wikipage?title=ClickOnce on how to publish to CodePlex as a ClickOnce release)
+  
+ TODO:
+ - Could use Portable Library template (http://visualstudiogallery.msdn.microsoft.com/b0e0b5e9-e138-410b-ad10-00cb3caf49810), but that needs an update though to .NET 4 framework and also don't need to use the libs for other platforms (XBOX, Silverlight, WindowsPhone), but only on Windows
