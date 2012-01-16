@@ -2,11 +2,10 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
-    <PublishUrlHistory>http://localhost/LvS/</PublishUrlHistory>
+    <PublishUrlHistory>http://LvS.codeplex.com/releases/clickonce/|http://localhost/LvS/</PublishUrlHistory>
     <InstallUrlHistory>
     </InstallUrlHistory>
-    <SupportUrlHistory>
-    </SupportUrlHistory>
+    <SupportUrlHistory>http://www.codeplex.com/LvS</SupportUrlHistory>
     <UpdateUrlHistory>
     </UpdateUrlHistory>
     <BootstrapperUrlHistory>

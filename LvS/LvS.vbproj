@@ -24,8 +24,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
-    <PublishUrl>http://LvS.codeplex.com/releases/clickonce/</PublishUrl>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <PublishUrl>Publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -35,14 +37,17 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://LvS.codeplex.com/releases/clickonce/</InstallUrl>
     <SupportUrl>http://www.codeplex.com/LvS</SupportUrl>
     <ProductName>LvS</ProductName>
     <PublisherName>Hellenic Open University</PublisherName>
+    <SuiteName>LeViS</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
-    <UseApplicationTrust>false</UseApplicationTrust>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.5.4.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -84,9 +89,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libraries\BC.Controls.TimeSlider.dll</HintPath>
     </Reference>
-    <Reference Include="CDiese, Version=1.0.2607.34580, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\CDiese.dll</HintPath>
+    <Reference Include="CDiese">
+      <HintPath>..\Libraries\CDiese\bin\Release\CDiese.dll</HintPath>
     </Reference>
     <Reference Include="DevAge.Core, Version=4.0.0.8, Culture=neutral, PublicKeyToken=faad465d84242dbf, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -537,6 +541,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client,KB2468871">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29 and Update for .NET Framework 4 %28KB2468871%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -545,7 +554,7 @@
     <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
       <Visible>False</Visible>
       <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
-      <Install>true</Install>
+      <Install>false</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
       <Visible>False</Visible>
@@ -597,9 +606,7 @@
     <None Include="Resources\control_repeat_blue.png" />
     <None Include="Resources\control_rewind.png" />
     <None Include="Resources\control_rewind_blue.png" />
-    <None Include="Resources\copy.gif" />
     <None Include="Resources\copyAction1.Image.png" />
-    <None Include="Resources\cut.gif" />
     <None Include="Resources\cutAction1.Image.png" />
     <None Include="Resources\flag_blue.gif" />
     <None Include="Resources\flag_green.gif" />

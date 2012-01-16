@@ -83,7 +83,7 @@ Namespace LvS.objects.documents
 
 		Public Function LoadDocument(ByVal source As String, ByVal theTitle As String, ByVal theEncoding As Encoding) As IDocument Implements IDocuments.LoadDocument
 			If IsDocumentLoaded(source) Then Return Nothing
-			Dim d As IDocument = DocumentUtils.getDocumentView(source, theEncoding)
+      Dim d As IDocument = DocumentUtils.GetDocumentView(source, theEncoding)
 			If d IsNot Nothing Then
 				With d
 					.AuthoringMode = AuthoringMode
