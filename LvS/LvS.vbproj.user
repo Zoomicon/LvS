@@ -2,19 +2,17 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ProjectView>ProjectFiles</ProjectView>
-    <PublishUrlHistory>http://LvS.codeplex.com/releases/clickonce/|http://localhost/LvS/</PublishUrlHistory>
-    <InstallUrlHistory>
-    </InstallUrlHistory>
+    <PublishUrlHistory>Publish\|http://LvS.codeplex.com/releases/clickonce/|http://localhost/LvS/</PublishUrlHistory>
+    <InstallUrlHistory>http://LvS.codeplex.com/releases/clickonce/</InstallUrlHistory>
     <SupportUrlHistory>http://www.codeplex.com/LvS</SupportUrlHistory>
     <UpdateUrlHistory>
     </UpdateUrlHistory>
     <BootstrapperUrlHistory>
     </BootstrapperUrlHistory>
     <FallbackCulture>en-US</FallbackCulture>
-    <VerifyUploadedFiles>true</VerifyUploadedFiles>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <EnableSecurityDebugging>false</EnableSecurityDebugging>
-    <ErrorReportUrlHistory>
-    </ErrorReportUrlHistory>
+    <ErrorReportUrlHistory>http://www.codeplex.com/LvS</ErrorReportUrlHistory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>

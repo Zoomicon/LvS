@@ -1,6 +1,6 @@
 ﻿'Description: OpenActivityDialog2 class
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20090309
+'Version: 20120119
 
 Imports System.IO
 Imports System.Windows.Forms
@@ -75,7 +75,7 @@ Namespace LvS.dialogs
 #Region "Methods"
 
 		Private Sub CheckForActivityPath()
-			'EnableOK(LegalPath) 'doesn't work (stack overflow)
+      'TODO 'EnableOK(LegalPath) 'doesn't work (stack overflow)
 		End Sub
 
 #End Region
