@@ -318,5 +318,20 @@ levis.cti.gr
 + Installer
   - Published "LvS" app via ClickOnce wizard to "Publish" subfolder (see http://codeplex.codeplex.com/wikipage?title=ClickOnce on how to publish to CodePlex as a ClickOnce release)
   
- TODO:
- - Could use Portable Library template (http://visualstudiogallery.msdn.microsoft.com/b0e0b5e9-e138-410b-ad10-00cb3caf49810), but that needs an update though to .NET 4 framework and also don't need to use the libs for other platforms (XBOX, Silverlight, WindowsPhone), but only on Windows
+* 20120119
+[birbilis]
++ Installer
+  - ClickOnce file associations:
+    - Set "FilmRoll.ICO" to be copied to output directory (by right clicking on it in Resources) when newer version exists since VisualStudio ClickOnce FileAssociations' browse dialog seems to only allow to select an .ICO, not to an icon resource (.exe or .dll) entry
+    - Set "Full Trust" at "ClickOnce Security Settings" (Security tab of "LvS" project properties - http://msdn.microsoft.com/en-us/library/cc713575%28v=vs.90%29.aspx)
+  - ClickOnce security:
+    - using new temporary key (and not publishing it) for signing the ClickOnce manifests
++ Compilation
+  - At Code Analysis tab of "LvS" project properties, now using custom "CodeAnalysis.ruleset" to suppress design warnings regarding casing of fields (C1709) and Globalization and to show security and other warnings
++ IDE
+  - pinned "History.txt" tab for easy access
+  - at "Error List", untoggled the button "Warnings" (toggle again to see them)
+    
+TODO:
+- Could use Portable Library template (http://visualstudiogallery.msdn.microsoft.com/b0e0b5e9-e138-410b-ad10-00cb3caf49810), but that needs an update though to .NET 4 framework and also don't need to use the libs for other platforms (XBOX, Silverlight, WindowsPhone), but only on Windows
+- check ClickOnce Publish Options (http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&l=EN-US&k=k%28MICROSOFT.VISUALSTUDIO.PUBLISH.CLICKONCEPROVIDER.DIALOG.OPTIONS%29;k%28TargetFrameworkMoniker-%22.NETFRAMEWORK%2cVERSION%3dV4.0%22%29&rd=true)

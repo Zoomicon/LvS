@@ -39,12 +39,14 @@
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://LvS.codeplex.com/releases/clickonce/</InstallUrl>
     <SupportUrl>http://www.codeplex.com/LvS</SupportUrl>
+    <ErrorReportUrl>http://www.codeplex.com/LvS</ErrorReportUrl>
     <ProductName>LvS</ProductName>
     <PublisherName>Hellenic Open University</PublisherName>
     <SuiteName>LeViS</SuiteName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>1</ApplicationRevision>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>2.5.4.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -66,23 +68,30 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <DefineDebug>false</DefineDebug>
-    <DefineTrace>true</DefineTrace>
-    <Optimize>false</Optimize>
+    <DefineTrace>false</DefineTrace>
+    <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>LvS.xml</DocumentationFile>
     <NoWarn>42353,42354,42355</NoWarn>
     <RunCodeAnalysis>true</RunCodeAnalysis>
     <WarningsAsErrors>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42026,42030,42032,42036,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>CodeAnalysis.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6D87D2EC6BA63DE70243F3886E4521DFF2B204AA</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>14EF77823AFB297BC561E4B0962670B536B9C3FB</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>LvS_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>LvS_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>LvS_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BC.Controls.TimeSlider, Version=1.0.2636.1597, Culture=neutral, processorArchitecture=MSIL">
@@ -130,6 +139,7 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GlobalSuppressions.vb" />
     <Compile Include="objects\grid\Comment.designer.vb">
       <DependentUpon>Comment.vb</DependentUpon>
     </Compile>
@@ -518,7 +528,7 @@
   </ItemGroup>
   <ItemGroup>
     <BaseApplicationManifest Include="My Project\app.manifest" />
-    <None Include="LvS_TemporaryKey.pfx" />
+    <None Include="LvS_1_TemporaryKey.pfx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -584,7 +594,9 @@
     <None Include="dialogs\ApplicationDialogs.cd" />
     <None Include="Resources\comment_delete.gif" />
     <None Include="Resources\comment_new.gif" />
-    <None Include="Resources\Filmroll.ICO" />
+    <None Include="Resources\Filmroll.ICO">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Resources\action_go.gif" />
     <None Include="Resources\action_paste.gif" />
     <None Include="Resources\action_print.gif" />
@@ -671,6 +683,14 @@
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".lvs">
+      <Visible>False</Visible>
+      <Description>LvS packed activity</Description>
+      <Progid>LvS/packed activity</Progid>
+      <DefaultIcon>Resources\Filmroll.ICO</DefaultIcon>
+    </FileAssociation>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
