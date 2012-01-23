@@ -329,8 +329,33 @@ levis.cti.gr
 + Compilation
   - At Code Analysis tab of "LvS" project properties, now using custom "CodeAnalysis.ruleset" to suppress design warnings regarding casing of fields (C1709) and Globalization and to show security and other warnings
 + IDE
-  - pinned "History.txt" tab for easy access
+  - pinned "History.txt" tab for easy access (doesn't seem to remember it though)
   - at "Error List", untoggled the button "Warnings" (toggle again to see them)
+
+* 20120121
+[birbilis]
++ Build
+  - removed missing "GlobalSupressions.vb" from "LvS" project (had supressed some warnings but then had deleted the file by hand)
++ Help - include at ClickOnce installation
+  - at "LvS" project:
+    - at "MainForm" class:
+      - added "PARAM_HELP" string constant (="-help")
+      - at "ParseCommandLine" method, calling "ShowHelp" if 1st command-line parameter is equal to PARAM_HELP (ignoring case)
+    - added "Help" subfolder with help contents (moved into subfolder of project "LvS") and set "Build Action = Content" and "Copy to output directory = copy if newer" at properties of all files in it (via Select All, Properties)
+  - at "LvS_installer" project:
+    - removed help files (can't remove from Solution Explorer since Visual Studio crashes, removed using "View/File System" by right clicking the installer project 
+    - at "Application Folder" in "View/File System" added "Project Output/Content Files"
+    - at "User's Program Menu", under "LvS" submenu/subfolder, changed "LvS help" to launch "LvS.exe" with "-help parameter and using "help.ico" for it, copied to application directory from "Resources" subfolder of installer project
+    - at "User's Program Menu", under "LvS" submenu/subfolder, added "Description" (tooltip) for "LvS" and "LvS help" items
+
+* 20120124
+[birbilis]
++ Installer
+  - fixed "LvS installer" project which was crashing Visual Studio 2010 by editing its "LvS installer.vdproj" file by hand (removed file types) and added them again
+  - at "LvS" project, set "Resources/FilmRoll.ICO" to be built as "Content" so that it gets copied to output folder and can be used by ClickOnce for file association icons (can't refer to .exe, possibly Visual Studio ClickOnce dialog or ClickOnce itself's limitation)
+  - at ClickOnce publishing dialog for "LvS" project, at "Options...":
+    - added ".activity" file type for "LvS activity folder", using "LvS.Activity.Folder" as ProgID
+    - using "LvS.Activity.Packed" ProgId for "LvS" filetype (LvS packed activity)
     
 TODO:
 - Could use Portable Library template (http://visualstudiogallery.msdn.microsoft.com/b0e0b5e9-e138-410b-ad10-00cb3caf49810), but that needs an update though to .NET 4 framework and also don't need to use the libs for other platforms (XBOX, Silverlight, WindowsPhone), but only on Windows

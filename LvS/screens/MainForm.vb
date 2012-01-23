@@ -1,6 +1,6 @@
 'Description: MainForm class
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20090310
+'Version: 20120121
 
 #Region "imports"
 
@@ -28,7 +28,8 @@ Namespace LvS.screens
 
 #Region "Constants"
 
-		Public Const FILTER_PACKMULTIMEDIA As Integer = 2	'filter index is 1-based
+    Public Const FILTER_PACKMULTIMEDIA As Integer = 2 'filter index is 1-based
+    Public Const PARAM_HELP As String = "-help"
 
 #End Region
 
@@ -623,15 +624,17 @@ retryParentFolder:
 
 		Public Overloads Sub ParseCommandLine(ByVal arguments As ReadOnlyCollection(Of String))
 			With arguments
-				If .Count > 0 Then
-					Dim param0 As String = .Item(0)
-					If ActivityView.IsPackedActivityFile(param0) Then
-						ImportPackedActivity(param0)	'treat first command-line parameter as a packed activity file
-					Else
-						LoadActivity(param0)	'treat first command-line parameter as an activity folder
-					End If
-				End If
-			End With
+        If .Count > 0 Then
+          Dim param0 As String = .Item(0)
+          If param0.Equals(PARAM_HELP, StringComparison.InvariantCultureIgnoreCase) Then
+            ShowHelp()
+          ElseIf ActivityView.IsPackedActivityFile(param0) Then
+            ImportPackedActivity(param0)  'treat first command-line parameter as a packed activity file
+          Else
+            LoadActivity(param0)  'treat first command-line parameter as an activity folder
+          End If
+        End If
+      End With
 		End Sub
 
 		Private Sub ShowLanguageSelection()
