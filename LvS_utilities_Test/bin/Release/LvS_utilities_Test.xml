@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LvS_utilities_Test
+</name>
+</assembly>
+<members>
+<member name="P:LvS_utilities_Test.SubtitleUtilsTest.TestContext">
+	<summary>
+Gets or sets test context which provides
+information about and functionality for current test run
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Read_TTS_Test">
+	<summary>
+TTS read test
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Write_TTS_Test">
+	<summary>
+TTS write test
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Read_TTS_UTF8_Test">
+	<summary>
+TTS read test (UTF8)
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Write_TTS_UTF8_Test">
+	<summary>
+TTS write test (UTF8)
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Read_SRT_Test">
+	<summary>
+SRT read test
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Write_SRT_Test">
+	<summary>
+SRT write test
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Read_SRT_UTF8_Test">
+	<summary>
+SRT read test (UTF8)
+</summary>
+</member><member name="M:LvS_utilities_Test.SubtitleUtilsTest.Write_SRT_UTF8_Test">
+	<summary>
+SRT write test (UTF8)
+</summary>
+</member><member name="T:LvS_utilities_Test.SubtitleUtilsTest">
+	<summary>
+This is a test class for SubtitleUtilsTest and is intended
+to contain all SubtitleUtilsTest tests
+</summary>
+</member>
+</members>
+</doc>

@@ -1,6 +1,6 @@
 'Description: BasePlayer class
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20111206
+'Version: 20120912
 
 Imports System.ComponentModel
 Imports LvS.models.player
@@ -251,7 +251,7 @@ Namespace LvS.objects.players
       If Rate() = 0 Then
         Rate = rateFaster
       Else
-        Rate = rateFaster * Math.Sign(Rate)
+        Rate = rateFaster * Math.Sign(Rate) 'TODO: should probably change this logic to increment whatever current rate by a value (say 0.3) till some max limit
       End If
     End Sub
 
@@ -259,7 +259,7 @@ Namespace LvS.objects.players
       If Rate() = 0 Then
         Rate = rateSlower
       Else
-        Rate = rateSlower * Math.Sign(Rate)
+        Rate = rateSlower * Math.Sign(Rate) 'TODO: should probably change this logic to decrement whatever current rate by a value (say -0.3) till some min limit (say 0.01)
       End If
     End Sub
 

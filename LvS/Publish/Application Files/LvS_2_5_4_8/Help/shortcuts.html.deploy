@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> Shortcuts </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">LvS version 2.0 TUTORIAL</a></div>
+<div><a href="what_is_lvs.html" class="withChild">What is LVS?</a></div>
+<div><a href="getting_started.html" class="withChild">Getting started</a></div>
+<div><a href="lvs_one_by_one.html" class="withChild">LvS one by one</a></div>
+<div id="subnav" class="withChild">
+<div><a href="creating_activities.html" class="withChild">Creating activities</a></div>
+<div><a href="creating_subtitles.html" class="withChild">Creating subtitles</a></div>
+<div><a href="removing_subtitles.html" class="withoutChild">Removing subtitles</a></div>
+<div><a href="notes_and_comments_area.html" class="withChild">Notes and Comments area</a></div>
+<div><a href="exporting_activity_elements.html" class="withoutChild">Exporting activity elements</a></div>
+<div id="active" class="withoutChild">Shortcuts</div>
+</div>
+<div><a href="glossary.html" class="withoutChild">Glossary</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">Shortcuts</p></div>
+<div class="iDevice emphasis0">
+<div id="ta96_1" class="block" style="display:block"><p>
+F1 = Help
+</p>
+<p>
+F2 = Save
+</p>
+<p>
+F3 = Open activity
+</p>
+<p>
+F4 = New activity 
+</p>
+<p>
+F5 = Play/Pause
+</p>
+<p>
+F6 = Set subtitle start
+</p>
+<p>
+F7 = Set subtitle end
+</p>
+<p>
+F8 = Add subtitle
+</p>
+<p>
+F9 = Remove subtitle
+</p>
+<p>
+F10 = Open menu 
+</p>
+<p>
+F11 = Authoring mode (activate/deactivate) 
+</p>
+<p>
+F12 = Exit application or Alt+F4
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+</div></div>
+<div class="noprt" align="right"><a href="exporting_activity_elements.html">&laquo; Previous</a> | <a href="glossary.html"> Next &raquo;</a></div>
+</div>
+</div>
+</body></html>

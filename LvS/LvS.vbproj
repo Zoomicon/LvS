@@ -46,8 +46,7 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>9</ApplicationRevision>
     <ApplicationVersion>2.5.4.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -74,16 +73,16 @@
     <OutputPath>bin\Release\</OutputPath>
     <DocumentationFile>LvS.xml</DocumentationFile>
     <NoWarn>42353,42354,42355</NoWarn>
-    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
     <WarningsAsErrors>41998,41999,42004,42016,42017,42018,42019,42020,42021,42022,42026,42030,42032,42036,42104,42105,42106,42107,42108,42109</WarningsAsErrors>
     <CodeAnalysisRuleSet>CodeAnalysis.ruleset</CodeAnalysisRuleSet>
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>14EF77823AFB297BC561E4B0962670B536B9C3FB</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>C699C1AEEBF20EDB88EB06FDA59284D784220299</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>LvS_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>LvS_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
@@ -92,7 +91,8 @@
     <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>LvS_1_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BC.Controls.TimeSlider, Version=1.0.2636.1597, Culture=neutral, processorArchitecture=MSIL">
@@ -528,7 +528,7 @@
   </ItemGroup>
   <ItemGroup>
     <BaseApplicationManifest Include="My Project\app.manifest" />
-    <None Include="LvS_1_TemporaryKey.pfx" />
+    <None Include="LvS_TemporaryKey.pfx" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -1081,6 +1081,20 @@
     <None Include="Resources\note.gif" />
   </ItemGroup>
   <ItemGroup>
+    <FileAssociation Include=".activity">
+      <Visible>False</Visible>
+      <Description>LvS activity folder</Description>
+      <Progid>LvS.Activity.Folder</Progid>
+      <DefaultIcon>Resources\Filmroll.ICO</DefaultIcon>
+    </FileAssociation>
+    <FileAssociation Include=".LvS">
+      <Visible>False</Visible>
+      <Description>LvS packed activity</Description>
+      <Progid>LvS.Activity.Packed</Progid>
+      <DefaultIcon>Resources\Filmroll.ICO</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
     <COMReference Include="AxWMPLib">
       <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
       <VersionMajor>1</VersionMajor>
@@ -1096,21 +1110,8 @@
       <Lcid>0</Lcid>
       <WrapperTool>tlbimp</WrapperTool>
       <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <FileAssociation Include=".activity">
-      <Visible>False</Visible>
-      <Description>LvS activity folder</Description>
-      <Progid>LvS.Activity.Folder</Progid>
-      <DefaultIcon>Resources\Filmroll.ICO</DefaultIcon>
-    </FileAssociation>
-    <FileAssociation Include=".LvS">
-      <Visible>False</Visible>
-      <Description>LvS packed activity</Description>
-      <Progid>LvS.Activity.Packed</Progid>
-      <DefaultIcon>Resources\Filmroll.ICO</DefaultIcon>
-    </FileAssociation>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
