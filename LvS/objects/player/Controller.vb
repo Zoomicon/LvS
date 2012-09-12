@@ -1,6 +1,6 @@
 ﻿'Description: Controller class
 'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20111206
+'Version: 20120912
 
 Imports System.ComponentModel
 Imports LvS.models.player
@@ -192,11 +192,11 @@ Namespace LvS.objects.controllers
       FastForward()
     End Sub
 
-    Private Sub btnSlower_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub btnSlower_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSlower.Click
       Slower()
     End Sub
 
-    Private Sub btnFaster_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub btnFaster_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnFaster.Click
       Faster()
     End Sub
 

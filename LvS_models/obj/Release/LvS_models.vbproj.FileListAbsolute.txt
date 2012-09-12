@@ -1,0 +1,10 @@
+C:\Dropbox\LeViS\LvS_Source\LvS_models\bin\Release\LvS_models.dll
+C:\Dropbox\LeViS\LvS_Source\LvS_models\bin\Release\LvS_models.pdb
+C:\Dropbox\LeViS\LvS_Source\LvS_models\bin\Release\LvS_models.xml
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\ResolveAssemblyReference.cache
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\Resources.resources
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\GenerateResource.read.1.tlog
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\GenerateResource.write.1.tlog
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\LvS_models.dll
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\LvS_models.xml
+C:\Dropbox\LeViS\LvS_Source\LvS_models\obj\Release\LvS_models.pdb
