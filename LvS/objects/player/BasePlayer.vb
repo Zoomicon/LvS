@@ -1,6 +1,7 @@
+'Project: LvS (http://LvS.codeplex.com)
 'Description: BasePlayer class
-'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20120912
+'Authors: George Birbilis (http://zoomicon.com)
+'Version: 20121011
 
 Imports System.ComponentModel
 Imports LvS.models.player
@@ -105,7 +106,7 @@ Namespace LvS.objects.players
         Return ControllerBar.FullScreen
       End Get
       Set(value As Boolean)
-        ControllerBar.FullScreen = True 'that one checks internally if set to same value and doesn't throw change event again (which would cause spurious loop here)
+        ControllerBar.FullScreen = value 'that one checks internally if set to same value and doesn't throw change event again (which would cause spurious loop here)
         RaiseEvent FullScreenChanged(Me, value) 'always raise the event, don't compare value with FullScreen property since it calls ControllerBar and would always be equal when this is called due to ControllerBar's FullScreenChanged event firing
       End Set
     End Property
