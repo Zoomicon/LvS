@@ -25,8 +25,6 @@
 		<System.Diagnostics.DebuggerStepThrough()> _
 		Private Sub InitializeComponent()
       Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ActivityView))
-      Me.splitLeftVertically = New System.Windows.Forms.SplitContainer()
-      Me.viewPlayer = New LvS.objects.players.WMP()
       Me.ToolStripContainer1 = New System.Windows.Forms.ToolStripContainer()
       Me.viewSubtitles = New LvS.objects.subtitles.SubtitlesGrid()
       Me.toolstripSubtitles = New System.Windows.Forms.ToolStrip()
@@ -34,6 +32,9 @@
       Me.btnRemoveSubtitle = New System.Windows.Forms.ToolStripButton()
       Me.btnSetSubtitleStart = New System.Windows.Forms.ToolStripButton()
       Me.btnSetSubtitleEnd = New System.Windows.Forms.ToolStripButton()
+      Me.splitLeftVertically = New System.Windows.Forms.SplitContainer()
+      Me.viewPlayer = New LvS.objects.players.WMP()
+      Me.splitHorizontally = New System.Windows.Forms.SplitContainer()
       Me.splitRightVertically = New System.Windows.Forms.SplitContainer()
       Me.viewDocuments = New LvS.objects.documents.DocumentsView()
       Me.imgLogo = New System.Windows.Forms.PictureBox()
@@ -42,14 +43,19 @@
       Me.viewTeacherNotes = New LvS.objects.notes.Notes()
       Me.tabNotesStudent = New System.Windows.Forms.TabPage()
       Me.viewStudentNotes = New LvS.objects.notes.Notes()
-      Me.splitHorizontally = New System.Windows.Forms.SplitContainer()
-      Me.splitLeftVertically.Panel1.SuspendLayout()
-      Me.splitLeftVertically.Panel2.SuspendLayout()
-      Me.splitLeftVertically.SuspendLayout()
       Me.ToolStripContainer1.ContentPanel.SuspendLayout()
       Me.ToolStripContainer1.TopToolStripPanel.SuspendLayout()
       Me.ToolStripContainer1.SuspendLayout()
       Me.toolstripSubtitles.SuspendLayout()
+      CType(Me.splitLeftVertically, System.ComponentModel.ISupportInitialize).BeginInit()
+      Me.splitLeftVertically.Panel1.SuspendLayout()
+      Me.splitLeftVertically.Panel2.SuspendLayout()
+      Me.splitLeftVertically.SuspendLayout()
+      CType(Me.splitHorizontally, System.ComponentModel.ISupportInitialize).BeginInit()
+      Me.splitHorizontally.Panel1.SuspendLayout()
+      Me.splitHorizontally.Panel2.SuspendLayout()
+      Me.splitHorizontally.SuspendLayout()
+      CType(Me.splitRightVertically, System.ComponentModel.ISupportInitialize).BeginInit()
       Me.splitRightVertically.Panel1.SuspendLayout()
       Me.splitRightVertically.Panel2.SuspendLayout()
       Me.splitRightVertically.SuspendLayout()
@@ -57,46 +63,7 @@
       Me.tabNotes.SuspendLayout()
       Me.tabNotesTeacher.SuspendLayout()
       Me.tabNotesStudent.SuspendLayout()
-      Me.splitHorizontally.Panel1.SuspendLayout()
-      Me.splitHorizontally.Panel2.SuspendLayout()
-      Me.splitHorizontally.SuspendLayout()
       Me.SuspendLayout()
-      '
-      'splitLeftVertically
-      '
-      Me.splitLeftVertically.BackColor = System.Drawing.Color.Transparent
-      resources.ApplyResources(Me.splitLeftVertically, "splitLeftVertically")
-      Me.splitLeftVertically.Name = "splitLeftVertically"
-      '
-      'splitLeftVertically.Panel1
-      '
-      Me.splitLeftVertically.Panel1.Controls.Add(Me.viewPlayer)
-      resources.ApplyResources(Me.splitLeftVertically.Panel1, "splitLeftVertically.Panel1")
-      '
-      'splitLeftVertically.Panel2
-      '
-      Me.splitLeftVertically.Panel2.Controls.Add(Me.ToolStripContainer1)
-      resources.ApplyResources(Me.splitLeftVertically.Panel2, "splitLeftVertically.Panel2")
-      '
-      'viewPlayer
-      '
-      Me.viewPlayer.AudioOn = True
-      Me.viewPlayer.AudioVolume = 1.0R
-      Me.viewPlayer.BackColor = System.Drawing.Color.Black
-      resources.ApplyResources(Me.viewPlayer, "viewPlayer")
-      Me.viewPlayer.FullScreen = False
-      Me.viewPlayer.Name = "viewPlayer"
-      Me.viewPlayer.Paused = True
-      Me.viewPlayer.Rate = 0.0R
-      Me.viewPlayer.SelectionEndTime = 0.0R
-      Me.viewPlayer.SelectionStartTime = 0.0R
-      Me.viewPlayer.SpeedControlsVisible = False
-      Me.viewPlayer.Subtitle1 = ""
-      Me.viewPlayer.Subtitle2 = ""
-      Me.viewPlayer.SubtitleFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
-      Me.viewPlayer.SubtitlesOn = True
-      Me.viewPlayer.Time = 0.0R
-      Me.viewPlayer.VideoOn = True
       '
       'ToolStripContainer1
       '
@@ -119,6 +86,7 @@
       '
       'viewSubtitles
       '
+      Me.viewSubtitles.BackColor = System.Drawing.Color.White
       Me.viewSubtitles.ColumnEndTimeVisible = False
       resources.ApplyResources(Me.viewSubtitles, "viewSubtitles")
       Me.viewSubtitles.Encoding = Nothing
@@ -161,6 +129,56 @@
       resources.ApplyResources(Me.btnSetSubtitleEnd, "btnSetSubtitleEnd")
       Me.btnSetSubtitleEnd.Name = "btnSetSubtitleEnd"
       '
+      'splitLeftVertically
+      '
+      Me.splitLeftVertically.BackColor = System.Drawing.Color.Transparent
+      resources.ApplyResources(Me.splitLeftVertically, "splitLeftVertically")
+      Me.splitLeftVertically.Name = "splitLeftVertically"
+      '
+      'splitLeftVertically.Panel1
+      '
+      Me.splitLeftVertically.Panel1.Controls.Add(Me.viewPlayer)
+      '
+      'splitLeftVertically.Panel2
+      '
+      Me.splitLeftVertically.Panel2.Controls.Add(Me.ToolStripContainer1)
+      '
+      'viewPlayer
+      '
+      Me.viewPlayer.AudioOn = True
+      Me.viewPlayer.AudioVolume = 1.0R
+      Me.viewPlayer.BackColor = System.Drawing.Color.Black
+      Me.viewPlayer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+      resources.ApplyResources(Me.viewPlayer, "viewPlayer")
+      Me.viewPlayer.FullScreen = False
+      Me.viewPlayer.Name = "viewPlayer"
+      Me.viewPlayer.Paused = True
+      Me.viewPlayer.Rate = 0.0R
+      Me.viewPlayer.SelectionEndTime = 0.0R
+      Me.viewPlayer.SelectionStartTime = 0.0R
+      Me.viewPlayer.SpeedControlsVisible = False
+      Me.viewPlayer.Subtitle1 = ""
+      Me.viewPlayer.Subtitle2 = ""
+      Me.viewPlayer.SubtitleFont = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(161, Byte))
+      Me.viewPlayer.SubtitlesOn = True
+      Me.viewPlayer.Time = 0.0R
+      Me.viewPlayer.VideoOn = True
+      '
+      'splitHorizontally
+      '
+      Me.splitHorizontally.BackColor = System.Drawing.Color.Transparent
+      resources.ApplyResources(Me.splitHorizontally, "splitHorizontally")
+      Me.splitHorizontally.Name = "splitHorizontally"
+      '
+      'splitHorizontally.Panel1
+      '
+      Me.splitHorizontally.Panel1.Controls.Add(Me.splitLeftVertically)
+      '
+      'splitHorizontally.Panel2
+      '
+      Me.splitHorizontally.Panel2.BackColor = System.Drawing.Color.Transparent
+      Me.splitHorizontally.Panel2.Controls.Add(Me.splitRightVertically)
+      '
       'splitRightVertically
       '
       resources.ApplyResources(Me.splitRightVertically, "splitRightVertically")
@@ -170,17 +188,16 @@
       '
       Me.splitRightVertically.Panel1.Controls.Add(Me.viewDocuments)
       Me.splitRightVertically.Panel1.Controls.Add(Me.imgLogo)
-      resources.ApplyResources(Me.splitRightVertically.Panel1, "splitRightVertically.Panel1")
       '
       'splitRightVertically.Panel2
       '
       Me.splitRightVertically.Panel2.Controls.Add(Me.tabNotes)
-      resources.ApplyResources(Me.splitRightVertically.Panel2, "splitRightVertically.Panel2")
       '
       'viewDocuments
       '
       Me.viewDocuments.AuthoringMode = False
       Me.viewDocuments.BackColor = System.Drawing.Color.Transparent
+      Me.viewDocuments.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
       resources.ApplyResources(Me.viewDocuments, "viewDocuments")
       Me.viewDocuments.Modified = False
       Me.viewDocuments.Name = "viewDocuments"
@@ -188,6 +205,7 @@
       '
       'imgLogo
       '
+      Me.imgLogo.BackColor = System.Drawing.Color.OldLace
       resources.ApplyResources(Me.imgLogo, "imgLogo")
       Me.imgLogo.Image = Global.My.Resources.Resources.logonew01_800x600_outline
       Me.imgLogo.Name = "imgLogo"
@@ -227,21 +245,6 @@
       resources.ApplyResources(Me.viewStudentNotes, "viewStudentNotes")
       Me.viewStudentNotes.Name = "viewStudentNotes"
       '
-      'splitHorizontally
-      '
-      Me.splitHorizontally.BackColor = System.Drawing.Color.Transparent
-      resources.ApplyResources(Me.splitHorizontally, "splitHorizontally")
-      Me.splitHorizontally.Name = "splitHorizontally"
-      '
-      'splitHorizontally.Panel1
-      '
-      Me.splitHorizontally.Panel1.Controls.Add(Me.splitLeftVertically)
-      '
-      'splitHorizontally.Panel2
-      '
-      Me.splitHorizontally.Panel2.BackColor = System.Drawing.Color.Transparent
-      Me.splitHorizontally.Panel2.Controls.Add(Me.splitRightVertically)
-      '
       'ActivityView
       '
       resources.ApplyResources(Me, "$this")
@@ -249,9 +252,6 @@
       Me.BackColor = System.Drawing.Color.Transparent
       Me.Controls.Add(Me.splitHorizontally)
       Me.Name = "ActivityView"
-      Me.splitLeftVertically.Panel1.ResumeLayout(False)
-      Me.splitLeftVertically.Panel2.ResumeLayout(False)
-      Me.splitLeftVertically.ResumeLayout(False)
       Me.ToolStripContainer1.ContentPanel.ResumeLayout(False)
       Me.ToolStripContainer1.TopToolStripPanel.ResumeLayout(False)
       Me.ToolStripContainer1.TopToolStripPanel.PerformLayout()
@@ -259,16 +259,22 @@
       Me.ToolStripContainer1.PerformLayout()
       Me.toolstripSubtitles.ResumeLayout(False)
       Me.toolstripSubtitles.PerformLayout()
+      Me.splitLeftVertically.Panel1.ResumeLayout(False)
+      Me.splitLeftVertically.Panel2.ResumeLayout(False)
+      CType(Me.splitLeftVertically, System.ComponentModel.ISupportInitialize).EndInit()
+      Me.splitLeftVertically.ResumeLayout(False)
+      Me.splitHorizontally.Panel1.ResumeLayout(False)
+      Me.splitHorizontally.Panel2.ResumeLayout(False)
+      CType(Me.splitHorizontally, System.ComponentModel.ISupportInitialize).EndInit()
+      Me.splitHorizontally.ResumeLayout(False)
       Me.splitRightVertically.Panel1.ResumeLayout(False)
       Me.splitRightVertically.Panel2.ResumeLayout(False)
+      CType(Me.splitRightVertically, System.ComponentModel.ISupportInitialize).EndInit()
       Me.splitRightVertically.ResumeLayout(False)
       CType(Me.imgLogo, System.ComponentModel.ISupportInitialize).EndInit()
       Me.tabNotes.ResumeLayout(False)
       Me.tabNotesTeacher.ResumeLayout(False)
       Me.tabNotesStudent.ResumeLayout(False)
-      Me.splitHorizontally.Panel1.ResumeLayout(False)
-      Me.splitHorizontally.Panel2.ResumeLayout(False)
-      Me.splitHorizontally.ResumeLayout(False)
       Me.ResumeLayout(False)
 
     End Sub

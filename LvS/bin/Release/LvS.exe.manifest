@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
-  <asmv1:assemblyIdentity name="LvS.exe" version="2.5.4.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="LvS.exe" version="2.5.4.9" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="Resources\Filmroll.ICO" asmv2:publisher="Hellenic Open University" co.v1:suiteName="LeViS" asmv2:product="LvS" asmv2:supportUrl="http://www.codeplex.com/LvS" co.v1:errorReportUrl="http://www.codeplex.com/LvS" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -164,14 +164,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LvS.exe" size="674816">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LvS.exe" size="677376">
       <assemblyIdentity name="LvS" version="2.5.4.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>HVs58xBdRVU2mN0vOvDxHOKoG/U=</dsig:DigestValue>
+        <dsig:DigestValue>spXPo5dkHl+QCCWWeJVGMF++ZdI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -183,7 +183,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Knv9NXBuujA+Wio3ynf0kNG1EFo=</dsig:DigestValue>
+        <dsig:DigestValue>HtWTuO0U5GWM7c9kXxXpfHzuIDM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -195,7 +195,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Ct/2YhhFvDWmSr5O+Y+D0VO0low=</dsig:DigestValue>
+        <dsig:DigestValue>HxpO6M/qGkuK94jERWe74DtRk4A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -207,7 +207,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JEFsbRysyX+r4mcDMc70+QY/FyA=</dsig:DigestValue>
+        <dsig:DigestValue>Zq983J0Ahh66sEarEWRup5y+Wx0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -219,7 +219,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>BsUeazs4geTv/EG5HGs3cjj9R+I=</dsig:DigestValue>
+        <dsig:DigestValue>y1B5b4ktlSia7nTHPq4qldqPJBE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -231,7 +231,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>NIgMy6sc/TfwHtWf2fKdCMMb+vY=</dsig:DigestValue>
+        <dsig:DigestValue>lebB0Choj6R0AyFUNA7n7p+l4QE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -243,7 +243,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>xk7ySBKc41lyb6Kd0hXTjZB1fY4=</dsig:DigestValue>
+        <dsig:DigestValue>wKC2rlwn/kl6i1eN8eOV84PpFmI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -255,7 +255,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>O9DacP8reajuZdo8dY9UTrJkowk=</dsig:DigestValue>
+        <dsig:DigestValue>f9l8sWcuQMrR8wS8/FzK/bQTmKo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -267,7 +267,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>P0qQAUcwFYXKbSOMy4Q7LhCbCrQ=</dsig:DigestValue>
+        <dsig:DigestValue>7LDlzpNjnU/opUkcXjs61zZaByU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1574,6 +1574,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
       <dsig:DigestValue>ahdNz2mQO4YvWi6/2LeRdwxqXZQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\splitter.png" size="133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>kojomiXMJu59n4T4dtxSUIk0LJY=</dsig:DigestValue>
     </hash>
   </file>
   <fileAssociation extension=".activity" description="LvS activity folder" progid="LvS.Activity.Folder" defaultIcon="Resources\Filmroll.ICO" xmlns="urn:schemas-microsoft-com:clickonce.v1" />
