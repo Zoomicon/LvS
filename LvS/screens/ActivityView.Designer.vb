@@ -166,7 +166,6 @@
       '
       'splitHorizontally
       '
-      Me.splitHorizontally.BackColor = System.Drawing.Color.Transparent
       resources.ApplyResources(Me.splitHorizontally, "splitHorizontally")
       Me.splitHorizontally.Name = "splitHorizontally"
       '
@@ -249,7 +248,6 @@
       '
       resources.ApplyResources(Me, "$this")
       Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-      Me.BackColor = System.Drawing.Color.Transparent
       Me.Controls.Add(Me.splitHorizontally)
       Me.Name = "ActivityView"
       Me.ToolStripContainer1.ContentPanel.ResumeLayout(False)

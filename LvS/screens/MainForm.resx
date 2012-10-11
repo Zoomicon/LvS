@@ -426,168 +426,6 @@
   <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
-  <data name="MruActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="MruActivityToolStripMenuItem.Text" xml:space="preserve">
-    <value>mruActivity</value>
-  </data>
-  <data name="MruActivityToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuOpenActivity.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
-    <value>Fuchsia</value>
-  </data>
-  <data name="mnuOpenActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
-  </data>
-  <data name="mnuOpenActivity.Text" xml:space="preserve">
-    <value>&amp;Open activity</value>
-  </data>
-  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
-  </data>
-  <data name="MruPackedActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 22</value>
-  </data>
-  <data name="MruPackedActivityToolStripMenuItem.Text" xml:space="preserve">
-    <value>mruPackedActivity</value>
-  </data>
-  <data name="MruPackedActivityToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuImportPackedActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="mnuImportPackedActivity.Text" xml:space="preserve">
-    <value>&amp;Packed activity</value>
-  </data>
-  <data name="mnuImportSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 6</value>
-  </data>
-  <data name="MruVideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 22</value>
-  </data>
-  <data name="MruVideoToolStripMenuItem.Text" xml:space="preserve">
-    <value>mruVideo</value>
-  </data>
-  <data name="MruVideoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuImportVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="mnuImportVideo.Text" xml:space="preserve">
-    <value>&amp;Video</value>
-  </data>
-  <data name="MruAudioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 22</value>
-  </data>
-  <data name="MruAudioToolStripMenuItem.Text" xml:space="preserve">
-    <value>mruAudio</value>
-  </data>
-  <data name="MruAudioToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuImportAudio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="mnuImportAudio.Text" xml:space="preserve">
-    <value>&amp;Audio</value>
-  </data>
-  <data name="mnuImportAudio.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="MruSubtitlesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 22</value>
-  </data>
-  <data name="MruSubtitlesToolStripMenuItem.Text" xml:space="preserve">
-    <value>mruSubtitles</value>
-  </data>
-  <data name="MruSubtitlesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuImportSubtitles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="mnuImportSubtitles.Text" xml:space="preserve">
-    <value>&amp;Subtitles</value>
-  </data>
-  <data name="MruDocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 22</value>
-  </data>
-  <data name="MruDocumentToolStripMenuItem.Text" xml:space="preserve">
-    <value>mruDocument</value>
-  </data>
-  <data name="MruDocumentToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuImportDocument.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 22</value>
-  </data>
-  <data name="mnuImportDocument.Text" xml:space="preserve">
-    <value>&amp;Document</value>
-  </data>
-  <data name="mnuImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
-  </data>
-  <data name="mnuImport.Text" xml:space="preserve">
-    <value>&amp;Import</value>
-  </data>
-  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 6</value>
-  </data>
-  <data name="VideoToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="VideoToolStripMenuItem1.Text" xml:space="preserve">
-    <value>&amp;Video...</value>
-  </data>
-  <data name="VideoToolStripMenuItem1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="AudioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="AudioToolStripMenuItem1.Text" xml:space="preserve">
-    <value>&amp;Audio...</value>
-  </data>
-  <data name="AudioToolStripMenuItem1.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="mnuExport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 22</value>
-  </data>
-  <data name="mnuExport.Text" xml:space="preserve">
-    <value>&amp;Export</value>
-  </data>
-  <data name="mnuPrintSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
-  </data>
-  <data name="FileMenuSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 6</value>
-  </data>
-  <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 20</value>
-  </data>
-  <data name="mnuFile.Text" xml:space="preserve">
-    <value>&amp;File</value>
-  </data>
-  <data name="mnuOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 20</value>
-  </data>
-  <data name="mnuOptions.Text" xml:space="preserve">
-    <value>&amp;Options</value>
-  </data>
-  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>215, 6</value>
-  </data>
-  <data name="mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 20</value>
-  </data>
-  <data name="mnuHelp.Text" xml:space="preserve">
-    <value>&amp;Help</value>
-  </data>
   <data name="MenuStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -612,12 +450,171 @@
   <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="mnuFile.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="mnuOpenActivity.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Fuchsia</value>
+  </data>
+  <data name="mnuOpenActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuOpenActivity.Text" xml:space="preserve">
+    <value>&amp;Open activity</value>
+  </data>
+  <data name="MruActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="MruActivityToolStripMenuItem.Text" xml:space="preserve">
+    <value>mruActivity</value>
+  </data>
+  <data name="MruActivityToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="mnuImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuImport.Text" xml:space="preserve">
+    <value>&amp;Import</value>
+  </data>
+  <data name="mnuImportPackedActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuImportPackedActivity.Text" xml:space="preserve">
+    <value>&amp;Packed activity</value>
+  </data>
+  <data name="MruPackedActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 22</value>
+  </data>
+  <data name="MruPackedActivityToolStripMenuItem.Text" xml:space="preserve">
+    <value>mruPackedActivity</value>
+  </data>
+  <data name="MruPackedActivityToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuImportSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 6</value>
+  </data>
+  <data name="mnuImportVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuImportVideo.Text" xml:space="preserve">
+    <value>&amp;Video</value>
+  </data>
+  <data name="MruVideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="MruVideoToolStripMenuItem.Text" xml:space="preserve">
+    <value>mruVideo</value>
+  </data>
+  <data name="MruVideoToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuImportAudio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuImportAudio.Text" xml:space="preserve">
+    <value>&amp;Audio</value>
+  </data>
+  <data name="mnuImportAudio.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="MruAudioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 22</value>
+  </data>
+  <data name="MruAudioToolStripMenuItem.Text" xml:space="preserve">
+    <value>mruAudio</value>
+  </data>
+  <data name="MruAudioToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuImportSubtitles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuImportSubtitles.Text" xml:space="preserve">
+    <value>&amp;Subtitles</value>
+  </data>
+  <data name="MruSubtitlesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 22</value>
+  </data>
+  <data name="MruSubtitlesToolStripMenuItem.Text" xml:space="preserve">
+    <value>mruSubtitles</value>
+  </data>
+  <data name="MruSubtitlesToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuImportDocument.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 22</value>
+  </data>
+  <data name="mnuImportDocument.Text" xml:space="preserve">
+    <value>&amp;Document</value>
+  </data>
+  <data name="MruDocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 22</value>
+  </data>
+  <data name="MruDocumentToolStripMenuItem.Text" xml:space="preserve">
+    <value>mruDocument</value>
+  </data>
+  <data name="MruDocumentToolStripMenuItem.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 22</value>
+  </data>
+  <data name="mnuExport.Text" xml:space="preserve">
+    <value>&amp;Export</value>
+  </data>
+  <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 6</value>
+  </data>
+  <data name="VideoToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="VideoToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Video...</value>
+  </data>
+  <data name="VideoToolStripMenuItem1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="AudioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 22</value>
+  </data>
+  <data name="AudioToolStripMenuItem1.Text" xml:space="preserve">
+    <value>&amp;Audio...</value>
+  </data>
+  <data name="AudioToolStripMenuItem1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mnuPrintSeparator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="FileMenuSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 6</value>
+  </data>
+  <data name="mnuOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 20</value>
+  </data>
+  <data name="mnuOptions.Text" xml:space="preserve">
+    <value>&amp;Options</value>
+  </data>
+  <data name="mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="mnuHelp.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>215, 6</value>
+  </data>
   <metadata name="StatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
-  <data name="statusMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
-  </data>
   <data name="StatusStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -641,6 +638,9 @@
   </data>
   <data name="&gt;&gt;StatusStrip.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="statusMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
   </data>
   <metadata name="dlgImportVideo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>425, 54</value>
