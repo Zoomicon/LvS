@@ -1,6 +1,7 @@
-﻿'Description: ActivityView class
-'Authors: George Birbilis (birbilis@kagi.com)
-'Version: 20111206
+﻿'Project: LvS (http://LvS.codeplex.com)
+'Description: ActivityView class
+'Authors: George Birbilis (http://zoomicon.com)
+'Version: 20121011
 
 #Region "Imports"
 
@@ -138,6 +139,14 @@ Namespace LvS.screens
       End Get
     End Property
 
+    Public WriteOnly Property IsSplittersFixed As Boolean
+      Set(value As Boolean)
+        splitHorizontally.IsSplitterFixed = value
+        splitLeftVertically.IsSplitterFixed = value
+        splitRightVertically.IsSplitterFixed = value
+      End Set
+    End Property
+
 #End Region
 
 #Region "Methods"
@@ -150,6 +159,7 @@ Namespace LvS.screens
       Player.SubtitleFont = New Font(My.Settings.SubtitlesFontFamily, My.Settings.SubtitlesFontSize, CType(My.Settings.SubtitlesFontStyle, FontStyle))
       CheckSubtitleButtonsEnabled()
       SetNotesSubtitles()
+      'no need to call CenterSplitters() here, player sets fullscreen to false by default and event handler viewPlayer_FullScreenChanged calls it
     End Sub
 
     Public Sub New(ByVal theActivityPath As String)
@@ -455,30 +465,45 @@ Namespace LvS.screens
     Protected splitLeftVertically_DoubleClickToLeft As Boolean
     Protected splitRightVertically_DoubleClickToLeft As Boolean
 
+    Private Sub CenterSplitters()
+      ResetSplitDoubleClickCycles()
+      IsSplittersFixed = False
+      splitHorizontally.SplitterDistance = CInt(splitHorizontally.ClientSize.Width / 2)
+      splitLeftVertically.SplitterDistance = CInt(splitLeftVertically.ClientSize.Height / 2)
+      splitRightVertically.SplitterDistance = CInt(splitHorizontally.ClientSize.Height / 2)
+    End Sub
+
+    Private Sub MaximizePlayer()
+      ResetSplitDoubleClickCycles()
+      IsSplittersFixed = True
+      splitHorizontally.SplitterDistance = splitHorizontally.ClientSize.Width
+      splitLeftVertically.SplitterDistance = splitLeftVertically.ClientSize.Height
+    End Sub
+
     Private Sub ResetSplitDoubleClickCycles()
       splitHorizontally_DoubleClickToUp = False
       splitLeftVertically_DoubleClickToLeft = False
       splitRightVertically_DoubleClickToLeft = False
     End Sub
-	
-	Private Sub DoSplitHorizontalCycle
-      splitCycle(splitHorizontally, splitHorizontally.ClientSize.Width, splitHorizontally_DoubleClickToUp)
-	End Sub
-	
-	Private Sub DoSplitLeftVerticalCycle
-	  splitCycle(splitLeftVertically, splitLeftVertically.ClientSize.Height, splitLeftVertically_DoubleClickToLeft)
-	End Sub
 
-	Private Sub DoSplitRightVerticalCycle
-	  splitCycle(splitRightVertically, splitRightVertically.ClientSize.Height, splitRightVertically_DoubleClickToLeft)
-	End Sub
-	
+    Private Sub DoSplitHorizontalCycle()
+      splitCycle(splitHorizontally, splitHorizontally.ClientSize.Width, splitHorizontally_DoubleClickToUp)
+    End Sub
+
+    Private Sub DoSplitLeftVerticalCycle()
+      splitCycle(splitLeftVertically, splitLeftVertically.ClientSize.Height, splitLeftVertically_DoubleClickToLeft)
+    End Sub
+
+    Private Sub DoSplitRightVerticalCycle()
+      splitCycle(splitRightVertically, splitRightVertically.ClientSize.Height, splitRightVertically_DoubleClickToLeft)
+    End Sub
+
     Private Sub splitHorizontal_MouseDoubleClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles splitHorizontally.MouseDoubleClick
       DoSplitHorizontalCycle()
     End Sub
 
     Private Sub splitLeftVertical_MouseDoubleClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles splitLeftVertically.MouseDoubleClick
-	  DoSplitLeftVerticalCycle()
+      DoSplitLeftVerticalCycle()
     End Sub
 
     Private Sub splitRightVertically_MouseDoubleClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles splitRightVertically.MouseDoubleClick
@@ -508,10 +533,11 @@ Namespace LvS.screens
 #End Region
 
     Private Sub viewPlayer_FullScreenChanged(source As LvS.models.player.IPlayer, fullscreen As System.Boolean) Handles viewPlayer.FullScreenChanged
-      ResetSplitDoubleClickCycles()
-	  DoSplitHorizontalCycle()
-	  DoSplitLeftVerticalCycle()
-	  DoSplitRightVerticalCycle()
+      If fullscreen Then
+        MaximizePlayer()
+      Else
+        CenterSplitters()
+      End If
     End Sub
 
 #Region "Subtitles toolbar"
