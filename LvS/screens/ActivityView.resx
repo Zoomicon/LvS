@@ -151,7 +151,7 @@
     <value>viewSubtitles</value>
   </data>
   <data name="&gt;&gt;viewSubtitles.Type" xml:space="preserve">
-    <value>LvS.objects.subtitles.SubtitlesGrid, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.subtitles.SubtitlesGrid, LvS, Version=2.5.5.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewSubtitles.Parent" xml:space="preserve">
     <value>ToolStripContainer1.ContentPanel</value>
@@ -318,6 +318,9 @@
   <data name="splitLeftVertically.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="splitLeftVertically.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="splitLeftVertically.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -340,7 +343,7 @@
     <value>viewPlayer</value>
   </data>
   <data name="&gt;&gt;viewPlayer.Type" xml:space="preserve">
-    <value>LvS.objects.players.WMP, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.players.WMP, LvS, Version=2.5.5.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewPlayer.Parent" xml:space="preserve">
     <value>splitLeftVertically.Panel1</value>
@@ -467,7 +470,7 @@
     <value>viewDocuments</value>
   </data>
   <data name="&gt;&gt;viewDocuments.Type" xml:space="preserve">
-    <value>LvS.objects.documents.DocumentsView, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.documents.DocumentsView, LvS, Version=2.5.5.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewDocuments.Parent" xml:space="preserve">
     <value>splitRightVertically.Panel1</value>
@@ -542,7 +545,7 @@
     <value>viewTeacherNotes</value>
   </data>
   <data name="&gt;&gt;viewTeacherNotes.Type" xml:space="preserve">
-    <value>LvS.objects.notes.Notes, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.notes.Notes, LvS, Version=2.5.5.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewTeacherNotes.Parent" xml:space="preserve">
     <value>tabNotesTeacher</value>
@@ -596,7 +599,7 @@
     <value>viewStudentNotes</value>
   </data>
   <data name="&gt;&gt;viewStudentNotes.Type" xml:space="preserve">
-    <value>LvS.objects.notes.Notes, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.notes.Notes, LvS, Version=2.5.5.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewStudentNotes.Parent" xml:space="preserve">
     <value>tabNotesStudent</value>

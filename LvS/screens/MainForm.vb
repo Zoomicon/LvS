@@ -125,7 +125,7 @@ Namespace LvS.screens
     End Sub
 
     Protected Sub UpdateApplicationTitle()
-      Text = System.String.Format(My.Settings.Title, My.Application.Info.Version.Major, My.Application.Info.Version.Minor)
+      Text = System.String.Format(My.Settings.Title, My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build, My.Application.Info.Version.Revision)
       If AuthoringMode Then Text = Text & " [" & My.Resources.STR_AUTHORING & "] "
       If Activity IsNot Nothing Then Text &= " - " & IO.Path.GetFileName(Activity.Path)
     End Sub

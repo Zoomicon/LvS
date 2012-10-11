@@ -36,7 +36,7 @@
       <Value Profile="(Default)">1</Value>
     </Setting>
     <Setting Name="Title" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">LvS ({0}.{1})</Value>
+      <Value Profile="(Default)">LvS ({0}.{1}.{2})</Value>
     </Setting>
     <Setting Name="ActivityMarker" Type="System.String" Scope="Application">
       <Value Profile="(Default)">.activity</Value>
