@@ -112,70 +112,16 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="splitLeftVertically.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="splitLeftVertically.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="splitLeftVertically.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
-    <value>Horizontal</value>
-  </data>
-  <data name="viewPlayer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="viewPlayer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="viewPlayer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>519, 397</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="viewPlayer.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;viewPlayer.Name" xml:space="preserve">
-    <value>viewPlayer</value>
-  </data>
-  <data name="&gt;&gt;viewPlayer.Type" xml:space="preserve">
-    <value>LvS.objects.players.WMP, LvS, Version=2.5.3.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;viewPlayer.Parent" xml:space="preserve">
-    <value>splitLeftVertically.Panel1</value>
-  </data>
-  <data name="&gt;&gt;viewPlayer.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="splitLeftVertically.Panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;splitLeftVertically.Panel1.Name" xml:space="preserve">
-    <value>splitLeftVertically.Panel1</value>
-  </data>
-  <data name="&gt;&gt;splitLeftVertically.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitLeftVertically.Panel1.Parent" xml:space="preserve">
-    <value>splitLeftVertically</value>
-  </data>
-  <data name="&gt;&gt;splitLeftVertically.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="splitLeftVertically.Panel1MinSize" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;ToolStripContainer1.BottomToolStripPanel.Name" xml:space="preserve">
     <value>ToolStripContainer1.BottomToolStripPanel</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.BottomToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.BottomToolStripPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer1</value>
@@ -183,15 +129,21 @@
   <data name="&gt;&gt;ToolStripContainer1.BottomToolStripPanel.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="viewSubtitles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="viewSubtitles.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="viewSubtitles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>517, 371</value>
+  <data name="viewSubtitles.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
+  <data name="viewSubtitles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>525, 377</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="viewSubtitles.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
@@ -199,7 +151,7 @@
     <value>viewSubtitles</value>
   </data>
   <data name="&gt;&gt;viewSubtitles.Type" xml:space="preserve">
-    <value>LvS.objects.subtitles.SubtitlesGrid, LvS, Version=2.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.subtitles.SubtitlesGrid, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewSubtitles.Parent" xml:space="preserve">
     <value>ToolStripContainer1.ContentPanel</value>
@@ -208,13 +160,13 @@
     <value>0</value>
   </data>
   <data name="ToolStripContainer1.ContentPanel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>519, 373</value>
+    <value>527, 379</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.ContentPanel.Name" xml:space="preserve">
     <value>ToolStripContainer1.ContentPanel</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.ContentPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripContentPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.ContentPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer1</value>
@@ -229,7 +181,7 @@
     <value>ToolStripContainer1.LeftToolStripPanel</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.LeftToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.LeftToolStripPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer1</value>
@@ -238,13 +190,13 @@
     <value>1</value>
   </data>
   <data name="ToolStripContainer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
+    <value>0, 0</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.RightToolStripPanel.Name" xml:space="preserve">
     <value>ToolStripContainer1.RightToolStripPanel</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.RightToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.RightToolStripPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer1</value>
@@ -253,7 +205,7 @@
     <value>2</value>
   </data>
   <data name="ToolStripContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>519, 398</value>
+    <value>527, 404</value>
   </data>
   <data name="ToolStripContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -261,7 +213,7 @@
   <data name="ToolStripContainer1.Text" xml:space="preserve">
     <value>ToolStripContainer1</value>
   </data>
-  <metadata name="toolstripSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="toolstripSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
   <data name="toolstripSubtitles.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -271,7 +223,7 @@
     <value>Transparent</value>
   </data>
   <data name="btnAddSubtitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>91, 22</value>
+    <value>84, 22</value>
   </data>
   <data name="btnAddSubtitle.Text" xml:space="preserve">
     <value>&amp;Add subtitle</value>
@@ -283,7 +235,7 @@
     <value>Transparent</value>
   </data>
   <data name="btnRemoveSubtitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 22</value>
+    <value>104, 22</value>
   </data>
   <data name="btnRemoveSubtitle.Text" xml:space="preserve">
     <value>&amp;Remove subtitle</value>
@@ -295,7 +247,7 @@
     <value>Transparent</value>
   </data>
   <data name="btnSetSubtitleStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 22</value>
+    <value>107, 22</value>
   </data>
   <data name="btnSetSubtitleStart.Text" xml:space="preserve">
     <value>Set subtitle &amp;start</value>
@@ -307,7 +259,7 @@
     <value>Transparent</value>
   </data>
   <data name="btnSetSubtitleEnd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 22</value>
+    <value>102, 22</value>
   </data>
   <data name="btnSetSubtitleEnd.Text" xml:space="preserve">
     <value>Set subtitle &amp;end</value>
@@ -319,7 +271,7 @@
     <value>0, 0</value>
   </data>
   <data name="toolstripSubtitles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>519, 25</value>
+    <value>527, 25</value>
   </data>
   <data name="toolstripSubtitles.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -328,7 +280,7 @@
     <value>toolstripSubtitles</value>
   </data>
   <data name="&gt;&gt;toolstripSubtitles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolstripSubtitles.Parent" xml:space="preserve">
     <value>ToolStripContainer1.TopToolStripPanel</value>
@@ -340,7 +292,7 @@
     <value>ToolStripContainer1.TopToolStripPanel</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.TopToolStripPanel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.TopToolStripPanel.Parent" xml:space="preserve">
     <value>ToolStripContainer1</value>
@@ -352,7 +304,7 @@
     <value>ToolStripContainer1</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripContainer1.Parent" xml:space="preserve">
     <value>splitLeftVertically.Panel2</value>
@@ -360,14 +312,62 @@
   <data name="&gt;&gt;ToolStripContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="splitLeftVertically.Panel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="splitLeftVertically.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitLeftVertically.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitLeftVertically.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Horizontal</value>
+  </data>
+  <data name="viewPlayer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="viewPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="viewPlayer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="viewPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>527, 405</value>
+  </data>
+  <data name="viewPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;viewPlayer.Name" xml:space="preserve">
+    <value>viewPlayer</value>
+  </data>
+  <data name="&gt;&gt;viewPlayer.Type" xml:space="preserve">
+    <value>LvS.objects.players.WMP, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;viewPlayer.Parent" xml:space="preserve">
+    <value>splitLeftVertically.Panel1</value>
+  </data>
+  <data name="&gt;&gt;viewPlayer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;splitLeftVertically.Panel1.Name" xml:space="preserve">
+    <value>splitLeftVertically.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitLeftVertically.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitLeftVertically.Panel1.Parent" xml:space="preserve">
+    <value>splitLeftVertically</value>
+  </data>
+  <data name="&gt;&gt;splitLeftVertically.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitLeftVertically.Panel1MinSize" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;splitLeftVertically.Panel2.Name" xml:space="preserve">
     <value>splitLeftVertically.Panel2</value>
   </data>
   <data name="&gt;&gt;splitLeftVertically.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitLeftVertically.Panel2.Parent" xml:space="preserve">
     <value>splitLeftVertically</value>
@@ -384,6 +384,9 @@
   <data name="splitLeftVertically.SplitterDistance" type="System.Int32, mscorlib">
     <value>405</value>
   </data>
+  <data name="splitLeftVertically.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="splitLeftVertically.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -391,12 +394,43 @@
     <value>splitLeftVertically</value>
   </data>
   <data name="&gt;&gt;splitLeftVertically.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitLeftVertically.Parent" xml:space="preserve">
     <value>splitHorizontally.Panel1</value>
   </data>
   <data name="&gt;&gt;splitLeftVertically.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitHorizontally.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAAAAaSURBVBhXY/j//fl/GGYAMc6s+g8WAHNgGACddCJV1/p6
+        gQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="splitHorizontally.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="splitHorizontally.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="splitHorizontally.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;splitHorizontally.Panel1.Name" xml:space="preserve">
+    <value>splitHorizontally.Panel1</value>
+  </data>
+  <data name="&gt;&gt;splitHorizontally.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitHorizontally.Panel1.Parent" xml:space="preserve">
+    <value>splitHorizontally</value>
+  </data>
+  <data name="&gt;&gt;splitHorizontally.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="splitHorizontally.Panel1MinSize" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="splitRightVertically.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -405,6 +439,9 @@
   <data name="splitRightVertically.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="splitRightVertically.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
   <data name="splitRightVertically.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
     <value>Horizontal</value>
   </data>
@@ -412,10 +449,13 @@
     <value>Fill</value>
   </data>
   <data name="viewDocuments.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
+    <value>0, 0</value>
+  </data>
+  <data name="viewDocuments.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="viewDocuments.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 397</value>
+    <value>402, 405</value>
   </data>
   <data name="viewDocuments.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -427,7 +467,7 @@
     <value>viewDocuments</value>
   </data>
   <data name="&gt;&gt;viewDocuments.Type" xml:space="preserve">
-    <value>LvS.objects.documents.DocumentsView, LvS, Version=2.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.documents.DocumentsView, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewDocuments.Parent" xml:space="preserve">
     <value>splitRightVertically.Panel1</value>
@@ -438,14 +478,17 @@
   <data name="imgLogo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="imgLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="imgLogo.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
     <value />
   </data>
   <data name="imgLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
+    <value>0, 0</value>
   </data>
   <data name="imgLogo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 397</value>
+    <value>402, 405</value>
   </data>
   <data name="imgLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -457,7 +500,7 @@
     <value>imgLogo</value>
   </data>
   <data name="&gt;&gt;imgLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;imgLogo.Parent" xml:space="preserve">
     <value>splitRightVertically.Panel1</value>
@@ -465,14 +508,11 @@
   <data name="&gt;&gt;imgLogo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="splitRightVertically.Panel1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="&gt;&gt;splitRightVertically.Panel1.Name" xml:space="preserve">
     <value>splitRightVertically.Panel1</value>
   </data>
   <data name="&gt;&gt;splitRightVertically.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitRightVertically.Panel1.Parent" xml:space="preserve">
     <value>splitRightVertically</value>
@@ -487,10 +527,13 @@
     <value>Fill</value>
   </data>
   <data name="viewTeacherNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>0, 0</value>
+  </data>
+  <data name="viewTeacherNotes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="viewTeacherNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>382, 366</value>
+    <value>394, 378</value>
   </data>
   <data name="viewTeacherNotes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -499,7 +542,7 @@
     <value>viewTeacherNotes</value>
   </data>
   <data name="&gt;&gt;viewTeacherNotes.Type" xml:space="preserve">
-    <value>LvS.objects.notes.Notes, LvS, Version=2.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.notes.Notes, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewTeacherNotes.Parent" xml:space="preserve">
     <value>tabNotesTeacher</value>
@@ -510,11 +553,11 @@
   <data name="tabNotesTeacher.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="tabNotesTeacher.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="tabNotesTeacher.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="tabNotesTeacher.Size" type="System.Drawing.Size, System.Drawing">
-    <value>388, 372</value>
+    <value>394, 378</value>
   </data>
   <data name="tabNotesTeacher.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -526,7 +569,7 @@
     <value>tabNotesTeacher</value>
   </data>
   <data name="&gt;&gt;tabNotesTeacher.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabNotesTeacher.Parent" xml:space="preserve">
     <value>tabNotes</value>
@@ -538,10 +581,13 @@
     <value>Fill</value>
   </data>
   <data name="viewStudentNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>0, 0</value>
+  </data>
+  <data name="viewStudentNotes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="viewStudentNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>382, 366</value>
+    <value>394, 378</value>
   </data>
   <data name="viewStudentNotes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -550,7 +596,7 @@
     <value>viewStudentNotes</value>
   </data>
   <data name="&gt;&gt;viewStudentNotes.Type" xml:space="preserve">
-    <value>LvS.objects.notes.Notes, LvS, Version=2.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.objects.notes.Notes, LvS, Version=2.5.4.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;viewStudentNotes.Parent" xml:space="preserve">
     <value>tabNotesStudent</value>
@@ -561,11 +607,11 @@
   <data name="tabNotesStudent.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
   </data>
-  <data name="tabNotesStudent.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="tabNotesStudent.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="tabNotesStudent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 380</value>
+    <value>394, 378</value>
   </data>
   <data name="tabNotesStudent.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -577,7 +623,7 @@
     <value>tabNotesStudent</value>
   </data>
   <data name="&gt;&gt;tabNotesStudent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabNotesStudent.Parent" xml:space="preserve">
     <value>tabNotes</value>
@@ -589,13 +635,16 @@
     <value>Fill</value>
   </data>
   <data name="tabNotes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
+    <value>0, 0</value>
+  </data>
+  <data name="tabNotes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="tabNotes.ShowToolTips" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="tabNotes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>396, 398</value>
+    <value>402, 404</value>
   </data>
   <data name="tabNotes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -604,7 +653,7 @@
     <value>tabNotes</value>
   </data>
   <data name="&gt;&gt;tabNotes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tabNotes.Parent" xml:space="preserve">
     <value>splitRightVertically.Panel2</value>
@@ -612,14 +661,11 @@
   <data name="&gt;&gt;tabNotes.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="splitRightVertically.Panel2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="&gt;&gt;splitRightVertically.Panel2.Name" xml:space="preserve">
     <value>splitRightVertically.Panel2</value>
   </data>
   <data name="&gt;&gt;splitRightVertically.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitRightVertically.Panel2.Parent" xml:space="preserve">
     <value>splitRightVertically</value>
@@ -631,10 +677,13 @@
     <value>0</value>
   </data>
   <data name="splitRightVertically.Size" type="System.Drawing.Size, System.Drawing">
-    <value>404, 815</value>
+    <value>402, 815</value>
   </data>
   <data name="splitRightVertically.SplitterDistance" type="System.Int32, mscorlib">
     <value>405</value>
+  </data>
+  <data name="splitRightVertically.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="splitRightVertically.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -643,7 +692,7 @@
     <value>splitRightVertically</value>
   </data>
   <data name="&gt;&gt;splitRightVertically.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitRightVertically.Parent" xml:space="preserve">
     <value>splitHorizontally.Panel2</value>
@@ -651,32 +700,11 @@
   <data name="&gt;&gt;splitRightVertically.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="splitHorizontally.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="splitHorizontally.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;splitHorizontally.Panel1.Name" xml:space="preserve">
-    <value>splitHorizontally.Panel1</value>
-  </data>
-  <data name="&gt;&gt;splitHorizontally.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitHorizontally.Panel1.Parent" xml:space="preserve">
-    <value>splitHorizontally</value>
-  </data>
-  <data name="&gt;&gt;splitHorizontally.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="splitHorizontally.Panel1MinSize" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;splitHorizontally.Panel2.Name" xml:space="preserve">
     <value>splitHorizontally.Panel2</value>
   </data>
   <data name="&gt;&gt;splitHorizontally.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitHorizontally.Panel2.Parent" xml:space="preserve">
     <value>splitHorizontally</value>
@@ -693,6 +721,9 @@
   <data name="splitHorizontally.SplitterDistance" type="System.Int32, mscorlib">
     <value>527</value>
   </data>
+  <data name="splitHorizontally.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="splitHorizontally.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -700,7 +731,7 @@
     <value>splitHorizontally</value>
   </data>
   <data name="&gt;&gt;splitHorizontally.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;splitHorizontally.Parent" xml:space="preserve">
     <value>$this</value>
@@ -708,7 +739,7 @@
   <data name="&gt;&gt;splitHorizontally.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -721,30 +752,30 @@
     <value>btnAddSubtitle</value>
   </data>
   <data name="&gt;&gt;btnAddSubtitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnRemoveSubtitle.Name" xml:space="preserve">
     <value>btnRemoveSubtitle</value>
   </data>
   <data name="&gt;&gt;btnRemoveSubtitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnSetSubtitleStart.Name" xml:space="preserve">
     <value>btnSetSubtitleStart</value>
   </data>
   <data name="&gt;&gt;btnSetSubtitleStart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnSetSubtitleEnd.Name" xml:space="preserve">
     <value>btnSetSubtitleEnd</value>
   </data>
   <data name="&gt;&gt;btnSetSubtitleEnd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>ActivityView</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

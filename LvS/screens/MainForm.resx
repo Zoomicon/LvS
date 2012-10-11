@@ -112,19 +112,19 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="ActionsImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="ActionsImageList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>365, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ActionsImageList.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
   </data>
-  <metadata name="actionsApplication.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="actionsApplication.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>224, 17</value>
   </metadata>
   <data name="actionShowAbout.Hint" xml:space="preserve">
@@ -260,17 +260,17 @@
     <value>Visit LeViS portal</value>
   </data>
   <data name="mnuAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="mnuAbout.Text" xml:space="preserve">
     <value>&amp;About...</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="mnuExit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>F12</value>
   </data>
   <data name="mnuExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuExit.Text" xml:space="preserve">
     <value>&amp;Exit</value>
@@ -279,43 +279,43 @@
     <value>F3</value>
   </data>
   <data name="BrowseToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="BrowseToolStripMenuItem4.Text" xml:space="preserve">
     <value>&amp;Browse...</value>
   </data>
   <data name="BrowseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>121, 22</value>
   </data>
   <data name="BrowseToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Browse...</value>
   </data>
   <data name="BrowseToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>121, 22</value>
   </data>
   <data name="BrowseToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Browse...</value>
   </data>
   <data name="BrowseToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="BrowseToolStripMenuItem2.Text" xml:space="preserve">
     <value>&amp;Browse...</value>
   </data>
   <data name="BrowseToolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="BrowseToolStripMenuItem3.Text" xml:space="preserve">
     <value>&amp;Browse...</value>
   </data>
   <data name="ToolStripMenuItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="ToolStripMenuItem4.Text" xml:space="preserve">
     <value>&amp;Browse...</value>
   </data>
   <data name="ToolStripMenuItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+    <value>159, 22</value>
   </data>
   <data name="ToolStripMenuItem2.Text" xml:space="preserve">
     <value>&amp;Packed Activity...</value>
@@ -324,7 +324,7 @@
     <value>Fuchsia</value>
   </data>
   <data name="mnuPageSetup.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuPageSetup.Text" xml:space="preserve">
     <value>Page &amp;setup...</value>
@@ -333,13 +333,13 @@
     <value>Fuchsia</value>
   </data>
   <data name="mnuPrintPreview.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuPrintPreview.Text" xml:space="preserve">
     <value>Print pre&amp;view...</value>
   </data>
   <data name="mnuPrint.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuPrint.Text" xml:space="preserve">
     <value>&amp;Print...</value>
@@ -348,19 +348,19 @@
     <value>F2</value>
   </data>
   <data name="mnuSaveActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuSaveActivity.Text" xml:space="preserve">
-    <value>&amp;Save all</value>
+    <value>&amp;Save all...</value>
   </data>
   <data name="SubtitlesToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+    <value>159, 22</value>
   </data>
   <data name="SubtitlesToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Subtitles...</value>
   </data>
   <data name="DocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+    <value>159, 22</value>
   </data>
   <data name="DocumentToolStripMenuItem.Text" xml:space="preserve">
     <value>&amp;Document...</value>
@@ -372,13 +372,13 @@
     <value>F4</value>
   </data>
   <data name="mnuNewActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuNewActivity.Text" xml:space="preserve">
     <value>&amp;New activity...</value>
   </data>
   <data name="mnuCloseActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuCloseActivity.Text" xml:space="preserve">
     <value>&amp;Close</value>
@@ -387,24 +387,24 @@
     <value>F11</value>
   </data>
   <data name="mnuAuthoringMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 22</value>
+    <value>175, 22</value>
   </data>
   <data name="mnuAuthoringMode.Text" xml:space="preserve">
     <value>&amp;Authoring mode</value>
   </data>
   <data name="mnuSendFeedback.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="mnuSendFeedback.Text" xml:space="preserve">
     <value>&amp;Send feedback</value>
   </data>
   <data name="mnuClearMRU.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="mnuClearMRU.Text" xml:space="preserve">
     <value>&amp;Clear Most Recently Used lists</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="mnuClearMRU.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
@@ -412,22 +412,22 @@
     <value>F1</value>
   </data>
   <data name="mnuShowHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="mnuShowHelp.Text" xml:space="preserve">
     <value>LvS &amp;Help</value>
   </data>
   <data name="mnuPortal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>229, 22</value>
+    <value>218, 22</value>
   </data>
   <data name="mnuPortal.Text" xml:space="preserve">
     <value>Visit LeViS portal</value>
   </data>
-  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="MenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
   <data name="MruActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="MruActivityToolStripMenuItem.Text" xml:space="preserve">
     <value>mruActivity</value>
@@ -439,16 +439,16 @@
     <value>Fuchsia</value>
   </data>
   <data name="mnuOpenActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuOpenActivity.Text" xml:space="preserve">
     <value>&amp;Open activity</value>
   </data>
   <data name="ToolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 6</value>
+    <value>161, 6</value>
   </data>
   <data name="MruPackedActivityToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>173, 22</value>
+    <value>162, 22</value>
   </data>
   <data name="MruPackedActivityToolStripMenuItem.Text" xml:space="preserve">
     <value>mruPackedActivity</value>
@@ -457,16 +457,16 @@
     <value>False</value>
   </data>
   <data name="mnuImportPackedActivity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="mnuImportPackedActivity.Text" xml:space="preserve">
     <value>&amp;Packed activity</value>
   </data>
   <data name="mnuImportSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>154, 6</value>
+    <value>143, 6</value>
   </data>
   <data name="MruVideoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>121, 22</value>
   </data>
   <data name="MruVideoToolStripMenuItem.Text" xml:space="preserve">
     <value>mruVideo</value>
@@ -475,13 +475,13 @@
     <value>False</value>
   </data>
   <data name="mnuImportVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="mnuImportVideo.Text" xml:space="preserve">
     <value>&amp;Video</value>
   </data>
   <data name="MruAudioToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>132, 22</value>
+    <value>121, 22</value>
   </data>
   <data name="MruAudioToolStripMenuItem.Text" xml:space="preserve">
     <value>mruAudio</value>
@@ -490,7 +490,7 @@
     <value>False</value>
   </data>
   <data name="mnuImportAudio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="mnuImportAudio.Text" xml:space="preserve">
     <value>&amp;Audio</value>
@@ -499,7 +499,7 @@
     <value>False</value>
   </data>
   <data name="MruSubtitlesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 22</value>
+    <value>133, 22</value>
   </data>
   <data name="MruSubtitlesToolStripMenuItem.Text" xml:space="preserve">
     <value>mruSubtitles</value>
@@ -508,13 +508,13 @@
     <value>False</value>
   </data>
   <data name="mnuImportSubtitles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="mnuImportSubtitles.Text" xml:space="preserve">
     <value>&amp;Subtitles</value>
   </data>
   <data name="MruDocumentToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 22</value>
+    <value>140, 22</value>
   </data>
   <data name="MruDocumentToolStripMenuItem.Text" xml:space="preserve">
     <value>mruDocument</value>
@@ -523,22 +523,22 @@
     <value>False</value>
   </data>
   <data name="mnuImportDocument.Size" type="System.Drawing.Size, System.Drawing">
-    <value>157, 22</value>
+    <value>146, 22</value>
   </data>
   <data name="mnuImportDocument.Text" xml:space="preserve">
     <value>&amp;Document</value>
   </data>
   <data name="mnuImport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuImport.Text" xml:space="preserve">
     <value>&amp;Import</value>
   </data>
   <data name="ToolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 6</value>
+    <value>156, 6</value>
   </data>
   <data name="VideoToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+    <value>159, 22</value>
   </data>
   <data name="VideoToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Video...</value>
@@ -547,7 +547,7 @@
     <value>False</value>
   </data>
   <data name="AudioToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 22</value>
+    <value>159, 22</value>
   </data>
   <data name="AudioToolStripMenuItem1.Text" xml:space="preserve">
     <value>&amp;Audio...</value>
@@ -556,16 +556,16 @@
     <value>False</value>
   </data>
   <data name="mnuExport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
+    <value>164, 22</value>
   </data>
   <data name="mnuExport.Text" xml:space="preserve">
     <value>&amp;Export</value>
   </data>
   <data name="mnuPrintSeparator.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 6</value>
+    <value>161, 6</value>
   </data>
   <data name="FileMenuSeparator3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>172, 6</value>
+    <value>161, 6</value>
   </data>
   <data name="mnuFile.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 20</value>
@@ -580,7 +580,7 @@
     <value>&amp;Options</value>
   </data>
   <data name="ToolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 6</value>
+    <value>215, 6</value>
   </data>
   <data name="mnuHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 20</value>
@@ -604,7 +604,7 @@
     <value>MenuStrip</value>
   </data>
   <data name="&gt;&gt;MenuStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MenuStrip.Parent" xml:space="preserve">
     <value>$this</value>
@@ -612,7 +612,7 @@
   <data name="&gt;&gt;MenuStrip.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="StatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="StatusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>0, 0</value>
   </metadata>
   <data name="statusMessage.Size" type="System.Drawing.Size, System.Drawing">
@@ -634,7 +634,7 @@
     <value>StatusStrip</value>
   </data>
   <data name="&gt;&gt;StatusStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;StatusStrip.Parent" xml:space="preserve">
     <value>$this</value>
@@ -642,7 +642,7 @@
   <data name="&gt;&gt;StatusStrip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="dlgImportVideo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgImportVideo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>425, 54</value>
   </metadata>
   <data name="dlgImportVideo.Filter" xml:space="preserve">
@@ -651,13 +651,13 @@
   <data name="dlgImportVideo.Title" xml:space="preserve">
     <value>Import video</value>
   </data>
-  <metadata name="mruVideo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mruVideo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>643, 17</value>
   </metadata>
-  <metadata name="mruActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mruActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>742, 17</value>
   </metadata>
-  <metadata name="dlgImportAudio.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgImportAudio.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>553, 54</value>
   </metadata>
   <data name="dlgImportAudio.Filter" xml:space="preserve">
@@ -666,16 +666,16 @@
   <data name="dlgImportAudio.Title" xml:space="preserve">
     <value>Import audio</value>
   </data>
-  <metadata name="mruAudio.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mruAudio.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>849, 17</value>
   </metadata>
-  <metadata name="mruSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mruSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 54</value>
   </metadata>
-  <metadata name="mruDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mruDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>131, 54</value>
   </metadata>
-  <metadata name="dlgImportDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgImportDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>824, 54</value>
   </metadata>
   <data name="dlgImportDocument.Encoding" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -703,7 +703,7 @@
   <data name="dlgImportDocument.Title" xml:space="preserve">
     <value>Import document</value>
   </data>
-  <metadata name="dlgImportPackedActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgImportPackedActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>253, 54</value>
   </metadata>
   <data name="dlgImportPackedActivity.Filter" xml:space="preserve">
@@ -712,10 +712,10 @@
   <data name="dlgImportPackedActivity.Title" xml:space="preserve">
     <value>Import packed activity</value>
   </data>
-  <metadata name="mruPackedActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="mruPackedActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>501, 17</value>
   </metadata>
-  <metadata name="dlgExportPackedActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgExportPackedActivity.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 91</value>
   </metadata>
   <data name="dlgExportPackedActivity.Filter" xml:space="preserve">
@@ -724,13 +724,13 @@
   <data name="dlgExportPackedActivity.Title" xml:space="preserve">
     <value>Export packed activity</value>
   </data>
-  <metadata name="dlgPageSetup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgPageSetup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>605, 91</value>
   </metadata>
-  <metadata name="PrintDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="PrintDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>724, 91</value>
   </metadata>
-  <metadata name="dlgPrintPreview.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgPrintPreview.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>477, 91</value>
   </metadata>
   <data name="dlgPrintPreview.AutoScrollMargin" type="System.Drawing.Size, System.Drawing">
@@ -925,12 +925,12 @@
     <value>dlgPrintPreview</value>
   </data>
   <data name="&gt;&gt;dlgPrintPreview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PrintPreviewDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PrintPreviewDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="dlgPrint.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgPrint.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>849, 91</value>
   </metadata>
-  <metadata name="dlgExportDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgExportDocument.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>328, 91</value>
   </metadata>
   <data name="dlgExportDocument.Filter" xml:space="preserve">
@@ -955,7 +955,7 @@
     <value>panelMain</value>
   </data>
   <data name="&gt;&gt;panelMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;panelMain.Parent" xml:space="preserve">
     <value>$this</value>
@@ -963,7 +963,7 @@
   <data name="&gt;&gt;panelMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="dlgImportSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgImportSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>681, 54</value>
   </metadata>
   <data name="dlgImportSubtitles.Encoding" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -991,7 +991,7 @@
   <data name="dlgImportSubtitles.Title" xml:space="preserve">
     <value>Import subtitles</value>
   </data>
-  <metadata name="dlgExportSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <metadata name="dlgExportSubtitles.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>187, 91</value>
   </metadata>
   <data name="dlgExportSubtitles.Encoding" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -1019,10 +1019,10 @@
   <data name="dlgExportSubtitles.Title" xml:space="preserve">
     <value>Export subtitles</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>164</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
@@ -1077,439 +1077,439 @@
     <value>ActionsImageList</value>
   </data>
   <data name="&gt;&gt;ActionsImageList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;actionsApplication.Name" xml:space="preserve">
     <value>actionsApplication</value>
   </data>
   <data name="&gt;&gt;actionsApplication.Type" xml:space="preserve">
-    <value>CDiese.Actions.ActionList, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.ActionList, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionShowAbout.Name" xml:space="preserve">
     <value>actionShowAbout</value>
   </data>
   <data name="&gt;&gt;actionShowAbout.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionExit.Name" xml:space="preserve">
     <value>actionExit</value>
   </data>
   <data name="&gt;&gt;actionExit.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionOpenActivityBrowse.Name" xml:space="preserve">
     <value>actionOpenActivityBrowse</value>
   </data>
   <data name="&gt;&gt;actionOpenActivityBrowse.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionImportVideoBrowse.Name" xml:space="preserve">
     <value>actionImportVideoBrowse</value>
   </data>
   <data name="&gt;&gt;actionImportVideoBrowse.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionImportAudioBrowse.Name" xml:space="preserve">
     <value>actionImportAudioBrowse</value>
   </data>
   <data name="&gt;&gt;actionImportAudioBrowse.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionImportSubtitlesBrowse.Name" xml:space="preserve">
     <value>actionImportSubtitlesBrowse</value>
   </data>
   <data name="&gt;&gt;actionImportSubtitlesBrowse.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionImportDocumentBrowse.Name" xml:space="preserve">
     <value>actionImportDocumentBrowse</value>
   </data>
   <data name="&gt;&gt;actionImportDocumentBrowse.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionImportPackedActivity.Name" xml:space="preserve">
     <value>actionImportPackedActivity</value>
   </data>
   <data name="&gt;&gt;actionImportPackedActivity.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionExportPackedActivity.Name" xml:space="preserve">
     <value>actionExportPackedActivity</value>
   </data>
   <data name="&gt;&gt;actionExportPackedActivity.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionPageSetup.Name" xml:space="preserve">
     <value>actionPageSetup</value>
   </data>
   <data name="&gt;&gt;actionPageSetup.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionPrintPreview.Name" xml:space="preserve">
     <value>actionPrintPreview</value>
   </data>
   <data name="&gt;&gt;actionPrintPreview.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionSaveActivity.Name" xml:space="preserve">
     <value>actionSaveActivity</value>
   </data>
   <data name="&gt;&gt;actionSaveActivity.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionPrint.Name" xml:space="preserve">
     <value>actionPrint</value>
   </data>
   <data name="&gt;&gt;actionPrint.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionExportSubtitles.Name" xml:space="preserve">
     <value>actionExportSubtitles</value>
   </data>
   <data name="&gt;&gt;actionExportSubtitles.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionExportDocument.Name" xml:space="preserve">
     <value>actionExportDocument</value>
   </data>
   <data name="&gt;&gt;actionExportDocument.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionNewActivity.Name" xml:space="preserve">
     <value>actionNewActivity</value>
   </data>
   <data name="&gt;&gt;actionNewActivity.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionCloseActivity.Name" xml:space="preserve">
     <value>actionCloseActivity</value>
   </data>
   <data name="&gt;&gt;actionCloseActivity.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionAuthoringMode.Name" xml:space="preserve">
     <value>actionAuthoringMode</value>
   </data>
   <data name="&gt;&gt;actionAuthoringMode.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionSendFeedback.Name" xml:space="preserve">
     <value>actionSendFeedback</value>
   </data>
   <data name="&gt;&gt;actionSendFeedback.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionClearMRU.Name" xml:space="preserve">
     <value>actionClearMRU</value>
   </data>
   <data name="&gt;&gt;actionClearMRU.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionHelp.Name" xml:space="preserve">
     <value>actionHelp</value>
   </data>
   <data name="&gt;&gt;actionHelp.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;actionPortal.Name" xml:space="preserve">
     <value>actionPortal</value>
   </data>
   <data name="&gt;&gt;actionPortal.Type" xml:space="preserve">
-    <value>CDiese.Actions.Action, CDiese, Version=1.0.2607.34580, Culture=neutral, PublicKeyToken=null</value>
+    <value>CDiese.Actions.Action, CDiese, Version=1.0.4398.25753, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;mnuAbout.Name" xml:space="preserve">
     <value>mnuAbout</value>
   </data>
   <data name="&gt;&gt;mnuAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuExit.Name" xml:space="preserve">
     <value>mnuExit</value>
   </data>
   <data name="&gt;&gt;mnuExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem4.Name" xml:space="preserve">
     <value>BrowseToolStripMenuItem4</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem.Name" xml:space="preserve">
     <value>BrowseToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem1.Name" xml:space="preserve">
     <value>BrowseToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem2.Name" xml:space="preserve">
     <value>BrowseToolStripMenuItem2</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem3.Name" xml:space="preserve">
     <value>BrowseToolStripMenuItem3</value>
   </data>
   <data name="&gt;&gt;BrowseToolStripMenuItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem4.Name" xml:space="preserve">
     <value>ToolStripMenuItem4</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem2.Name" xml:space="preserve">
     <value>ToolStripMenuItem2</value>
   </data>
   <data name="&gt;&gt;ToolStripMenuItem2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuPageSetup.Name" xml:space="preserve">
     <value>mnuPageSetup</value>
   </data>
   <data name="&gt;&gt;mnuPageSetup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuPrintPreview.Name" xml:space="preserve">
     <value>mnuPrintPreview</value>
   </data>
   <data name="&gt;&gt;mnuPrintPreview.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuPrint.Name" xml:space="preserve">
     <value>mnuPrint</value>
   </data>
   <data name="&gt;&gt;mnuPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuSaveActivity.Name" xml:space="preserve">
     <value>mnuSaveActivity</value>
   </data>
   <data name="&gt;&gt;mnuSaveActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;SubtitlesToolStripMenuItem1.Name" xml:space="preserve">
     <value>SubtitlesToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;SubtitlesToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;DocumentToolStripMenuItem.Name" xml:space="preserve">
     <value>DocumentToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;DocumentToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuNewActivity.Name" xml:space="preserve">
     <value>mnuNewActivity</value>
   </data>
   <data name="&gt;&gt;mnuNewActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuCloseActivity.Name" xml:space="preserve">
     <value>mnuCloseActivity</value>
   </data>
   <data name="&gt;&gt;mnuCloseActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuAuthoringMode.Name" xml:space="preserve">
     <value>mnuAuthoringMode</value>
   </data>
   <data name="&gt;&gt;mnuAuthoringMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuSendFeedback.Name" xml:space="preserve">
     <value>mnuSendFeedback</value>
   </data>
   <data name="&gt;&gt;mnuSendFeedback.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuClearMRU.Name" xml:space="preserve">
     <value>mnuClearMRU</value>
   </data>
   <data name="&gt;&gt;mnuClearMRU.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuShowHelp.Name" xml:space="preserve">
     <value>mnuShowHelp</value>
   </data>
   <data name="&gt;&gt;mnuShowHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuPortal.Name" xml:space="preserve">
     <value>mnuPortal</value>
   </data>
   <data name="&gt;&gt;mnuPortal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuFile.Name" xml:space="preserve">
     <value>mnuFile</value>
   </data>
   <data name="&gt;&gt;mnuFile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuOpenActivity.Name" xml:space="preserve">
     <value>mnuOpenActivity</value>
   </data>
   <data name="&gt;&gt;mnuOpenActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MruActivityToolStripMenuItem.Name" xml:space="preserve">
     <value>MruActivityToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;MruActivityToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator2.Name" xml:space="preserve">
     <value>ToolStripSeparator2</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImport.Name" xml:space="preserve">
     <value>mnuImport</value>
   </data>
   <data name="&gt;&gt;mnuImport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImportPackedActivity.Name" xml:space="preserve">
     <value>mnuImportPackedActivity</value>
   </data>
   <data name="&gt;&gt;mnuImportPackedActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MruPackedActivityToolStripMenuItem.Name" xml:space="preserve">
     <value>MruPackedActivityToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;MruPackedActivityToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImportSeparator.Name" xml:space="preserve">
     <value>mnuImportSeparator</value>
   </data>
   <data name="&gt;&gt;mnuImportSeparator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImportVideo.Name" xml:space="preserve">
     <value>mnuImportVideo</value>
   </data>
   <data name="&gt;&gt;mnuImportVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MruVideoToolStripMenuItem.Name" xml:space="preserve">
     <value>MruVideoToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;MruVideoToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImportAudio.Name" xml:space="preserve">
     <value>mnuImportAudio</value>
   </data>
   <data name="&gt;&gt;mnuImportAudio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MruAudioToolStripMenuItem.Name" xml:space="preserve">
     <value>MruAudioToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;MruAudioToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImportSubtitles.Name" xml:space="preserve">
     <value>mnuImportSubtitles</value>
   </data>
   <data name="&gt;&gt;mnuImportSubtitles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MruSubtitlesToolStripMenuItem.Name" xml:space="preserve">
     <value>MruSubtitlesToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;MruSubtitlesToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuImportDocument.Name" xml:space="preserve">
     <value>mnuImportDocument</value>
   </data>
   <data name="&gt;&gt;mnuImportDocument.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MruDocumentToolStripMenuItem.Name" xml:space="preserve">
     <value>MruDocumentToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;MruDocumentToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuExport.Name" xml:space="preserve">
     <value>mnuExport</value>
   </data>
   <data name="&gt;&gt;mnuExport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator5.Name" xml:space="preserve">
     <value>ToolStripSeparator5</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;VideoToolStripMenuItem1.Name" xml:space="preserve">
     <value>VideoToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;VideoToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;AudioToolStripMenuItem1.Name" xml:space="preserve">
     <value>AudioToolStripMenuItem1</value>
   </data>
   <data name="&gt;&gt;AudioToolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuPrintSeparator.Name" xml:space="preserve">
     <value>mnuPrintSeparator</value>
   </data>
   <data name="&gt;&gt;mnuPrintSeparator.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;FileMenuSeparator3.Name" xml:space="preserve">
     <value>FileMenuSeparator3</value>
   </data>
   <data name="&gt;&gt;FileMenuSeparator3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuOptions.Name" xml:space="preserve">
     <value>mnuOptions</value>
   </data>
   <data name="&gt;&gt;mnuOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mnuHelp.Name" xml:space="preserve">
     <value>mnuHelp</value>
   </data>
   <data name="&gt;&gt;mnuHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator1.Name" xml:space="preserve">
     <value>ToolStripSeparator1</value>
   </data>
   <data name="&gt;&gt;ToolStripSeparator1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;statusMessage.Name" xml:space="preserve">
     <value>statusMessage</value>
   </data>
   <data name="&gt;&gt;statusMessage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dlgImportVideo.Name" xml:space="preserve">
     <value>dlgImportVideo</value>
   </data>
   <data name="&gt;&gt;dlgImportVideo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mruVideo.Name" xml:space="preserve">
     <value>mruVideo</value>
@@ -1527,7 +1527,7 @@
     <value>dlgImportAudio</value>
   </data>
   <data name="&gt;&gt;dlgImportAudio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mruAudio.Name" xml:space="preserve">
     <value>mruAudio</value>
@@ -1551,13 +1551,13 @@
     <value>dlgImportDocument</value>
   </data>
   <data name="&gt;&gt;dlgImportDocument.Type" xml:space="preserve">
-    <value>LvS.utilities.dialogs.OpenFileDialogWithEncoding, LvS_utilities, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.utilities.dialogs.OpenFileDialogWithEncoding, LvS_utilities, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dlgImportPackedActivity.Name" xml:space="preserve">
     <value>dlgImportPackedActivity</value>
   </data>
   <data name="&gt;&gt;dlgImportPackedActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;mruPackedActivity.Name" xml:space="preserve">
     <value>mruPackedActivity</value>
@@ -1569,48 +1569,48 @@
     <value>dlgExportPackedActivity</value>
   </data>
   <data name="&gt;&gt;dlgExportPackedActivity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dlgPageSetup.Name" xml:space="preserve">
     <value>dlgPageSetup</value>
   </data>
   <data name="&gt;&gt;dlgPageSetup.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PageSetupDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PageSetupDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;PrintDocument.Name" xml:space="preserve">
     <value>PrintDocument</value>
   </data>
   <data name="&gt;&gt;PrintDocument.Type" xml:space="preserve">
-    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <value>System.Drawing.Printing.PrintDocument, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="&gt;&gt;dlgPrint.Name" xml:space="preserve">
     <value>dlgPrint</value>
   </data>
   <data name="&gt;&gt;dlgPrint.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PrintDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.PrintDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dlgExportDocument.Name" xml:space="preserve">
     <value>dlgExportDocument</value>
   </data>
   <data name="&gt;&gt;dlgExportDocument.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;dlgImportSubtitles.Name" xml:space="preserve">
     <value>dlgImportSubtitles</value>
   </data>
   <data name="&gt;&gt;dlgImportSubtitles.Type" xml:space="preserve">
-    <value>LvS.utilities.dialogs.OpenFileDialogWithEncoding, LvS_utilities, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.utilities.dialogs.OpenFileDialogWithEncoding, LvS_utilities, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;dlgExportSubtitles.Name" xml:space="preserve">
     <value>dlgExportSubtitles</value>
   </data>
   <data name="&gt;&gt;dlgExportSubtitles.Type" xml:space="preserve">
-    <value>LvS.utilities.dialogs.SaveFileDialogWithEncoding, LvS_utilities, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>LvS.utilities.dialogs.SaveFileDialogWithEncoding, LvS_utilities, Version=2.5.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
