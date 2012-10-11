@@ -583,6 +583,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\splitter.png" />
     <None Include="app.config" />
     <None Include="Application.cd" />
     <None Include="objects\documents\DocumentsControls.cd" />
