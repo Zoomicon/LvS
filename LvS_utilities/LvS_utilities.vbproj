@@ -19,6 +19,8 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -31,10 +33,8 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,17 +62,14 @@
       <HintPath>..\Libraries\CabLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
     <Import Include="System.Collections" />
     <Import Include="System.Collections.Generic" />
-    <Import Include="System.Data" />
     <Import Include="System.Diagnostics" />
   </ItemGroup>
   <ItemGroup>
@@ -91,18 +88,6 @@
     <Compile Include="dialog\SaveFileDialogWithEncoding.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="subtitles\BaseSubtitleWriter.vb" />
-    <Compile Include="subtitles\srt\SRTReader.vb" />
-    <Compile Include="subtitles\encore\EncoreWriter.vb" />
-    <Compile Include="subtitles\encore\EncoreUtils.vb" />
-    <Compile Include="subtitles\fab\FABWriter.vb" />
-    <Compile Include="subtitles\fab\FABUtils.vb" />
-    <Compile Include="subtitles\srt\SRTWriter.vb" />
-    <Compile Include="subtitles\srt\SRTUtils.vb" />
-    <Compile Include="subtitles\SubtitleUtils.vb" />
-    <Compile Include="subtitles\tts\TTSUtils.vb" />
-    <Compile Include="subtitles\tts\TTSWriter.vb" />
-    <Compile Include="subtitles\tts\TTSReader.vb" />
     <Compile Include="general\DebugUtils.vb" />
     <Compile Include="general\FileUtils.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -120,6 +105,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="subtitles\BaseSubtitleWriter.vb" />
+    <Compile Include="subtitles\encore\EncoreUtils.vb" />
+    <Compile Include="subtitles\encore\EncoreWriter.vb" />
+    <Compile Include="subtitles\fab\FABUtils.vb" />
+    <Compile Include="subtitles\fab\FABWriter.vb" />
+    <Compile Include="subtitles\srt\SRTReader.vb" />
+    <Compile Include="subtitles\srt\SRTUtils.vb" />
+    <Compile Include="subtitles\srt\SRTWriter.vb" />
+    <Compile Include="subtitles\SubtitleUtils.vb" />
+    <Compile Include="subtitles\tts\TTSReader.vb" />
+    <Compile Include="subtitles\tts\TTSUtils.vb" />
+    <Compile Include="subtitles\tts\TTSWriter.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="dialog\BaseFileDialogWithEncoding.resx">
@@ -159,12 +156,6 @@
     <None Include="subtitles\SubtitlesUtilities.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LvS_models\LvS_models.vbproj">
-      <Project>{B2F57508-9D02-4AD3-848F-0021320B7D39}</Project>
-      <Name>LvS_models</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -180,6 +171,12 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LvS_models\LvS_models.vbproj">
+      <Project>{B2F57508-9D02-4AD3-848F-0021320B7D39}</Project>
+      <Name>LvS_models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
