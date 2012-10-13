@@ -11,8 +11,6 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LvS", "LvS\LvS.vbproj", "{4
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LvS_utilities", "LvS_utilities\LvS_utilities.vbproj", "{12C7E7F5-4D3D-4A20-9B63-E9B60FEC2B72}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LvS_models", "LvS_models\LvS_models.vbproj", "{B2F57508-9D02-4AD3-848F-0021320B7D39}"
-EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LvS installer", "Lvs installer\Lvs installer.vdproj", "{539D5B9F-4253-4E70-A9E1-97E8366F34B1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{B2F57508-9D02-4AD3-848F-0021320B7D39} = {B2F57508-9D02-4AD3-848F-0021320B7D39}
@@ -20,6 +18,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LvS installer", "Lvs instal
 	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LvS_utilities_Test", "LvS_utilities_Test\LvS_utilities_Test.vbproj", "{9FF70505-EC8E-4E89-ACD3-FEBA78AC4FA5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "LvS_models", "LvS_models\LvS_models.vbproj", "{B2F57508-9D02-4AD3-848F-0021320B7D39}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -38,10 +38,6 @@ Global
 		{12C7E7F5-4D3D-4A20-9B63-E9B60FEC2B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C7E7F5-4D3D-4A20-9B63-E9B60FEC2B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C7E7F5-4D3D-4A20-9B63-E9B60FEC2B72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Release|Any CPU.Build.0 = Release|Any CPU
 		{539D5B9F-4253-4E70-A9E1-97E8366F34B1}.Debug|Any CPU.ActiveCfg = Debug
 		{539D5B9F-4253-4E70-A9E1-97E8366F34B1}.Release|Any CPU.ActiveCfg = Release
 		{539D5B9F-4253-4E70-A9E1-97E8366F34B1}.Release|Any CPU.Build.0 = Release
@@ -49,6 +45,10 @@ Global
 		{9FF70505-EC8E-4E89-ACD3-FEBA78AC4FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FF70505-EC8E-4E89-ACD3-FEBA78AC4FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FF70505-EC8E-4E89-ACD3-FEBA78AC4FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F57508-9D02-4AD3-848F-0021320B7D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
