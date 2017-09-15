@@ -356,6 +356,14 @@ levis.cti.gr
   - at ClickOnce publishing dialog for "LvS" project, at "Options...":
     - added ".activity" file type for "LvS activity folder", using "LvS.Activity.Folder" as ProgID
     - using "LvS.Activity.Packed" ProgId for "LvS" filetype (LvS packed activity)
+
+* 2012
+[birbilis]
+Code maintained on Codeplex
+
+* 2017
+[birbilis]
+Code maintained on GitHub
     
 TODO:
 - Could use Portable Library template (http://visualstudiogallery.msdn.microsoft.com/b0e0b5e9-e138-410b-ad10-00cb3caf49810), but that needs an update though to .NET 4 framework and also don't need to use the libs for other platforms (XBOX, Silverlight, WindowsPhone), but only on Windows
