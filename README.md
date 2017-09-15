@@ -17,12 +17,14 @@ The original version of LvS can be found at http://levis.cti.gr. If you have iss
 
 *Troubleshooting*
 
-see troubleshooting info at [Troubleshooting]
+see troubleshooting info at [Troubleshooting.md]
 
 *Video Presentation*
-{video:url=http://www.youtube.com/watch?v=TdheBOagTNk,type=youtube,width=700,height=500}
+
+http://www.youtube.com/watch?v=TdheBOagTNk
 
 *Project statistics (OLD) *
+
 Ohloh - http://www.ohloh.net/p/LvS
 
 
