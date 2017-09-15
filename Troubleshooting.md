@@ -1,4 +1,4 @@
-*Fix for Office files not opening up inside LvS window*
+* Fix for Office files not opening up inside LvS window*
 
 issue: LvS doesn't open doc, ppt or pdf files embedded in the Packed activity in the text area. The error message is "Type the correct address".
 
