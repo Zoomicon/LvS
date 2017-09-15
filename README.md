@@ -17,7 +17,7 @@ The original version of LvS can be found at http://levis.cti.gr. If you have iss
 
 *Troubleshooting*
 
-see troubleshooting info at [Troubleshooting.md]
+see troubleshooting info at https://github.com/Zoomicon/LvS/wiki/Troubleshooting (or open Troubleshooting.md)
 
 *Video Presentation*
 
