@@ -15,6 +15,8 @@ Sustainability of results is foreseen to extend far beyond the project's complet
 
 The original version of LvS can be found at http://levis.cti.gr. If you have issues with the latest version you can download the version found there.
 
+()[http://levis.cti.gr/images/stories/lvs_screenshot_swsto.jpg]
+
 *Troubleshooting*
 
 see troubleshooting info at https://github.com/Zoomicon/LvS/wiki/Troubleshooting (or open Troubleshooting.md)
