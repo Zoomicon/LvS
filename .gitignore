@@ -1,3 +1,5 @@
 syntax: glob
 *.pdb
 Thumbs.db
+**/bin/
+**/obj/
