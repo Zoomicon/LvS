@@ -13,9 +13,9 @@ The project is supported by a www portal (https://web.archive.org/web/2022033105
 
 Sustainability of results is foreseen to extend far beyond the project's completion, as other universities, language schools, FL teachers' associations, and in general researchers interested on the use of ICT in education will be able to use the produced open-source software platform.
 
-The original version of LvS can be found at http://levis.cti.gr. If you have issues with the latest version you can download the version found there.
+The original version of LvS can be found at https://web.archive.org/web/20220331052709/http://levis.cti.gr - If you have issues with the latest version you can download the version found there.
 
-![](http://levis.cti.gr/images/stories/lvs_screenshot_swsto.jpg)
+![](https://web.archive.org/web/20220331052709/http://levis.cti.gr/images/stories/lvs_screenshot_swsto.jpg)
 
 *Troubleshooting*
 
