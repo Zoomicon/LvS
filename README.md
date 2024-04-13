@@ -1,6 +1,6 @@
 # LvS
 
-*Also see ClipFlair (http://clipflair.codeplex.com) follow-up project that supports revoicing and captioning, beyond the 2-line subtitling that LvS supported*
+*Also see ClipFlair (https://github.com/Zoomicon/ClipFlair) follow-up project that supports revoicing and captioning, beyond the 2-line subtitling that LvS supported*
 
 *Project Description*
 LvS is an audio/video subtitling application for the "Learning Via Subtitling" project, focusing on foreign language learning and teacher/student interation.
